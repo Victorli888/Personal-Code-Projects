@@ -1,3 +1,4 @@
+
 # Write if statements with and ELSE with an error message to catch errors
 # Never nest if statements more than 2 deep and do your best to keep it within 1.
 # Keep your Boolean tests simple.
@@ -11,15 +12,22 @@
 # Create your text adventure!
 # it should have Monsters, Traps, Rooms, etc.
 
+
 def enter():
     choice = input("> ")
-    if choice == "1":
-        print("entering The door of the Ox")
-        monster = "Minotaur"
-        door(monster)
 
+    if choice == "1" or "Ox" in choice or "ox" in choice:
+        print("entering The door of The Ox")
+        door("Minotaur")
+    elif choice == "2" or "Snake" in choice or "snake" in choice:
+        print("entering The door of The Snake")
+        door("Medusa")
+    elif choice == "3" or "Eye" in choice or "eye" in choice:
+        print("entering The door of the The Eye")
+        door("Cyclops")
     else:
-        print("die")
+        print("You must choose a number to from following.\n1. The Ox\n2. The Snake\n3. The Eye")
+        enter()
 
 
 def restart():
@@ -34,9 +42,9 @@ def door(monster):
 
 
 
-print("Welcome, You're greeted too a dim dungeon with 3 doors"
-      "\neach with the insignia of an Ox a Snake and an Eye.\n"
-      "Which door will you enter?")
+print("""Welcome, You're greeted too a dim dungeon with 3 doors
+\neach with the insignia of an Ox a Snake and an Eye.\n
+Which door will you enter?""")
 print("1. The Ox\n2. The Snake\n3. The Eye")
 
 enter()
