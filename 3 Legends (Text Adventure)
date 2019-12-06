@@ -13,6 +13,7 @@
 # it should have Monsters, Traps, Rooms, etc.
 
 
+
 def enter():
     choice = input("> ")
 
@@ -29,6 +30,11 @@ def enter():
         print("You must choose a number to from following.\n1. The Ox\n2. The Snake\n3. The Eye")
         enter()
 
+def dialouge_Minotaur():
+    print("You say: Wait let's work this out with words")
+    print("Minotaur: We can talk talk after I take off your legs")
+    print("How do you respond?\n 1. Wait! The Athenian Theseus is hunting you."
+          "\n2. looks like this is your end.\n *You brace for impact* ")
 
 def restart():
     print("You find yourself back where you started.\n choose another door\n"
@@ -48,3 +54,4 @@ Which door will you enter?""")
 print("1. The Ox\n2. The Snake\n3. The Eye")
 
 enter()
+
