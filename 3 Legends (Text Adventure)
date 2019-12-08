@@ -20,6 +20,11 @@ def enter():
     if choice == "1" or "Ox" in choice or "ox" in choice:
         print("entering The door of The Ox")
         door("Minotaur")
+
+        dialouge_Minotaur()
+        # There needs to be some sort of pause here to allow user input.
+        choice == input("> ")
+
     elif choice == "2" or "Snake" in choice or "snake" in choice:
         print("entering The door of The Snake")
         door("Medusa")
@@ -33,8 +38,23 @@ def enter():
 def dialouge_Minotaur():
     print("You say: Wait let's work this out with words")
     print("Minotaur: We can talk talk after I take off your legs")
-    print("How do you respond?\n 1. Wait! The Athenian Theseus is hunting you."
-          "\n2. looks like this is your end.\n *You brace for impact* ")
+    print("How do you respond?\n1. Wait! The Athenian Theseus is hunting you."
+          "\n2. I'll have your head then.\n*You brace for impact* ")
+    choice = input("> ")
+    if choice == "1":
+        print("Minotaur: What! He who dares to hunt me will die point me his direction.")
+    elif choice == "2":
+            print("This part of the game has not been developed yet")
+            #  attack() User defined function will be added later
+    elif choice == "3":
+        print("Like a freight train you explode into a puddle of blood as the Minotaur charges "
+              "\ninto you. As you memory flashes before you a bright light dawns on you.")
+        restart()
+    else:
+        print("That is not a valid input. Please try again")
+        dialouge_Minotaur()
+
+
 
 def restart():
     print("You find yourself back where you started.\n choose another door\n"
@@ -54,4 +74,3 @@ Which door will you enter?""")
 print("1. The Ox\n2. The Snake\n3. The Eye")
 
 enter()
-
