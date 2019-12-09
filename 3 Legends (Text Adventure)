@@ -1,4 +1,3 @@
-
 # Write if statements with and ELSE with an error message to catch errors
 # Never nest if statements more than 2 deep and do your best to keep it within 1.
 # Keep your Boolean tests simple.
@@ -54,7 +53,27 @@ def dialouge_Minotaur():
         print("That is not a valid input. Please try again")
         dialouge_Minotaur()
 
-
+def dialouge_Medusa():
+    print("You say: Wait let's work this out with words")
+    print("Medusa: What would you like to talk about? ;) ")
+    print("How do you respond?\n1. How about those gorgeous eyes?."
+          "\n2. How to lift your curse.\n*Giver her the smolder * ")
+    choice = input("> ")
+    if choice == "1":
+        print("As you gaze into her eyes you feel a numbness in your legs.\n"
+              "as the coldness overwhelms you, you've become a stone statue.\n"
+              "Game Over)
+              
+    elif choice == "2":
+            print("This part of the game has not been developed yet")
+            #  attack() User defined function will be added later
+    elif choice == "3":
+        print("Like a freight train you explode into a puddle of blood as the Minotaur charges "
+              "\ninto you. As you memory flashes before you a bright light dawns on you.")
+        restart()
+    else:
+        print("That is not a valid input. Please try again")
+        dialouge_Minotaur()
 
 def restart():
     print("You find yourself back where you started.\n choose another door\n"
