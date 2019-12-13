@@ -40,7 +40,7 @@ def enter():
         print("entering The door of The Snake")
         door("Medusa")
         choice = input("> ")
-        if choice == "1"  # choice 1 is "Attack"
+        if choice == "1":  # choice 1 is "Attack"
             print("Attack Medusa feature")
             # attack()
         elif choice == "2":
@@ -55,14 +55,14 @@ def enter():
         print("entering The door of the The Eye")
         door("Cyclops")
         choice = input("> ")
-        if choice == "1"  # choice 1 is "Attack"
+        if choice == "1":  # choice 1 is "Attack"
             print("Attack feature")
             # attack()
         elif choice == "2":
-            dialouge_Minotaur()
+            dialouge_Cyclops()
         elif choice == "3":  # Choice 3 is "Flee"
             print("Flee Feature")
-            # flee()
+            # flee()7
         else:
             print("file dead")
         # There needs to be some sort of pause here to allow user input
@@ -97,7 +97,30 @@ def dialouge_Medusa():
     print("You say: Wait let's work this out with words")
     print("Medusa: What would you like to talk about? ;) ")
     print("How do you respond?\n1. How about those gorgeous eyes?."
-          "\n2. How to lift your curse.\n*Giver her the smolder * ")
+          "\n2. How to lift your curse.\n*Give her the smolder * ")
+    choice = input("> ")
+    if choice == "1":
+        print("As you gaze into her eyes you feel a numbness in your legs.\n"
+              "as the coldness overwhelms you, you've become a stone statue.\n"
+              "Game Over")
+
+    elif choice == "2":
+            print("This part of the game has not been developed yet")
+            #  attack() User defined function will be added later
+    elif choice == "3":
+        print("Like a freight train you explode into a puddle of blood as the Minotaur charges "
+              "\ninto you. As you memory flashes before you a bright light dawns on you.")
+        restart()
+    else:
+        print("That is not a valid input. Please try again")
+        dialouge_Medusa()
+
+def dialouge_Cyclops():
+    print("You say: My one eyed friend lets talk")
+    print("Medusa: Me not good at talking, What are we going to talk about? ")
+    print("How do you respond?\n1. There's a tasty lamb at the end of this maze. Let me through and\n"
+          "and I'll bring you some."
+          "\n2. I am nobody and I must enter this door. \n Because if you don't I'll cut out your only eye. ")
     choice = input("> ")
     if choice == "1":
         print("As you gaze into her eyes you feel a numbness in your legs.\n"
