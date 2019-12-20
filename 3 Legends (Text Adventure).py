@@ -34,8 +34,6 @@ def enter():
         else:
             print("file dead")
         # There needs to be some sort of pause here to allow user input.
-
-
     elif choice == "2" or "Snake" in choice or "snake" in choice:
         print("entering The door of The Snake")
         door("Medusa")
@@ -70,6 +68,7 @@ def enter():
         print("You must choose a number to from following.\n1. The Ox\n2. The Snake\n3. The Eye")
         enter()
 
+
 def dialouge_Minotaur():
     print("You say: Wait let's talk for a second.")
     print("Minotaur: We can talk talk after I take off your legs\n")
@@ -89,10 +88,7 @@ def dialouge_Minotaur():
         print("That is not a valid input. Please try again")
         dialouge_Minotaur()
 
-"""
-This dialogue for Medusa it is put on hold until the Minotaur dialogue is 
-complete.
-"""
+
 def dialouge_Medusa():
     print("You say: Wait let's work this out with words")
     print("Medusa: What would you like to talk about? ;) ")
@@ -114,6 +110,7 @@ def dialouge_Medusa():
     else:
         print("That is not a valid input. Please try again")
         dialouge_Medusa()
+
 
 def dialouge_Cyclops():
     print("You say: My one eyed friend lets talk")
@@ -138,14 +135,11 @@ def dialouge_Cyclops():
         print("That is not a valid input. Please try again")
         dialouge_Medusa()
 
+
 def restart():
     print("You find yourself back where you started.\n choose your path once more.\n"
           "1. The Ox\n2. The Snake\n3. The Eye")
     enter()
-
-
-
-
 
 
 print("""Welcome, You're greeted too a dim dungeon with 3 doors
