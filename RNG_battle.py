@@ -17,7 +17,9 @@ class Hero(object):
 
 
 
-def battlelogic():
+
+def medusa_turn(medusa, hero):
+    def battlelogic():
         if total_dmg == 0:
             print("The defence is too high!"
                   "\n0 Damage was inflicted.")
@@ -25,10 +27,31 @@ def battlelogic():
             print(f' {total_dmg} Damage inflicted.')
         else:
             print("error has occurred")
-def medusa_turn():
     for x in range(1):
         print(f'intiial health is {medusa.health}')
         AP = (random.randint(1, medusa.attack))
+        DP = (random.randint(1, hero.defence))
+        print(f'Attack Power is {AP} and Defence Power {DP}')
+        total_dmg = max(0,(AP - math.ceil(DP / 2)))
+        battlelogic()
+        hero.health -= total_dmg
+        print(f'{hero.name}\'s current health is {hero.health}')
+        #if hero.health > 0:
+            #hero_turn()
+
+
+def hero_turn(hero, medusa):
+    def battlelogic():
+        if total_dmg == 0:
+            print("The defence is too high!"
+                  "\n0 Damage was inflicted.")
+        elif total_dmg > 0:
+            print(f' {total_dmg} Damage inflicted.')
+        else:
+            print("error has occurred")
+    for x in range(1):
+        print(f'Medusa\'s health is at {medusa.health}')
+        AP = (random.randint(1, hero.attack))
         DP = (random.randint(1, medusa.defence))
         print(f'Attack Power is {AP} and Defence Power {DP}')
         total_dmg = max(0,(AP - math.ceil(DP / 2)))
@@ -36,22 +59,10 @@ def medusa_turn():
         medusa.health -= total_dmg
         print(f'{medusa.name}\'s current health is {medusa.health}')
     if medusa.health > 0:
-        hero_turn()
-def hero_turn():
-    Monster("Medusa", 30, 14, 16)
-    Hero("Perseus", 50, 30, 10)
-    for x in range(1):
-       print(f'Your health is at {hero.health}')
-        AP = (random.randint(1, medusa.attack))
-        DP = (random.randint(1, medusa.defence))
-        print(f'Attack Power is {AP} and Defence Power {DP}')
-        total_dmg = max(0,(AP - math.ceil(DP / 2)))
-        battlelogic()
-        hero.health -= total_dmg
-        print(f'{hero.name}\'s current health is {hero.health}')
-    if medusa.health > 0:
-        medusa_turn()
-    hero_turn()
-Monster("Medusa", 30, 14, 16)
-Hero("Perseus", 50, 30, 10)
+        medusa_turn(Monster("Medusa", 30, 14, 16), Hero("Perseus", 50, 30, 10))
+    else:
+        print("Medusa has fallen")
+
+hero_turn(Hero("Perseus", 50, 30, 10), Monster("Medusa", 30, 14, 16),)
+
 
