@@ -38,8 +38,9 @@ def medusa_turn(medusa, hero):
         hero.health -= total_dmg
         print(f'{hero.name}\'s current health is {hero.health}')
     if hero.health > 0:
-        hero_turn(Hero("Perseus", 50, 30, 10), Monster("Medusa", 30, 14, 16))
-    else:
+        hero_turn(medusa, hero)
+
+   else:
         print("Perseus has fallen.")
 
 
@@ -62,10 +63,10 @@ def hero_turn(hero, medusa):
         medusa.health -= total_dmg
         print(f'{medusa.name}\'s current health is {medusa.health}')
     if medusa.health > 0:
-        medusa_turn(Monster("Medusa", 30, 14, 16), Hero("Perseus", 50, 30, 10))
+        hero_turn(hero, medusa)
     else:
         print("Medusa has fallen")
 
-hero_turn(Hero("Perseus", 50, 30, 10), Monster("Medusa", 30, 14, 16))
-
-
+hero = Hero("Perseus", 50, 30, 10)
+medusa = Monster("Medusa", 30, 14, 16)
+hero_turn(hero, monster)
