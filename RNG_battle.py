@@ -19,12 +19,13 @@ class Hero(object):
 
 
 def medusa_turn(medusa, hero):
+    x = input("Medusa's Turn press enter to continue...\n")
     def battlelogic():
         if total_dmg == 0:
             print("The defence is too high!"
                   "\n0 Damage was inflicted.")
         elif total_dmg > 0:
-            print(f' {total_dmg} Damage inflicted.')
+            print(f'Medusa inflicted {total_dmg} Damage.')
         else:
             print("error has occurred")
 
@@ -32,41 +33,43 @@ def medusa_turn(medusa, hero):
         print(f'Perseus\'s health is {hero.health}')
         AP = (random.randint(1, medusa.attack))
         DP = (random.randint(1, hero.defence))
-        print(f'Attack Power is {AP} and Defence Power {DP}')
+        print(f'Medusa\'s Attack Power is {AP} and Perseus\'s Defence Power is {DP}')
         total_dmg = max(0, (AP - math.ceil(DP / 2)))
         battlelogic()
         hero.health -= total_dmg
         print(f'{hero.name}\'s current health is {hero.health}')
     if hero.health > 0:
-        hero_turn(medusa, hero)
+        hero_turn(hero, medusa)
 
-   else:
+    else:
         print("Perseus has fallen.")
 
 
 def hero_turn(hero, medusa):
+    x = input("press enter key to attack...\n")
+
     def battlelogic():
         if total_dmg == 0:
             print("The defence is too high!"
                   "\n0 Damage was inflicted.")
         elif total_dmg > 0:
-            print(f' {total_dmg} Damage inflicted.')
+            print(f'Perseus inflicted {total_dmg} Damage.')
         else:
             print("error has occurred")
     for x in range(1):
         print(f'Medusa\'s health is at {medusa.health}')
         AP = (random.randint(1, hero.attack))
         DP = (random.randint(1, medusa.defence))
-        print(f'Attack Power is {AP} and Defence Power {DP}')
+        print(f'Perseus\'s Attack Power is {AP} and Medusa\'s Defence Power is {DP}')
         total_dmg = max(0,(AP - math.ceil(DP / 2)))
         battlelogic()
         medusa.health -= total_dmg
         print(f'{medusa.name}\'s current health is {medusa.health}')
     if medusa.health > 0:
-        hero_turn(hero, medusa)
+        medusa_turn(medusa, hero)
     else:
         print("Medusa has fallen")
 
-hero = Hero("Perseus", 50, 30, 10)
-medusa = Monster("Medusa", 30, 14, 16)
-hero_turn(hero, monster)
+hero = Hero("Perseus", 50, 15, 10)
+medusa = Monster("Medusa", 30, 25, 20)
+hero_turn(hero,medusa)
