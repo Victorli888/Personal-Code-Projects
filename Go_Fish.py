@@ -9,7 +9,4 @@ suits = ["Spade", "Heart", "Diamond", "Club"]
 
 deck = [Card(value, suit) for value in range values, for suit in range suits]
 
-print(Card(2,"Ace"))
-
-
-
+card.value
