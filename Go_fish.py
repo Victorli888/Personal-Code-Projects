@@ -7,17 +7,19 @@ class Card:
 
     def show(self, name):
         self.name = name
-        z =("{} of {}".format(self.value, self.suit))
+        z = ("{} of {}".format(self.value, self.suit))
         print(f"{self.name} Drew " + z)
+
 
 class Deck:
     def __init__(self):
         self.cards = []
         self.build()
 
+
     def build(self):
         for s in ["Spades", "Clubs", "Diamonds", "Hearts"]:
-            for v in range(1, 14):
+            for v in ("A", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"):
                 self.cards.append(Card(s, v))
 
     def show(self):
@@ -33,6 +35,7 @@ class Deck:
             r = random.randint(0,i)
             self.cards[i], self.cards[r] = self.cards[r], self.cards[i]
     def drawCard(self):
+
         '''
         take a card from the array and remove it from the list
         :return:
@@ -44,7 +47,8 @@ class Player:
     def __init__(self, name):
         self.name = name
         self.hand = []
-    def draw(self,deck):
+
+    def draw(self, deck):
         self.hand.append(deck.drawCard())
         return self
 
@@ -60,10 +64,6 @@ vic = Player("Victor")
 vic.draw(deck)
 vic.showHand()
 
-
-
 cpu = Player("CPU")
 cpu.draw(deck)
 cpu.showHand()
-
-
