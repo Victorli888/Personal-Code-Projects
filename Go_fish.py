@@ -8,7 +8,7 @@ class Card:
     def show(self, name):
         self.name = name
         z =("{} of {}".format(self.value, self.suit))
-        print(f"The {self.name}Drew..." + z)
+        print(f"{self.name} Drew " + z)
 
 class Deck:
     def __init__(self):
