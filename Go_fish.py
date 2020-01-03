@@ -4,8 +4,11 @@ class Card:
     def __init__(self,suit,val):
         self.suit = suit
         self.value = val
-    def show(self):
-        print("{} of {}".format(self.value, self.suit))
+
+    def show(self, name):
+        self.name = name
+        z =("{} of {}".format(self.value, self.suit))
+        print(f"The {self.name}Drew..." + z)
 
 class Deck:
     def __init__(self):
@@ -22,10 +25,18 @@ class Deck:
             c.show()
 
     def shuffle(self):
+        '''
+
+        :return: returning a random card
+        '''
         for i in range(len(self.cards)-1, 0, -1):
             r = random.randint(0,i)
             self.cards[i], self.cards[r] = self.cards[r], self.cards[i]
     def drawCard(self):
+        '''
+        take a card from the array and remove it from the list
+        :return:
+        '''
         return self.cards.pop()
 
 
@@ -39,16 +50,20 @@ class Player:
 
     def showHand(self):
         for card in self.hand:
-            card.show()
+            card.show(self.name)
+
 
 deck = Deck()
 deck.shuffle()
-print("Victor drew...")
+
 vic = Player("Victor")
 vic.draw(deck)
 vic.showHand()
 
+
+
 cpu = Player("CPU")
-print("The Computer Drew...")
 cpu.draw(deck)
 cpu.showHand()
+
+
