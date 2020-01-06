@@ -10,6 +10,9 @@ class Card:
         z = ("{} of {}".format(self.value, self.suit))
         print(f"{self.name} Drew " + z)
 
+    def display(self):
+        print("{} of {}".format(self.value, self.suit))
+
 
 class Deck:
     def __init__(self):
@@ -19,7 +22,7 @@ class Deck:
 
     def build(self):
         for s in ["Spades", "Clubs", "Diamonds", "Hearts"]:
-            for v in ("A", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"):
+            for v in ["A", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"]:
                 self.cards.append(Card(s, v))
 
     def show(self):
@@ -42,6 +45,9 @@ class Deck:
         '''
         return self.cards.pop()
 
+    def display(self):
+        for c in self.cards:
+            c.display()
 
 class Player:
     def __init__(self, name):
@@ -67,3 +73,5 @@ vic.showHand()
 cpu = Player("CPU")
 cpu.draw(deck)
 cpu.showHand()
+
+deck.display()
