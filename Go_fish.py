@@ -61,9 +61,11 @@ deck = Deck()
 deck.shuffle()
 
 vic = Player("Victor")
-vic.draw(deck)
+for i in range (1, 6):
+    vic.draw(deck)
 vic.showHand()
 
-cpu = Player("CPU")
-cpu.draw(deck)
-cpu.showHand()
+dealer = Player("Dealer")
+for i in range(1, 6):
+    dealer.draw(deck)
+dealer.showHand()
