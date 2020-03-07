@@ -21,8 +21,11 @@ class Dawn_Winters():
     print(f"Attack roll: {damage_roll} + {damage_modifier} = {damageA}\nGlaive damage: {damageG1} + {damageG2} = {damageB}\nMastery: 10\nRage: 2")
     total = damageA + damageB + 10 + 2
     print(f"Total Damage: {total}")
-    input("\n*** Press Enter for Next Damage Roll ***\n")
-    Dawn_Winters.savage_mastery("roll")
+    ans = input("\n*** Press Enter for Next Damage Roll or type [end] to end ***\n")
+    if ans == "End" or ans == "end":
+        pass
+    else:
+        Dawn_Winters.savage_mastery("roll")
 
 
 
