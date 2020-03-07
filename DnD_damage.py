@@ -12,11 +12,13 @@ class Dice_rolls():
 class Dawn_Winters():
 
    def savage_mastery(self):
-    damageA = Dice_rolls.D12("Roll") + 5
+    damage_roll = Dice_rolls.D12("Roll")
+    damage_modifier = 5
+    damageA = damage_roll + damage_modifier
     damageG1 = Dice_rolls.D8("Roll")
     damageG2 = Dice_rolls.D8("Roll")
     damageB = damageG1 + damageG2
-    print(f"Attack roll: {damageA}\nGlaive damage: {damageG1} + {damageG2} = {damageB}\nMastery: 10\nRage: 2")
+    print(f"Attack roll: {damage_roll} + {damage_modifier} = {damageA}\nGlaive damage: {damageG1} + {damageG2} = {damageB}\nMastery: 10\nRage: 2")
     total = damageA + damageB + 10 + 2
     print(f"Total Damage: {total}")
     input("\n*** Press Enter for Next Damage Roll ***\n")
