@@ -18,14 +18,15 @@ class Dawn_Winters():
     damageG1 = Dice_rolls.D8("Roll")  # weapon allows player Roll 2 dice-8's for Burn damage
     damageG2 = Dice_rolls.D8("Roll")  # this is the 2nd dice-8 roll
     damageB = damageG1 + damageG2
+    total = damageA + damageB + 10 + 2
 
     print("\nRolling for damage...\n")
     print(f"Attack roll: {damage_roll} + {damage_modifier} = {damageA}\n"
           f"Glaive damage: {damageG1} + {damageG2} = {damageB}\nMastery: 10\nRage: 2\n")
-    total = damageA + damageB + 10 + 2
     print(line)
     print(f"Standard Damage: {total - 12}")
     print(f"Raging Mastery Damage: {total}")
+
     print(line)
     ans = input("\n*** Press Enter for Next Damage Roll or type [end] to end ***\n")
     if ans == "End" or ans == "end":
