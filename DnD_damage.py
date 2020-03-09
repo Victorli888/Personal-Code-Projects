@@ -1,5 +1,7 @@
-import random, math
+import random
 line = "--------------------------------"
+
+
 class Dice_rolls():
     def D8(self):
         dice6 = (random.randint(1, 8))
