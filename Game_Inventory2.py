@@ -4,6 +4,9 @@ from collections import Counter
 I need to complete two objectives:
 1. Create an accessible inventory system
 2. Increase and decrease based on player input
+
+1.0 I have issues with running and saving the usable values for Inventory for multible iterations. It can only complete
+one iteration before running into issues.
 """
 
 
