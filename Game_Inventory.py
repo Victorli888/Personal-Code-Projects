@@ -20,5 +20,3 @@ print("You walk further down the hall way and you find another box and find more
 event_text(5, "coffee")
 print("\n\nYou check your bag")
 input("Press Enter")
-
-
