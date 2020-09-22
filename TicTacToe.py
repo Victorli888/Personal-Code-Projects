@@ -20,7 +20,7 @@ def print_board(board):  # Display Board
 
 
 def player1(board):
-    print("Player 1 please select from square from the three by three matrix\n "
+    print("Player 1 you will be [X] please select from square from the three by three matrix\n "
           "[0,1,2]\n"
           " [3,4,5]\n"
           " [6,7,8]")
@@ -35,7 +35,7 @@ def player1(board):
 
 
 def player2(board):
-    print("Player 2 please select from square from the three by three matrix\n "
+    print("Player 2 you will be [O] please select from square from the three by three matrix\n "
           "[0,1,2]\n"
           " [3,4,5]\n"
           " [6,7,8]")
