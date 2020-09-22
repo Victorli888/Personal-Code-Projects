@@ -1,8 +1,8 @@
 import sys
 # Game Board
-board = [1,2,3,
-         4,5,6,
-         7,8,9]
+board = [0,1,2,
+         3,4,5,
+         6,7,8]
 # Used to reset Board for next game.
 reset_board = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
                'mid-L': ' ', 'mid-M': ' ', 'mid-R': ' ',
@@ -21,14 +21,14 @@ def print_board(board):  # Display Board
 
 def player1(board):
     print("Player 1 please select from square from the three by three matrix\n "
-          "[1,2,3]\n"
-          " [4,5,6]\n"
-          " [7,8,9]")
+          "[0,1,2]\n"
+          " [3,4,5]\n"
+          " [6,7,8]")
     take_value = True
     while take_value:
         value = input("> ")
-        if board[value] is int:
-            board[value] = "X"
+        if board[int(value)] is int(value):
+            board[int(value)] = "X"
             break
         else:
             print("That slot has already been marked!")
@@ -36,14 +36,14 @@ def player1(board):
 
 def player2(board):
     print("Player 2 please select from square from the three by three matrix\n "
-          "[1,2,3]\n"
-          " [4,5,6]\n"
-          " [7,8,9]")
+          "[0,1,2]\n"
+          " [3,4,5]\n"
+          " [6,7,8]")
     take_value = True
-    while int in board:
+    while take_value:
         value = input("> ")
-        if board[value] is int:
-            board[value] = "O"
+        if board[int(value)] is int(value):
+            board[int(value)] = "O"
             break
         else:
             print("That slot has already been marked!")
@@ -67,12 +67,12 @@ def ttt_game(game_Board):  # Main Game logic
     no_winner = True
     # Display Current board
     while no_winner:
-        print_board(game_Board)
-        player1(game_Board)
-        no_winner = winning_lines(game_Board)
-        print_board(game_Board)  # display Board
-        player2(game_Board)  # Player 2 Turn
-        no_winner = winning_lines(game_Board)
+        print_board(board)
+        player1(board)
+        # no_winner = winning_lines(game_Board)
+        print_board(board)  # display Board
+        player2(board)  # Player 2 Turn
+        # no_winner = winning_lines(game_Board)
     print_board(game_Board)
 
 
