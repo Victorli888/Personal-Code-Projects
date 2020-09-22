@@ -3,11 +3,13 @@ import sys
 board = [0,1,2,
          3,4,5,
          6,7,8]
-# Used to reset Board for next game.
-reset_board = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
-               'mid-L': ' ', 'mid-M': ' ', 'mid-R': ' ',
-               'low-L': ' ', 'low-M': ' ', 'low-R': ' '}
 
+
+# Used to reset Board for next game.
+def reset_board(board):
+    for i in range(0,8):
+        board[i] = i
+    return board
 
 
 
@@ -50,29 +52,36 @@ def player2(board):
 
 
 def winning_lines(board):  # check for winning lines
-    w_lines = [(1,2,3), (4,5,6), (7,8,9), (7,4,1), (8,5,1), (9,6,3),(7,5,3),(9,5,1)]
-    for i in w_lines:
-        if w_lines(i) == ("X","X","X"):
+
+    w_lines = [(board[0],board[1],board[2]), (board[3],board[4],board[5]), (board[6],board[7],board[8]),
+               (board[6],board[3],board[0]), (board[7],board[4],board[1]), (board[8],board[6],board[2]),
+               (board[6],board[4],board[2]), (board[8],board[4],board[0])]
+    for i in range(0, 8):
+        if w_lines[i] == ("X", "X", "X"):
             print("Player 1 Wins")
             return False
-        elif w_lines(i) == ("O", "O", "O"):
+
+        elif w_lines[i] == ("O", "O", "O"):
             print("Player 2 Wins")
             return False
     print("Game Continues")
+    return True
 
 
 def ttt_game(game_Board):  # Main Game logic
     print("Lets start!")
     input("tap to continue!")
-    no_winner = True
+    no_winner = winning_lines(game_Board)
     # Display Current board
     while no_winner:
         print_board(board)
         player1(board)
-        # no_winner = winning_lines(game_Board)
+        no_winner = winning_lines(game_Board)
+        if no_winner is False:
+            break
         print_board(board)  # display Board
         player2(board)  # Player 2 Turn
-        # no_winner = winning_lines(game_Board)
+        no_winner = winning_lines(game_Board)
     print_board(game_Board)
 
 
