@@ -73,15 +73,21 @@ def ttt_game(game_Board):  # Main Game logic
     input("tap to continue!")
     no_winner = winning_lines(game_Board)
     # Display Current board
+    n = 0
     while no_winner:
         print_board(board)
         player1(board)
         no_winner = winning_lines(game_Board)
         if no_winner is False:
             break
+        n += 1
+        if n == 9:  # After 9 Moves Force a Tie
+            print("Cat Scratch!")
+            break
         print_board(board)  # display Board
         player2(board)  # Player 2 Turn
         no_winner = winning_lines(game_Board)
+        n += 1
     print_board(game_Board)
 
 
