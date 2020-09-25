@@ -12,7 +12,6 @@ def reset_board(board):
     return board
 
 
-
 def print_board(board):  # Display Board
     print(f" {board[0]} | {board[1]} | {board[2]}")
     print("-----------")
@@ -68,12 +67,12 @@ def winning_lines(board):  # check for winning lines
     return True
 
 
-def ttt_game(game_Board):  # Main Game logic
+def two_player(game_Board):  # Main Game logic
     print("Lets start!")
     input("tap to continue!")
     no_winner = winning_lines(game_Board)
     # Display Current board
-    n = 0
+    n = 0  # number of moves made
     while no_winner:
         print_board(board)
         player1(board)
@@ -92,11 +91,11 @@ def ttt_game(game_Board):  # Main Game logic
 
 
 def start_menu():
-    print("Would you like to play Single player? enter [A] for yes.")
+    print("Would you like to play 2-Player Tic Tac Toe? enter [A] for yes.")
     print("type <exit> to quit.")
     ans = input("> ")
     if ans == "A":
-        ttt_game(board)
+        two_player(board)
     elif ans == "exit":
         print("Exiting!")
         sys.exit()
@@ -104,4 +103,4 @@ def start_menu():
         print("This is not a valid entry")
 
 
-ttt_game(board)
+start_menu()
