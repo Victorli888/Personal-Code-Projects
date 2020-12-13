@@ -224,4 +224,120 @@ label4.grid(row=0, column=3, sticky='news')
 
 window.mainloop()
 ```
+### Using Events and Event Handlers
+`window.mainloop()` starts the **event loop**. During the Event loop the application checks for events to execute.
+In Tkinter, we write functions called **Event Handlers** for events that happen in our application 
+
+`.bind()` used to bind an event to an event handler
+
+```python
+import tkinter as tk
+# Create new window and name it test
+window = tk.Tk()
+window.title("test!")
+
+# Create an event handler
+def handle_keypress(event):
+    # print associated charcter that was pressed by the key
+    print(event.char)
+
+# Bind the keypress event to handle_keypress()
+window.bind("<Key>", handle_keypress)
+
+# Start the application
+window.mainloop()
+```
+Bind takes two arguments: .bind(<event_name>, event handler ) <br>
+In the above example handle_keypress is bound to "<Key>"
+<br> NOTE: print(event.char) occurs in the terminal
+<br> 
+Let's make a pointless button clicker
+```python
+import tkinter as tk
+# Create new window and name it test
+window = tk.Tk()
+window.title("test!")
+
+
+# Event Handler
+def handle_click(event):
+    print(f"Click me God dammit")
+
+# Create a Button to click on, Highlightbackground changes the color so the button can be seen
+button = tk.Button(height=10, width=10,text="Click me!", highlightbackground='#3E4149')
+button.pack()
+
+button.bind("<Button-1>", handle_click)
+
+# Start program
+window.mainloop()
+```
+### Using Command
+Every button widget has a command attribute that can be assigned to a function, Whenever the button is pressed the<br>
+function is executed
+
+```python
+import tkinter as tk
+
+#Generate a window and name it Wowza
+window= tk.Tk()
+window.title("Wowza")
+
+
+# create + or - commands using Event Handlers
+def inc():
+    value = int(lbl_value["text"])
+    lbl_value['text'] = f"{value+1}"
+
+
+def dec():
+    value = int(lbl_value["text"])
+    lbl_value["text"] = f"{value-1}"
+
+
+# Make the window sizeable
+window.rowconfigure(0, minsize=50, weight=1)
+window.columnconfigure([0,1,2], minsize=50, weight=1)
+
+# Create a decrease button and implement  - command
+btn_dec = tk.Button(master=window, highlightbackground='#3E4149', command=dec, text="-")
+btn_dec.grid(row=0, column=0, sticky="news")
+
+# Display current value
+lbl_value = tk.Label(master=window,  text="0")
+lbl_value.grid(row=0, column=1)
+
+# Create a increase button and implement + command
+btn_inc = tk.Button(master=window, highlightbackground='#3E4149', command=inc, text="+")
+btn_inc.grid(row=0, column=2, sticky="news")
+
+# start the program
+window.mainloop()
+
+```
+```python
+from tkinter.filedialog import askopenfilename
+```
+From the tkinter.filedialog module import askopenfilename
+```python
+def open_file():
+    filepath = askopenfilename(filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")])
+    if not filepath:
+        return
+    txt_edit.delete("1.0", tk.END)
+    with open (filepath, "r") as input_file:
+        text = input_file.read()
+        txt_edit.insert(tk.END, text)
+    window.title(f"Text Editor -{filepath}")
+```
+Lets Break down this function handler
+<br> Lines 321 use askopenfilename dialog from tkinter.filedialog module to display a 
+file open dialog and store the selected file path to th `filepath`
+<br> Lines 322-323 Checks to if user closes the dialog box or clicks cancel. If True the path is None and will return
+without exectuing any code to read the file
+<br> Line 324  Delete current contents on the editor before uploading
+<br> 325-326 Open selected file and .read() its contents before storing the text as a string
+<br> 327 assigns the string of text to text_edit and .insert() the contents to it
+<br> 328 Sets the title of the window so that it contains the path of the open file
+
 
