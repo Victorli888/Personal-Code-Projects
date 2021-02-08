@@ -1,24 +1,15 @@
 from xml.dom import minidom
-
-xldf_loc = input("Location of 89% XLDF: ")  # XLDF Location on your local machine
-xldf_split = list(xldf_loc)  # Split into array to change % in name
-
-file89 = xldf_loc  # 89% etc
-file90 = None
-file91 = None
-file92 = None
-file93 = None
-file94 = None
-file95 = None
+from os import listdir
+from os.path import isfile, join
 
 
-
-file_names = [file89, file90, file91, file91, file92, file93, file94, file95]
-
-def change_p(split_string): # Change percent
-    a = ["90","91","92","94","94","95"]
-    p1 = ["x","-","8","9"]
-    if p1 in
+def file_path_array(directory_path):
+    full_path = []
+    for file in listdir(directory_path):
+        if isfile(file):
+            fpath = join(directory_path, file)
+            full_path.append(fpath)
+    return full_path
 
 
 def PTC(file, TagName):  # Parse Element Children
@@ -42,9 +33,22 @@ def PEV(file, TagName, Component):  # Parse Element Value
 
     return arr
 
+# Recieve XLDF locations
+xldf_89 = input("Location of 89% compare XLDF: ")  # XLDF Location on your local machine
+xldf_90 = input("Location of 90% compare XLDF: ")  # XLDF Location on your local machine
+xldf_91 = input("Location of 91% compare XLDF: ")  # XLDF Location on your local machine
+xldf_92 = input("Location of 92% compare XLDF: ")  # XLDF Location on your local machine
 
-game_name = PTC(file1, "GameName")
-index_name = PTC(file1, "IndexName")
+# Create An Array with all XLDFs found in that particular percentage
+files89 = file_path_array(xldf_89)  # Array of 89% XLDF Full Path Names etc
+files90 = file_path_array(xldf_90)
+files91 = file_path_array(xldf_91)
+files92 = file_path_array(xldf_92)
 
-print(game_name)
-print(index_name)
+# Parse data from first XLDF
+for i in len(files89):
+    game_name = PTC(files89[i], "GameName")
+    index_name = PTC(files89[i], "IndexName")
+    friendly_name = PTC(files89[i], "FriendlyName")
+
+
