@@ -1,0 +1,7 @@
+Comparing with C:\Users\Victor.li\Desktop\FuDaoLeRiches_5R243W_A3F3-1000-1000\XLDF\89Percent\2c\1PPC\Bally-S01795A-3795-38Line-14Credit-9Idx-89-2c-1PPC-BankA.xldf
+Confirm only the Percentages are different
+
+['Bally, S01795A, 38 Line, 14 Credit, 9 Idx, 89 Percent, 1 PPC']
+['Bally, S01795A, 38 Line, 14 Credit, 9 Idx, 90 Percent, 1 PPC']
+['Bally, S01795A, 38 Line, 14 Credit, 9 Idx, 91 Percent, 1 PPC']
+['Bally, S01795A, 38 Line, 14 Credit, 9 Idx, 92 Percent, 1 PPC']
