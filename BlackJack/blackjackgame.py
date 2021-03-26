@@ -5,19 +5,13 @@ Features Needed:
 - 6 people table
 - Dealer that must hit until 17 or higher is reached
 - 7 seperate Money values for dealer and players
-- Button for Hit, Stand, Double Down
+- Button for Hit, Stand, Double Down  --- stand and double down adressed in main()
 - INSURANCE NOT AVAILABLE (can be added later)
 - 5 Shoe Black Jack when 75% of the deck is dealt re-shuffle the shoe
 """
 
 
-class Dealer():
 
-    dialogues = {
-        "Lose": "Dealer Busts!",
-        "Win": "Dealer Wins",
-        "BJ": "Dealer got BlackJack!"
-    }
 
 
 class Player():
@@ -84,9 +78,22 @@ class Player():
         return f"{display_hand_arr}"
 
 
+class Dealer(Player):
+
+    dialogues = {
+        "Lose": "Dealer Busts!",
+        "Win": "Dealer Wins",
+        "BJ": "Dealer got BlackJack!"
+    }
 
 
 
+
+
+
+"""
+Test Cases
+"""
 
 cards = playingcards.Cards()  # Create playing cards
 deck = cards.generate(5)  # Generates 5 Shoe Deck of Cards
