@@ -15,8 +15,9 @@ Features Needed:
 
 
 class Player():
-    def __init__(self, deck):
+    def __init__(self, deck, name):
         self.deck = deck
+        self.name = name
     money = 1000
 
     def draw(self, hand):
@@ -74,20 +75,43 @@ class Player():
             card_value = hand[i][0]  # return Card index
             display_hand_arr.append(card_name[card_value])  # Reference card index and append card's name in hashmap
 
-        return f"{display_hand_arr}"
+        return display_hand_arr
 
-    def player_logic(self,value, hand):
-        if value < 13:
-            CPU1.draw(hand)
-            return hand
-        else:
-            print("stand")
+    def turn(self):
+        hand = self.deal_cards()
+        value = self.calculate(hand)
 
+
+        current_hand = self.display_hand(hand)
+        while value[0] <= 15 or value[1] <= 15:
+
+            hand = self.draw(hand)
+            value = self.calculate(hand)
+
+        value = self.calculate(hand)
+        current_hand = self.display_hand(hand)
+        if value[1] > value[0] and value[1] <= 21:
+            value.pop(0)
+        if value[0] == value[1] or value[1] > 21:
+            value.pop()
+        print(f"{self.name}: {current_hand} {value}")
+        if value[0] > 21:
+            print("Bust")
 
 
 
 
 class Dealer(Player):
+    def flop(self):
+        dealer_hand = Dealer.deal_cards()
+        dealer_curr_hand = Dealer.display_hand(dealer_hand)
+        dealer_curr_hand.pop()
+        dealer_curr_hand.append("Hidden")
+        print(f"{Dealer.name}: {dealer_curr_hand}")
+
+
+
+
 
     dialogues = {
         "Lose": "Dealer Busts!",
@@ -122,35 +146,23 @@ deck = cards.generate(5)  # Generates 5 Shoe Deck of Cards
 
 
 
-def cpu_logic(value, hand):
-    if value < 13:
-        CPU1.draw(hand)
-        return hand
-    else:
-        print("stand")
-
-
 
 
 def main():
-    start = input("Black Jack with 3 players is about to start, to exit type quit")
+    # start = input("Black Jack with 3 players is about to start, to exit type quit")
     playing = True
-    while playing:
-        CPU1_hand = CPU1.deal_cards()
-        CPU1_value = CPU1.calculate(CPU1_hand)
-        if CPU1_value[0] == CPU1_value[1] or CPU1_value[1] > 21:
-            CPU1_value.pop()
+    Dealer.flop()
+    CPU1.turn()
+    CPU2.turn()
 
-        current_hand = CPU1.display_hand(CPU1_hand)
-        print(f"{current_hand} {CPU1_value}")
-        CPU1_hand = cpu_logic(CPU1_value[0], CPU1_hand)
-        print(CPU1_hand)
-        playing = False
+
 
 
 # Instatiate our players and dealer
-CPU1 = Player(deck)
-CPU2 = Player(deck)
-Player1 = Player(deck)
+print(len(deck))
+Dealer = Dealer(deck, "Dealer")
+CPU1 = Player(deck, "CPU1")
+CPU2 = Player(deck, "CPU2")
+Player1 = Player(deck, "Player1")
 
 main()
