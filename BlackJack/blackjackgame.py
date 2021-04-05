@@ -19,7 +19,6 @@ class Player():
         self.deck = deck
     money = 1000
 
-
     def draw(self, hand):
         rand_card = random.randint(0, len(deck))
         hand.append(deck.pop(rand_card))
@@ -77,6 +76,16 @@ class Player():
 
         return f"{display_hand_arr}"
 
+    def player_logic(self,value, hand):
+        if value < 13:
+            CPU1.draw(hand)
+            return hand
+        else:
+            print("stand")
+
+
+
+
 
 class Dealer(Player):
 
@@ -97,16 +106,51 @@ Test Cases
 
 cards = playingcards.Cards()  # Create playing cards
 deck = cards.generate(5)  # Generates 5 Shoe Deck of Cards
-print(len(deck))
+# print(len(deck))
+#
+# CPU1 = Player(deck)
+# CPU1_hand = CPU1.deal_cards()  # Deal the cards
+# CPU1_hand = CPU1.draw(CPU1_hand)  # Draw a Card command: HIT
+# CPU1_hand_total = CPU1.calculate(CPU1_hand)  # Calculate amount for game
+# CPU1_display_hand = CPU1.display_hand(CPU1_hand)  # Display card_names to player
+#
+#
+# print(CPU1_hand)
+# print(len(deck))
+# print(CPU1_display_hand)
+# print(CPU1_hand_total)
 
+
+
+def cpu_logic(value, hand):
+    if value < 13:
+        CPU1.draw(hand)
+        return hand
+    else:
+        print("stand")
+
+
+
+
+def main():
+    start = input("Black Jack with 3 players is about to start, to exit type quit")
+    playing = True
+    while playing:
+        CPU1_hand = CPU1.deal_cards()
+        CPU1_value = CPU1.calculate(CPU1_hand)
+        if CPU1_value[0] == CPU1_value[1] or CPU1_value[1] > 21:
+            CPU1_value.pop()
+
+        current_hand = CPU1.display_hand(CPU1_hand)
+        print(f"{current_hand} {CPU1_value}")
+        CPU1_hand = cpu_logic(CPU1_value[0], CPU1_hand)
+        print(CPU1_hand)
+        playing = False
+
+
+# Instatiate our players and dealer
 CPU1 = Player(deck)
-CPU1_hand = CPU1.deal_cards()  # Deal the cards
-CPU1_hand = CPU1.draw(CPU1_hand)  # Draw a Card command: HIT
-CPU1_hand_total = CPU1.calculate(CPU1_hand)  # Calculate amount for game
-CPU1_display_hand = CPU1.display_hand(CPU1_hand)  # Display card_names to player
+CPU2 = Player(deck)
+Player1 = Player(deck)
 
-
-print(CPU1_hand)
-print(len(deck))
-print(CPU1_display_hand)
-print(CPU1_hand_total)
+main()
