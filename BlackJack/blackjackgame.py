@@ -52,7 +52,7 @@ class Player():
 
         return total
 
-    def display_hand(self,hand):  # Returns array with string values of card names & Total Value
+    def display_hand(self, hand):  # Returns array with string values of card names & Total Value
         card_name = {
             1: "Ace",
             2: "Two",
@@ -77,12 +77,10 @@ class Player():
 
         return display_hand_arr
 
-    def turn(self):
+    def turn(self):  # Method for CPU Turn
         hand = self.deal_cards()
         value = self.calculate(hand)
 
-
-        current_hand = self.display_hand(hand)
         while value[0] <= 15 or value[1] <= 15:
 
             hand = self.draw(hand)
@@ -97,6 +95,50 @@ class Player():
         print(f"{self.name}: {current_hand} {value}")
         if value[0] > 21:
             print("Bust")
+
+    def player_prompt(self):
+        print("Would you like to (A) Hit (B) Stand")
+        ans = input("> ")
+        return ans
+
+    def player_turn(self):  # We can optimize here by re-using logic from turn()
+        hand = self.deal_cards()
+        value = self.calculate(hand)
+        current_hand = self.display_hand(hand)
+
+        if value[1] > value[0] and value[1] <= 21:
+            value.pop(0)
+        if value[0] == value[1] or value[1] > 21:
+            value.pop()
+
+        print(f"{self.name}: {current_hand} {value}")
+        ans = self.player_prompt()
+
+        while ans == "A":
+            hand = self.draw(hand)
+            value = self.calculate(hand)
+            current_hand = self.display_hand(hand)
+
+            if value[1] > value[0] and value[1] <= 21:
+                value.pop(0)
+            if value[0] == value[1] or value[1] > 21:
+                value.pop()
+            print(f"{self.name}: {current_hand} {value}")
+            if value[0] > 21:
+                return print("Bust")  # needs to finish the game to dealer
+
+            ans = self.player_prompt()
+        # maybe we can put in a block of code to prevent invalid entries
+        print("stand")
+
+
+
+
+
+
+
+
+
 
 
 
@@ -131,7 +173,7 @@ Test Cases
 cards = playingcards.Cards()  # Create playing cards
 deck = cards.generate(5)  # Generates 5 Shoe Deck of Cards
 # print(len(deck))
-#
+
 # CPU1 = Player(deck)
 # CPU1_hand = CPU1.deal_cards()  # Deal the cards
 # CPU1_hand = CPU1.draw(CPU1_hand)  # Draw a Card command: HIT
@@ -146,14 +188,14 @@ deck = cards.generate(5)  # Generates 5 Shoe Deck of Cards
 
 
 
-
-
 def main():
     # start = input("Black Jack with 3 players is about to start, to exit type quit")
     playing = True
     Dealer.flop()
     CPU1.turn()
     CPU2.turn()
+    Player1.player_turn()
+
 
 
 
