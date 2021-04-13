@@ -21,7 +21,7 @@ class Player():
     money = 1000
 
     def draw(self, hand):
-        rand_card = random.randint(0, len(deck))
+        rand_card = random.randint(0, len(deck)-1)
         hand.append(deck.pop(rand_card))
         return hand
 
@@ -77,6 +77,26 @@ class Player():
 
         return display_hand_arr
 
+    def value_check(self, hand):
+
+        value = self.calculate(hand)
+        current_hand = self.display_hand(hand)
+        value_show = value
+
+        if "Ace" in value:
+            value_show = value
+        elif value[1] > value[0] and value[1] <= 21:
+            value_show = value[1]
+        elif value[0] == value[1]:
+            value_show = value[1]
+
+        print(f"{self.name}: {current_hand} {value_show}")
+
+        if value[0] > 21:
+            print("Bust")
+
+        return value
+
     def turn(self):  # Method for CPU Turn
         hand = self.deal_cards()
         value = self.calculate(hand)
@@ -84,17 +104,9 @@ class Player():
         while value[0] <= 15 or value[1] <= 15:
 
             hand = self.draw(hand)
-            value = self.calculate(hand)
+            value = self.value_check(hand)
 
-        value = self.calculate(hand)
-        current_hand = self.display_hand(hand)
-        if value[1] > value[0] and value[1] <= 21:
-            value.pop(0)
-        if value[0] == value[1] or value[1] > 21:
-            value.pop()
-        print(f"{self.name}: {current_hand} {value}")
-        if value[0] > 21:
-            print("Bust")
+
 
     def player_prompt(self):
         print("Would you like to (A) Hit (B) Stand")
@@ -103,15 +115,9 @@ class Player():
 
     def player_turn(self):  # We can optimize here by re-using logic from turn()
         hand = self.deal_cards()
-        value = self.calculate(hand)
-        current_hand = self.display_hand(hand)
+        value = self.value_check(hand)
 
-        if value[1] > value[0] and value[1] <= 21:
-            value.pop(0)
-        if value[0] == value[1] or value[1] > 21:
-            value.pop()
 
-        print(f"{self.name}: {current_hand} {value}")
         ans = self.player_prompt()
 
         while ans == "A":
