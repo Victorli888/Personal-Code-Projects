@@ -1,4 +1,4 @@
-from BlackJack import playingcards
+import playingcards
 import random
 """
 Features Needed:
@@ -138,17 +138,6 @@ class Player():
         print("stand")
 
 
-
-
-
-
-
-
-
-
-
-
-
 class Dealer(Player):
     def flop(self):
         dealer_hand = Dealer.deal_cards()
@@ -197,20 +186,32 @@ deck = cards.generate(5)  # Generates 5 Shoe Deck of Cards
 def main():
     # start = input("Black Jack with 3 players is about to start, to exit type quit")
     playing = True
-    Dealer.flop()
-    CPU1.turn()
-    CPU2.turn()
-    Player1.player_turn()
+    while playing:
+        Dealer.flop()
+        CPU1.turn()
+        CPU2.turn()
+        Player1.player_turn()
+        ans = input("Would you like to leave the table? (y/n)")
+        if ans == "y":
+            print("You have left...")
+            playing = False
+        else:
+            print("Dealer is dealing cards!")
 
 
 
 
 
-# Instatiate our players and dealer
-print(len(deck))
-Dealer = Dealer(deck, "Dealer")
-CPU1 = Player(deck, "CPU1")
-CPU2 = Player(deck, "CPU2")
-Player1 = Player(deck, "Player1")
 
-main()
+
+
+
+if __name__ == '__main__':
+    # Instatiate our players and dealer
+    print(len(deck))
+    Dealer = Dealer(deck, "Dealer")
+    CPU1 = Player(deck, "CPU1")
+    CPU2 = Player(deck, "CPU2")
+    Player1 = Player(deck, "Player1")
+
+    main()
