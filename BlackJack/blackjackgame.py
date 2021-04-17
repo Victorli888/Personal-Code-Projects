@@ -2,9 +2,9 @@ import playingcards
 import random
 """
 Features Needed:
-- 6 people table
+- 3 people table
 - Dealer that must hit until 17 or higher is reached
-- 7 seperate Money values for dealer and players
+- 7 separate Money values for dealer and players
 - Button for Hit, Stand, Double Down  --- stand and double down adressed in main()
 - INSURANCE NOT AVAILABLE (can be added later)
 - 5 Shoe Black Jack when 75% of the deck is dealt re-shuffle the shoe
@@ -32,7 +32,7 @@ class Player():
             hand.append(deck.pop(rand_card))
         return hand
 
-    def calculate(self, hand): # Returns value Aces = 1 and Aces = 11  and other hands use 0th index
+    def calculate(self, hand): # Returns array with 2 indices on for both value of Aces = 1 and Aces = 11
         total = [0, 0]
 
         for i in range(0, len(hand)):
@@ -102,9 +102,11 @@ class Player():
         value = self.calculate(hand)
 
         while value[0] <= 15 or value[1] <= 15:
-
+            print(f"{self.name}: Hit")
             hand = self.draw(hand)
             value = self.value_check(hand)
+        if value[0] <= 21 or value[1] <= 21:
+            print(f"{self.name}: Stand.")
 
 
 
@@ -139,16 +141,6 @@ class Player():
 
 
 class Dealer(Player):
-    def flop(self):
-        dealer_hand = Dealer.deal_cards()
-        dealer_curr_hand = Dealer.display_hand(dealer_hand)
-        dealer_curr_hand.pop()
-        dealer_curr_hand.append("Hidden")
-        print(f"{Dealer.name}: {dealer_curr_hand}")
-
-
-
-
 
     dialogues = {
         "Lose": "Dealer Busts!",
@@ -156,10 +148,23 @@ class Dealer(Player):
         "BJ": "Dealer got BlackJack!"
     }
 
+    def flop(self):
+        dealer_hand = self.deal_cards()
+        dealer_curr_hand = Dealer.display_hand(dealer_hand)
+        dealer_curr_hand.pop()
+        dealer_curr_hand.append("Hidden")
+        print(f"{Dealer.name}: {dealer_curr_hand}")
+        return dealer_hand
 
+    def reveal_and_play(self, dealer_hand):
+        self.value_check(dealer_hand)
+        value = self.calculate(dealer_hand)
 
-
-
+        while value[0] < 16 and value[1] < 16:
+            dealer_hand = self.draw(dealer_hand)
+            value = self.value_check(dealer_hand)
+        if value[0] > 21 or value[1] > 21:
+            print(f"Dealer Busts!")
 
 """
 Test Cases
@@ -182,17 +187,17 @@ deck = cards.generate(5)  # Generates 5 Shoe Deck of Cards
 # print(CPU1_hand_total)
 
 
-
 def main():
     # start = input("Black Jack with 3 players is about to start, to exit type quit")
     playing = True
     while playing:
-        Dealer.flop()
+        dealer_hand = Dealer.flop()
         CPU1.turn()
         CPU2.turn()
         Player1.player_turn()
-        ans = input("Would you like to leave the table? (y/n)")
-        if ans == "y":
+        Dealer.reveal_and_play(dealer_hand)
+        ans = input("Deal Next Hand? (y/n)")
+        if ans == "n":
             print("You have left...")
             playing = False
         else:
