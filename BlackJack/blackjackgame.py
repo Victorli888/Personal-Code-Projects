@@ -2,23 +2,17 @@ import playingcards
 import random
 """
 Features Needed:
-- 3 people table
+- 3 person per table
 - Dealer that must hit until 17 or higher is reached
-- 7 separate Money values for dealer and players
-- Button for Hit, Stand, Double Down  --- stand and double down adressed in main()
-- INSURANCE NOT AVAILABLE (can be added later)
+- Button for Hit, Stand, --- stand and double down addressed in main()
 - 5 Shoe Black Jack when 75% of the deck is dealt re-shuffle the shoe
 """
-
-
-
 
 
 class Player():
     def __init__(self, deck, name):
         self.deck = deck
         self.name = name
-    money = 1000
 
     def draw(self, hand):
         rand_card = random.randint(0, len(deck)-1)
@@ -107,6 +101,7 @@ class Player():
             value = self.value_check(hand)
         if value[0] <= 21 or value[1] <= 21:
             print(f"{self.name}: Stand.")
+        return value
 
 
 
@@ -133,11 +128,14 @@ class Player():
                 value.pop()
             print(f"{self.name}: {current_hand} {value}")
             if value[0] > 21:
-                return print("Bust")  # needs to finish the game to dealer
+                print("Bust")  # needs to finish the game to dealer
 
             ans = self.player_prompt()
         # maybe we can put in a block of code to prevent invalid entries
         print("stand")
+
+
+        return value
 
 
 class Dealer(Player):
@@ -156,6 +154,24 @@ class Dealer(Player):
         print(f"{Dealer.name}: {dealer_curr_hand}")
         return dealer_hand
 
+    def results(self,dealer_value, CPU1_value, CPU2_value, Player1_value):
+        result_array = [CPU1_value, CPU2_value, Player1_value]
+        name_array = ["CPU1", "CPU2", "Player1"]
+
+        print(result_array)
+
+        if dealer_value[0] > 21 or dealer_value[1] > 21:
+            print("Player1 win.")
+            print("CPU1 win.")
+            print("CPU2 win.")
+        for i in range(0, len(result_array)-1):
+            if dealer_value > result_array[i]:
+                print(f"{name_array[i]} Lost.")
+            elif dealer_value < result_array[i]:
+                print(f"{name_array[i]} Won.")
+            else:
+                print(f"{name_array[i]} Push.")
+
     def reveal_and_play(self, dealer_hand):
         self.value_check(dealer_hand)
         value = self.calculate(dealer_hand)
@@ -165,6 +181,7 @@ class Dealer(Player):
             value = self.value_check(dealer_hand)
         if value[0] > 21 or value[1] > 21:
             print(f"Dealer Busts!")
+        return value
 
 """
 Test Cases
@@ -192,10 +209,11 @@ def main():
     playing = True
     while playing:
         dealer_hand = Dealer.flop()
-        CPU1.turn()
-        CPU2.turn()
-        Player1.player_turn()
-        Dealer.reveal_and_play(dealer_hand)
+        CPU1_value = CPU1.turn()
+        CPU2_value = CPU2.turn()
+        Player1_value = Player1.player_turn()
+        dealer_value = Dealer.reveal_and_play(dealer_hand)
+        Dealer.results(dealer_value, CPU1_value, CPU2_value, Player1_value)
         ans = input("Deal Next Hand? (y/n)")
         if ans == "n":
             print("You have left...")
@@ -212,7 +230,7 @@ def main():
 
 
 if __name__ == '__main__':
-    # Instatiate our players and dealer
+    # Instantiate our players and dealer
     print(len(deck))
     Dealer = Dealer(deck, "Dealer")
     CPU1 = Player(deck, "CPU1")
