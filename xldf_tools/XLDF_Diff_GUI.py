@@ -1,4 +1,5 @@
 import tkinter as tk
+import compareTool as cT
 
 
 # Create a Window "XLDF diff tool"
@@ -20,12 +21,12 @@ prog_fields = ["Location of the 89% XLDFs",
 
 
 def submit_data():
-    data = []
+    per89 = entry1.get()
+    per90 = entry2.get()
+    per91 = entry3.get()
+    per92 = entry4.get()
+    cT.start(per89,per90,per91,per92)
 
-    for entry in prog_fields:
-        data.append(entry)
-    window.destroy()
-    return data
 
 def exit():
     window.destroy()
@@ -66,7 +67,7 @@ entry4.grid(row=3, column=1)
 frame_buttons = tk.Frame(relief=tk.RAISED)
 frame_buttons.pack(fill=tk.X, padx=5, pady=5)
 
-btn_submit = tk.Button(master=frame_buttons, bg="green", text="Run")
+btn_submit = tk.Button(master=frame_buttons, command=submit_data, bg="green", text="Run")
 btn_submit.pack(side=tk.RIGHT, padx=10, pady=10)
 
 btnExit = tk.Button(master=frame_buttons, command=exit, bg="red", text="Exit")
