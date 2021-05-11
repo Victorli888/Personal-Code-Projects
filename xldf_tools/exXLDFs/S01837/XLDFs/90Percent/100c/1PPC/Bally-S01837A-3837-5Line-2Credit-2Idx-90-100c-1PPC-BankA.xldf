@@ -1,0 +1,2326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameDefinition Version="2.0">
+   <GameName>S01837A</GameName>
+   <IndexName>5Line2Credit2Idx</IndexName>
+   <FriendlyName>Bally, S01837A, 5 Line, 2 Credit, 2 Idx, 90 Percent, 1 PPC</FriendlyName>
+   <Manufacturer>Bally Gaming and Systems</Manufacturer>
+   <Credits>10</Credits>
+   <Denomination>100</Denomination>
+   <PayTableIndex>2</PayTableIndex>
+   <GameUPCNumber>3837</GameUPCNumber>
+   <Progressive>
+      <Pool Name="MoneyLink-SP0548-Lv00-100c-1PPC-BankA" Type="local" Percentage="0.500" Seed="50000">
+         <Trigger Index="1998"/>
+         <Trigger Index="1997"/>
+      </Pool>
+      <Pool Name="MoneyLink-SP0548-Lv01-100c-1PPC-BankA" Type="local" Percentage="0.250" Seed="3750">
+         <Trigger Index="1996"/>
+         <Trigger Index="1995"/>
+         <Trigger Index="1994"/>
+         <Trigger Index="1993"/>
+         <Trigger Index="1992"/>
+         <Trigger Index="1991"/>
+         <Trigger Index="1990"/>
+         <Trigger Index="1989"/>
+         <Trigger Index="1988"/>
+         <Trigger Index="1987"/>
+         <Trigger Index="1986"/>
+         <Trigger Index="1985"/>
+         <Trigger Index="1984"/>
+         <Trigger Index="1983"/>
+         <Trigger Index="1982"/>
+         <Trigger Index="1981"/>
+         <Trigger Index="1980"/>
+         <Trigger Index="1979"/>
+         <Trigger Index="1978"/>
+         <Trigger Index="1977"/>
+         <Trigger Index="1976"/>
+         <Trigger Index="1975"/>
+         <Trigger Index="1974"/>
+         <Trigger Index="1973"/>
+         <Trigger Index="1972"/>
+         <Trigger Index="1971"/>
+         <Trigger Index="1970"/>
+         <Trigger Index="1969"/>
+         <Trigger Index="1968"/>
+         <Trigger Index="1967"/>
+         <Trigger Index="1966"/>
+         <Trigger Index="1965"/>
+         <Trigger Index="1964"/>
+         <Trigger Index="1963"/>
+         <Trigger Index="1962"/>
+         <Trigger Index="1961"/>
+         <Trigger Index="1960"/>
+         <Trigger Index="1959"/>
+         <Trigger Index="1958"/>
+         <Trigger Index="1957"/>
+         <Trigger Index="1956"/>
+         <Trigger Index="1955"/>
+         <Trigger Index="1954"/>
+         <Trigger Index="1953"/>
+         <Trigger Index="1952"/>
+         <Trigger Index="1951"/>
+         <Trigger Index="1950"/>
+         <Trigger Index="1949"/>
+         <Trigger Index="1948"/>
+         <Trigger Index="1947"/>
+         <Trigger Index="1946"/>
+         <Trigger Index="1945"/>
+         <Trigger Index="1944"/>
+         <Trigger Index="1943"/>
+         <Trigger Index="1942"/>
+         <Trigger Index="1941"/>
+         <Trigger Index="1940"/>
+         <Trigger Index="1939"/>
+         <Trigger Index="1938"/>
+         <Trigger Index="1937"/>
+         <Trigger Index="1936"/>
+         <Trigger Index="1935"/>
+         <Trigger Index="1934"/>
+         <Trigger Index="1933"/>
+         <Trigger Index="1932"/>
+         <Trigger Index="1931"/>
+         <Trigger Index="1930"/>
+         <Trigger Index="1929"/>
+      </Pool>
+      <Pool Name="MoneyLink-SP0548-Lv02-100c-1PPC-BankA" Type="local" Percentage="0.250" Seed="1250">
+         <Trigger Index="1926"/>
+         <Trigger Index="1925"/>
+         <Trigger Index="1923"/>
+         <Trigger Index="1921"/>
+         <Trigger Index="1919"/>
+         <Trigger Index="1915"/>
+         <Trigger Index="1913"/>
+         <Trigger Index="1907"/>
+         <Trigger Index="1905"/>
+         <Trigger Index="1904"/>
+         <Trigger Index="1903"/>
+         <Trigger Index="1897"/>
+         <Trigger Index="1893"/>
+         <Trigger Index="1890"/>
+         <Trigger Index="1889"/>
+         <Trigger Index="1887"/>
+         <Trigger Index="1886"/>
+         <Trigger Index="1885"/>
+         <Trigger Index="1884"/>
+         <Trigger Index="1882"/>
+         <Trigger Index="1881"/>
+         <Trigger Index="1879"/>
+         <Trigger Index="1878"/>
+         <Trigger Index="1875"/>
+         <Trigger Index="1874"/>
+         <Trigger Index="1872"/>
+         <Trigger Index="1869"/>
+         <Trigger Index="1866"/>
+         <Trigger Index="1864"/>
+         <Trigger Index="1862"/>
+         <Trigger Index="1861"/>
+         <Trigger Index="1860"/>
+         <Trigger Index="1858"/>
+         <Trigger Index="1855"/>
+         <Trigger Index="1853"/>
+         <Trigger Index="1851"/>
+         <Trigger Index="1850"/>
+         <Trigger Index="1849"/>
+         <Trigger Index="1846"/>
+         <Trigger Index="1841"/>
+         <Trigger Index="1831"/>
+         <Trigger Index="1829"/>
+         <Trigger Index="1827"/>
+         <Trigger Index="1824"/>
+         <Trigger Index="1819"/>
+         <Trigger Index="1794"/>
+         <Trigger Index="1782"/>
+         <Trigger Index="1775"/>
+         <Trigger Index="1770"/>
+         <Trigger Index="1766"/>
+         <Trigger Index="1759"/>
+         <Trigger Index="1745"/>
+         <Trigger Index="1741"/>
+         <Trigger Index="1736"/>
+         <Trigger Index="1729"/>
+         <Trigger Index="1724"/>
+         <Trigger Index="1721"/>
+         <Trigger Index="1715"/>
+         <Trigger Index="1713"/>
+         <Trigger Index="1711"/>
+         <Trigger Index="1708"/>
+         <Trigger Index="1707"/>
+         <Trigger Index="1705"/>
+         <Trigger Index="1701"/>
+         <Trigger Index="1697"/>
+         <Trigger Index="1695"/>
+         <Trigger Index="1692"/>
+         <Trigger Index="1689"/>
+         <Trigger Index="1686"/>
+         <Trigger Index="1684"/>
+         <Trigger Index="1682"/>
+         <Trigger Index="1680"/>
+         <Trigger Index="1678"/>
+         <Trigger Index="1674"/>
+         <Trigger Index="1673"/>
+         <Trigger Index="1670"/>
+         <Trigger Index="1667"/>
+         <Trigger Index="1665"/>
+         <Trigger Index="1661"/>
+         <Trigger Index="1658"/>
+         <Trigger Index="1654"/>
+         <Trigger Index="1652"/>
+         <Trigger Index="1649"/>
+         <Trigger Index="1647"/>
+         <Trigger Index="1646"/>
+         <Trigger Index="1644"/>
+         <Trigger Index="1641"/>
+         <Trigger Index="1637"/>
+         <Trigger Index="1635"/>
+         <Trigger Index="1631"/>
+         <Trigger Index="1630"/>
+         <Trigger Index="1626"/>
+         <Trigger Index="1620"/>
+         <Trigger Index="1618"/>
+         <Trigger Index="1614"/>
+         <Trigger Index="1612"/>
+         <Trigger Index="1608"/>
+         <Trigger Index="1603"/>
+         <Trigger Index="1590"/>
+         <Trigger Index="1588"/>
+         <Trigger Index="1572"/>
+         <Trigger Index="1570"/>
+         <Trigger Index="1551"/>
+         <Trigger Index="1541"/>
+         <Trigger Index="1536"/>
+         <Trigger Index="1532"/>
+         <Trigger Index="1527"/>
+         <Trigger Index="1525"/>
+         <Trigger Index="1521"/>
+         <Trigger Index="1518"/>
+         <Trigger Index="1511"/>
+         <Trigger Index="1510"/>
+         <Trigger Index="1499"/>
+         <Trigger Index="1494"/>
+         <Trigger Index="1490"/>
+         <Trigger Index="1485"/>
+         <Trigger Index="1482"/>
+         <Trigger Index="1478"/>
+         <Trigger Index="1475"/>
+         <Trigger Index="1470"/>
+         <Trigger Index="1467"/>
+         <Trigger Index="1463"/>
+         <Trigger Index="1458"/>
+         <Trigger Index="1454"/>
+         <Trigger Index="1452"/>
+         <Trigger Index="1450"/>
+         <Trigger Index="1448"/>
+         <Trigger Index="1445"/>
+         <Trigger Index="1441"/>
+         <Trigger Index="1438"/>
+         <Trigger Index="1436"/>
+         <Trigger Index="1433"/>
+         <Trigger Index="1429"/>
+         <Trigger Index="1426"/>
+         <Trigger Index="1424"/>
+         <Trigger Index="1422"/>
+         <Trigger Index="1420"/>
+         <Trigger Index="1416"/>
+         <Trigger Index="1415"/>
+         <Trigger Index="1412"/>
+         <Trigger Index="1409"/>
+         <Trigger Index="1406"/>
+         <Trigger Index="1398"/>
+         <Trigger Index="1396"/>
+         <Trigger Index="1394"/>
+         <Trigger Index="1390"/>
+         <Trigger Index="1385"/>
+         <Trigger Index="1380"/>
+         <Trigger Index="1375"/>
+         <Trigger Index="1372"/>
+         <Trigger Index="1369"/>
+         <Trigger Index="1365"/>
+         <Trigger Index="1361"/>
+         <Trigger Index="1357"/>
+         <Trigger Index="1354"/>
+         <Trigger Index="1353"/>
+         <Trigger Index="1351"/>
+         <Trigger Index="1346"/>
+         <Trigger Index="1344"/>
+         <Trigger Index="1341"/>
+         <Trigger Index="1337"/>
+         <Trigger Index="1335"/>
+         <Trigger Index="1333"/>
+         <Trigger Index="1326"/>
+         <Trigger Index="1324"/>
+         <Trigger Index="1323"/>
+         <Trigger Index="1319"/>
+         <Trigger Index="1315"/>
+         <Trigger Index="1311"/>
+         <Trigger Index="1309"/>
+         <Trigger Index="1306"/>
+         <Trigger Index="1301"/>
+         <Trigger Index="1300"/>
+         <Trigger Index="1297"/>
+         <Trigger Index="1294"/>
+         <Trigger Index="1292"/>
+         <Trigger Index="1289"/>
+         <Trigger Index="1283"/>
+         <Trigger Index="1273"/>
+         <Trigger Index="1271"/>
+         <Trigger Index="1269"/>
+         <Trigger Index="1265"/>
+         <Trigger Index="1262"/>
+         <Trigger Index="1257"/>
+         <Trigger Index="1255"/>
+         <Trigger Index="1249"/>
+         <Trigger Index="1246"/>
+         <Trigger Index="1244"/>
+         <Trigger Index="1243"/>
+         <Trigger Index="1241"/>
+         <Trigger Index="1238"/>
+         <Trigger Index="1234"/>
+         <Trigger Index="1232"/>
+         <Trigger Index="1229"/>
+         <Trigger Index="1225"/>
+         <Trigger Index="1222"/>
+         <Trigger Index="1221"/>
+         <Trigger Index="1218"/>
+         <Trigger Index="1212"/>
+         <Trigger Index="1209"/>
+         <Trigger Index="1207"/>
+         <Trigger Index="1204"/>
+         <Trigger Index="1201"/>
+         <Trigger Index="1198"/>
+         <Trigger Index="1195"/>
+         <Trigger Index="1192"/>
+         <Trigger Index="1189"/>
+         <Trigger Index="1187"/>
+         <Trigger Index="1181"/>
+         <Trigger Index="1179"/>
+         <Trigger Index="1176"/>
+         <Trigger Index="1170"/>
+         <Trigger Index="1168"/>
+         <Trigger Index="1165"/>
+         <Trigger Index="1163"/>
+         <Trigger Index="1160"/>
+         <Trigger Index="1159"/>
+         <Trigger Index="1156"/>
+         <Trigger Index="1153"/>
+         <Trigger Index="1149"/>
+         <Trigger Index="1146"/>
+         <Trigger Index="1144"/>
+         <Trigger Index="1142"/>
+         <Trigger Index="1139"/>
+         <Trigger Index="1138"/>
+         <Trigger Index="1137"/>
+         <Trigger Index="1134"/>
+         <Trigger Index="1132"/>
+         <Trigger Index="1126"/>
+         <Trigger Index="1122"/>
+         <Trigger Index="1120"/>
+         <Trigger Index="1118"/>
+         <Trigger Index="1114"/>
+         <Trigger Index="1112"/>
+         <Trigger Index="1110"/>
+         <Trigger Index="1105"/>
+      </Pool>
+   </Progressive>
+   <Prizes TotalOutcomes="14065000" TotalSubsets="2813">
+      <Prize Value="158" Index="1998" Frequency="3" ExtendedInfo="1998"/>
+      <Prize Value="118" Index="1997" Frequency="1" ExtendedInfo="1997"/>
+      <Prize Value="1602" Index="1996" Frequency="2" ExtendedInfo="1996"/>
+      <Prize Value="1354" Index="1995" Frequency="4" ExtendedInfo="1995"/>
+      <Prize Value="1118" Index="1994" Frequency="2" ExtendedInfo="1994"/>
+      <Prize Value="784" Index="1993" Frequency="2" ExtendedInfo="1993"/>
+      <Prize Value="680" Index="1992" Frequency="8" ExtendedInfo="1992"/>
+      <Prize Value="628" Index="1991" Frequency="4" ExtendedInfo="1991"/>
+      <Prize Value="598" Index="1990" Frequency="2" ExtendedInfo="1990"/>
+      <Prize Value="590" Index="1989" Frequency="4" ExtendedInfo="1989"/>
+      <Prize Value="564" Index="1988" Frequency="2" ExtendedInfo="1988"/>
+      <Prize Value="562" Index="1987" Frequency="8" ExtendedInfo="1987"/>
+      <Prize Value="354" Index="1986" Frequency="2" ExtendedInfo="1986"/>
+      <Prize Value="328" Index="1985" Frequency="6" ExtendedInfo="1985"/>
+      <Prize Value="300" Index="1984" Frequency="6" ExtendedInfo="1984"/>
+      <Prize Value="268" Index="1983" Frequency="1" ExtendedInfo="1983"/>
+      <Prize Value="266" Index="1982" Frequency="1" ExtendedInfo="1982"/>
+      <Prize Value="264" Index="1981" Frequency="1" ExtendedInfo="1981"/>
+      <Prize Value="260" Index="1980" Frequency="1" ExtendedInfo="1980"/>
+      <Prize Value="258" Index="1979" Frequency="1" ExtendedInfo="1979"/>
+      <Prize Value="248" Index="1978" Frequency="1" ExtendedInfo="1978"/>
+      <Prize Value="230" Index="1977" Frequency="1" ExtendedInfo="1977"/>
+      <Prize Value="216" Index="1976" Frequency="1" ExtendedInfo="1976"/>
+      <Prize Value="214" Index="1975" Frequency="1" ExtendedInfo="1975"/>
+      <Prize Value="208" Index="1974" Frequency="1" ExtendedInfo="1974"/>
+      <Prize Value="190" Index="1973" Frequency="1" ExtendedInfo="1973"/>
+      <Prize Value="188" Index="1972" Frequency="3" ExtendedInfo="1972"/>
+      <Prize Value="182" Index="1971" Frequency="2" ExtendedInfo="1971"/>
+      <Prize Value="174" Index="1970" Frequency="1" ExtendedInfo="1970"/>
+      <Prize Value="172" Index="1969" Frequency="1" ExtendedInfo="1969"/>
+      <Prize Value="168" Index="1968" Frequency="1" ExtendedInfo="1968"/>
+      <Prize Value="166" Index="1967" Frequency="2" ExtendedInfo="1967"/>
+      <Prize Value="156" Index="1966" Frequency="1" ExtendedInfo="1966"/>
+      <Prize Value="150" Index="1965" Frequency="1" ExtendedInfo="1965"/>
+      <Prize Value="148" Index="1964" Frequency="2" ExtendedInfo="1964"/>
+      <Prize Value="146" Index="1963" Frequency="2" ExtendedInfo="1963"/>
+      <Prize Value="136" Index="1962" Frequency="1" ExtendedInfo="1962"/>
+      <Prize Value="134" Index="1961" Frequency="1" ExtendedInfo="1961"/>
+      <Prize Value="132" Index="1960" Frequency="1" ExtendedInfo="1960"/>
+      <Prize Value="130" Index="1959" Frequency="2" ExtendedInfo="1959"/>
+      <Prize Value="128" Index="1958" Frequency="1" ExtendedInfo="1958"/>
+      <Prize Value="126" Index="1957" Frequency="1" ExtendedInfo="1957"/>
+      <Prize Value="124" Index="1956" Frequency="1" ExtendedInfo="1956"/>
+      <Prize Value="122" Index="1955" Frequency="2" ExtendedInfo="1955"/>
+      <Prize Value="118" Index="1954" Frequency="7" ExtendedInfo="1954"/>
+      <Prize Value="116" Index="1953" Frequency="3" ExtendedInfo="1953"/>
+      <Prize Value="114" Index="1952" Frequency="1" ExtendedInfo="1952"/>
+      <Prize Value="112" Index="1951" Frequency="2" ExtendedInfo="1951"/>
+      <Prize Value="110" Index="1950" Frequency="2" ExtendedInfo="1950"/>
+      <Prize Value="106" Index="1949" Frequency="3" ExtendedInfo="1949"/>
+      <Prize Value="104" Index="1948" Frequency="1" ExtendedInfo="1948"/>
+      <Prize Value="102" Index="1947" Frequency="1" ExtendedInfo="1947"/>
+      <Prize Value="98" Index="1946" Frequency="3" ExtendedInfo="1946"/>
+      <Prize Value="96" Index="1945" Frequency="1" ExtendedInfo="1945"/>
+      <Prize Value="94" Index="1944" Frequency="1" ExtendedInfo="1944"/>
+      <Prize Value="92" Index="1943" Frequency="3" ExtendedInfo="1943"/>
+      <Prize Value="90" Index="1942" Frequency="3" ExtendedInfo="1942"/>
+      <Prize Value="88" Index="1941" Frequency="1" ExtendedInfo="1941"/>
+      <Prize Value="86" Index="1940" Frequency="1" ExtendedInfo="1940"/>
+      <Prize Value="84" Index="1939" Frequency="1" ExtendedInfo="1939"/>
+      <Prize Value="80" Index="1938" Frequency="6" ExtendedInfo="1938"/>
+      <Prize Value="78" Index="1937" Frequency="1" ExtendedInfo="1937"/>
+      <Prize Value="76" Index="1936" Frequency="1" ExtendedInfo="1936"/>
+      <Prize Value="74" Index="1935" Frequency="1" ExtendedInfo="1935"/>
+      <Prize Value="72" Index="1934" Frequency="1" ExtendedInfo="1934"/>
+      <Prize Value="70" Index="1933" Frequency="4" ExtendedInfo="1933"/>
+      <Prize Value="66" Index="1932" Frequency="1" ExtendedInfo="1932"/>
+      <Prize Value="64" Index="1931" Frequency="2" ExtendedInfo="1931"/>
+      <Prize Value="60" Index="1930" Frequency="1" ExtendedInfo="1930"/>
+      <Prize Value="56" Index="1929" Frequency="4" ExtendedInfo="1929"/>
+      <Prize Value="3320" Index="1928" Frequency="2" ExtendedInfo="1928"/>
+      <Prize Value="3168" Index="1927" Frequency="2" ExtendedInfo="1927"/>
+      <Prize Value="1914" Index="1926" Frequency="2" ExtendedInfo="1926"/>
+      <Prize Value="1860" Index="1925" Frequency="2" ExtendedInfo="1925"/>
+      <Prize Value="3090" Index="1924" Frequency="1" ExtendedInfo="1924"/>
+      <Prize Value="1838" Index="1923" Frequency="2" ExtendedInfo="1923"/>
+      <Prize Value="3080" Index="1922" Frequency="2" ExtendedInfo="1922"/>
+      <Prize Value="1824" Index="1921" Frequency="2" ExtendedInfo="1921"/>
+      <Prize Value="3068" Index="1920" Frequency="1" ExtendedInfo="1920"/>
+      <Prize Value="1814" Index="1919" Frequency="4" ExtendedInfo="1919"/>
+      <Prize Value="2918" Index="1918" Frequency="2" ExtendedInfo="1918"/>
+      <Prize Value="2914" Index="1917" Frequency="2" ExtendedInfo="1917"/>
+      <Prize Value="2840" Index="1916" Frequency="2" ExtendedInfo="1916"/>
+      <Prize Value="1540" Index="1915" Frequency="2" ExtendedInfo="1915"/>
+      <Prize Value="2790" Index="1914" Frequency="2" ExtendedInfo="1914"/>
+      <Prize Value="1510" Index="1913" Frequency="2" ExtendedInfo="1913"/>
+      <Prize Value="2754" Index="1912" Frequency="2" ExtendedInfo="1912"/>
+      <Prize Value="2746" Index="1911" Frequency="1" ExtendedInfo="1911"/>
+      <Prize Value="2740" Index="1910" Frequency="2" ExtendedInfo="1910"/>
+      <Prize Value="2718" Index="1909" Frequency="2" ExtendedInfo="1909"/>
+      <Prize Value="2708" Index="1908" Frequency="1" ExtendedInfo="1908"/>
+      <Prize Value="1458" Index="1907" Frequency="2" ExtendedInfo="1907"/>
+      <Prize Value="2704" Index="1906" Frequency="2" ExtendedInfo="1906"/>
+      <Prize Value="1454" Index="1905" Frequency="2" ExtendedInfo="1905"/>
+      <Prize Value="1444" Index="1904" Frequency="2" ExtendedInfo="1904"/>
+      <Prize Value="1438" Index="1903" Frequency="6" ExtendedInfo="1903"/>
+      <Prize Value="2686" Index="1902" Frequency="2" ExtendedInfo="1902"/>
+      <Prize Value="2676" Index="1901" Frequency="1" ExtendedInfo="1901"/>
+      <Prize Value="2674" Index="1900" Frequency="1" ExtendedInfo="1900"/>
+      <Prize Value="2660" Index="1899" Frequency="1" ExtendedInfo="1899"/>
+      <Prize Value="2656" Index="1898" Frequency="1" ExtendedInfo="1898"/>
+      <Prize Value="1406" Index="1897" Frequency="2" ExtendedInfo="1897"/>
+      <Prize Value="2654" Index="1896" Frequency="1" ExtendedInfo="1896"/>
+      <Prize Value="2652" Index="1895" Frequency="1" ExtendedInfo="1895"/>
+      <Prize Value="2650" Index="1894" Frequency="1" ExtendedInfo="1894"/>
+      <Prize Value="1398" Index="1893" Frequency="2" ExtendedInfo="1893"/>
+      <Prize Value="2644" Index="1892" Frequency="1" ExtendedInfo="1892"/>
+      <Prize Value="2642" Index="1891" Frequency="2" ExtendedInfo="1891"/>
+      <Prize Value="1388" Index="1890" Frequency="2" ExtendedInfo="1890"/>
+      <Prize Value="1386" Index="1889" Frequency="2" ExtendedInfo="1889"/>
+      <Prize Value="2634" Index="1888" Frequency="1" ExtendedInfo="1888"/>
+      <Prize Value="1384" Index="1887" Frequency="2" ExtendedInfo="1887"/>
+      <Prize Value="1382" Index="1886" Frequency="2" ExtendedInfo="1886"/>
+      <Prize Value="1380" Index="1885" Frequency="2" ExtendedInfo="1885"/>
+      <Prize Value="1376" Index="1884" Frequency="2" ExtendedInfo="1884"/>
+      <Prize Value="2622" Index="1883" Frequency="1" ExtendedInfo="1883"/>
+      <Prize Value="1368" Index="1882" Frequency="2" ExtendedInfo="1882"/>
+      <Prize Value="1362" Index="1881" Frequency="2" ExtendedInfo="1881"/>
+      <Prize Value="2612" Index="1880" Frequency="2" ExtendedInfo="1880"/>
+      <Prize Value="1360" Index="1879" Frequency="4" ExtendedInfo="1879"/>
+      <Prize Value="1354" Index="1878" Frequency="2" ExtendedInfo="1878"/>
+      <Prize Value="2604" Index="1877" Frequency="1" ExtendedInfo="1877"/>
+      <Prize Value="2602" Index="1876" Frequency="1" ExtendedInfo="1876"/>
+      <Prize Value="1352" Index="1875" Frequency="2" ExtendedInfo="1875"/>
+      <Prize Value="1348" Index="1874" Frequency="2" ExtendedInfo="1874"/>
+      <Prize Value="2596" Index="1873" Frequency="2" ExtendedInfo="1873"/>
+      <Prize Value="1346" Index="1872" Frequency="4" ExtendedInfo="1872"/>
+      <Prize Value="2594" Index="1871" Frequency="2" ExtendedInfo="1871"/>
+      <Prize Value="2590" Index="1870" Frequency="1" ExtendedInfo="1870"/>
+      <Prize Value="1340" Index="1869" Frequency="2" ExtendedInfo="1869"/>
+      <Prize Value="2590" Index="1868" Frequency="1" ExtendedInfo="1868"/>
+      <Prize Value="2588" Index="1867" Frequency="1" ExtendedInfo="1867"/>
+      <Prize Value="1338" Index="1866" Frequency="2" ExtendedInfo="1866"/>
+      <Prize Value="2586" Index="1865" Frequency="1" ExtendedInfo="1865"/>
+      <Prize Value="1334" Index="1864" Frequency="2" ExtendedInfo="1864"/>
+      <Prize Value="2582" Index="1863" Frequency="3" ExtendedInfo="1863"/>
+      <Prize Value="1330" Index="1862" Frequency="2" ExtendedInfo="1862"/>
+      <Prize Value="1328" Index="1861" Frequency="3" ExtendedInfo="1861"/>
+      <Prize Value="1326" Index="1860" Frequency="2" ExtendedInfo="1860"/>
+      <Prize Value="2572" Index="1859" Frequency="2" ExtendedInfo="1859"/>
+      <Prize Value="1320" Index="1858" Frequency="2" ExtendedInfo="1858"/>
+      <Prize Value="2566" Index="1857" Frequency="1" ExtendedInfo="1857"/>
+      <Prize Value="2564" Index="1856" Frequency="2" ExtendedInfo="1856"/>
+      <Prize Value="1314" Index="1855" Frequency="2" ExtendedInfo="1855"/>
+      <Prize Value="2562" Index="1854" Frequency="1" ExtendedInfo="1854"/>
+      <Prize Value="1312" Index="1853" Frequency="2" ExtendedInfo="1853"/>
+      <Prize Value="2560" Index="1852" Frequency="2" ExtendedInfo="1852"/>
+      <Prize Value="1310" Index="1851" Frequency="3" ExtendedInfo="1851"/>
+      <Prize Value="1308" Index="1850" Frequency="2" ExtendedInfo="1850"/>
+      <Prize Value="1306" Index="1849" Frequency="2" ExtendedInfo="1849"/>
+      <Prize Value="2552" Index="1848" Frequency="1" ExtendedInfo="1848"/>
+      <Prize Value="2548" Index="1847" Frequency="1" ExtendedInfo="1847"/>
+      <Prize Value="1294" Index="1846" Frequency="4" ExtendedInfo="1846"/>
+      <Prize Value="2544" Index="1845" Frequency="1" ExtendedInfo="1845"/>
+      <Prize Value="2540" Index="1844" Frequency="1" ExtendedInfo="1844"/>
+      <Prize Value="2538" Index="1843" Frequency="1" ExtendedInfo="1843"/>
+      <Prize Value="2528" Index="1842" Frequency="1" ExtendedInfo="1842"/>
+      <Prize Value="1266" Index="1841" Frequency="2" ExtendedInfo="1841"/>
+      <Prize Value="2508" Index="1840" Frequency="1" ExtendedInfo="1840"/>
+      <Prize Value="2494" Index="1839" Frequency="1" ExtendedInfo="1839"/>
+      <Prize Value="2492" Index="1838" Frequency="1" ExtendedInfo="1838"/>
+      <Prize Value="2470" Index="1837" Frequency="1" ExtendedInfo="1837"/>
+      <Prize Value="2466" Index="1836" Frequency="1" ExtendedInfo="1836"/>
+      <Prize Value="2456" Index="1835" Frequency="1" ExtendedInfo="1835"/>
+      <Prize Value="2454" Index="1834" Frequency="1" ExtendedInfo="1834"/>
+      <Prize Value="2420" Index="1833" Frequency="2" ExtendedInfo="1833"/>
+      <Prize Value="2418" Index="1832" Frequency="1" ExtendedInfo="1832"/>
+      <Prize Value="1156" Index="1831" Frequency="2" ExtendedInfo="1831"/>
+      <Prize Value="2400" Index="1830" Frequency="1" ExtendedInfo="1830"/>
+      <Prize Value="1144" Index="1829" Frequency="2" ExtendedInfo="1829"/>
+      <Prize Value="2390" Index="1828" Frequency="2" ExtendedInfo="1828"/>
+      <Prize Value="1130" Index="1827" Frequency="2" ExtendedInfo="1827"/>
+      <Prize Value="2376" Index="1826" Frequency="1" ExtendedInfo="1826"/>
+      <Prize Value="2374" Index="1825" Frequency="1" ExtendedInfo="1825"/>
+      <Prize Value="1122" Index="1824" Frequency="4" ExtendedInfo="1824"/>
+      <Prize Value="2358" Index="1823" Frequency="1" ExtendedInfo="1823"/>
+      <Prize Value="2356" Index="1822" Frequency="1" ExtendedInfo="1822"/>
+      <Prize Value="2354" Index="1821" Frequency="1" ExtendedInfo="1821"/>
+      <Prize Value="2348" Index="1820" Frequency="1" ExtendedInfo="1820"/>
+      <Prize Value="1090" Index="1819" Frequency="6" ExtendedInfo="1819"/>
+      <Prize Value="2334" Index="1818" Frequency="1" ExtendedInfo="1818"/>
+      <Prize Value="2330" Index="1817" Frequency="1" ExtendedInfo="1817"/>
+      <Prize Value="2320" Index="1816" Frequency="2" ExtendedInfo="1816"/>
+      <Prize Value="2300" Index="1815" Frequency="5" ExtendedInfo="1815"/>
+      <Prize Value="2262" Index="1814" Frequency="1" ExtendedInfo="1814"/>
+      <Prize Value="2260" Index="1813" Frequency="1" ExtendedInfo="1813"/>
+      <Prize Value="2258" Index="1812" Frequency="2" ExtendedInfo="1812"/>
+      <Prize Value="2240" Index="1811" Frequency="1" ExtendedInfo="1811"/>
+      <Prize Value="2230" Index="1810" Frequency="3" ExtendedInfo="1810"/>
+      <Prize Value="2220" Index="1809" Frequency="2" ExtendedInfo="1809"/>
+      <Prize Value="2212" Index="1808" Frequency="1" ExtendedInfo="1808"/>
+      <Prize Value="2200" Index="1807" Frequency="3" ExtendedInfo="1807"/>
+      <Prize Value="2198" Index="1806" Frequency="1" ExtendedInfo="1806"/>
+      <Prize Value="2196" Index="1805" Frequency="1" ExtendedInfo="1805"/>
+      <Prize Value="2190" Index="1804" Frequency="1" ExtendedInfo="1804"/>
+      <Prize Value="2184" Index="1803" Frequency="3" ExtendedInfo="1803"/>
+      <Prize Value="2178" Index="1802" Frequency="2" ExtendedInfo="1802"/>
+      <Prize Value="2176" Index="1801" Frequency="1" ExtendedInfo="1801"/>
+      <Prize Value="2172" Index="1800" Frequency="2" ExtendedInfo="1800"/>
+      <Prize Value="2170" Index="1799" Frequency="2" ExtendedInfo="1799"/>
+      <Prize Value="2166" Index="1798" Frequency="1" ExtendedInfo="1798"/>
+      <Prize Value="2162" Index="1797" Frequency="2" ExtendedInfo="1797"/>
+      <Prize Value="2144" Index="1796" Frequency="1" ExtendedInfo="1796"/>
+      <Prize Value="2138" Index="1795" Frequency="3" ExtendedInfo="1795"/>
+      <Prize Value="886" Index="1794" Frequency="4" ExtendedInfo="1794"/>
+      <Prize Value="2130" Index="1793" Frequency="6" ExtendedInfo="1793"/>
+      <Prize Value="2112" Index="1792" Frequency="1" ExtendedInfo="1792"/>
+      <Prize Value="2110" Index="1791" Frequency="1" ExtendedInfo="1791"/>
+      <Prize Value="2102" Index="1790" Frequency="1" ExtendedInfo="1790"/>
+      <Prize Value="2100" Index="1789" Frequency="3" ExtendedInfo="1789"/>
+      <Prize Value="2094" Index="1788" Frequency="1" ExtendedInfo="1788"/>
+      <Prize Value="2090" Index="1787" Frequency="1" ExtendedInfo="1787"/>
+      <Prize Value="2080" Index="1786" Frequency="1" ExtendedInfo="1786"/>
+      <Prize Value="2078" Index="1785" Frequency="1" ExtendedInfo="1785"/>
+      <Prize Value="2074" Index="1784" Frequency="4" ExtendedInfo="1784"/>
+      <Prize Value="2070" Index="1783" Frequency="1" ExtendedInfo="1783"/>
+      <Prize Value="818" Index="1782" Frequency="2" ExtendedInfo="1782"/>
+      <Prize Value="2068" Index="1781" Frequency="1" ExtendedInfo="1781"/>
+      <Prize Value="2064" Index="1780" Frequency="2" ExtendedInfo="1780"/>
+      <Prize Value="2062" Index="1779" Frequency="1" ExtendedInfo="1779"/>
+      <Prize Value="2062" Index="1778" Frequency="1" ExtendedInfo="1778"/>
+      <Prize Value="2060" Index="1777" Frequency="1" ExtendedInfo="1777"/>
+      <Prize Value="2054" Index="1776" Frequency="2" ExtendedInfo="1776"/>
+      <Prize Value="804" Index="1775" Frequency="2" ExtendedInfo="1775"/>
+      <Prize Value="2052" Index="1774" Frequency="1" ExtendedInfo="1774"/>
+      <Prize Value="2044" Index="1773" Frequency="3" ExtendedInfo="1773"/>
+      <Prize Value="2042" Index="1772" Frequency="1" ExtendedInfo="1772"/>
+      <Prize Value="2038" Index="1771" Frequency="1" ExtendedInfo="1771"/>
+      <Prize Value="786" Index="1770" Frequency="2" ExtendedInfo="1770"/>
+      <Prize Value="2034" Index="1769" Frequency="3" ExtendedInfo="1769"/>
+      <Prize Value="2032" Index="1768" Frequency="1" ExtendedInfo="1768"/>
+      <Prize Value="2028" Index="1767" Frequency="3" ExtendedInfo="1767"/>
+      <Prize Value="776" Index="1766" Frequency="2" ExtendedInfo="1766"/>
+      <Prize Value="2024" Index="1765" Frequency="3" ExtendedInfo="1765"/>
+      <Prize Value="2024" Index="1764" Frequency="3" ExtendedInfo="1764"/>
+      <Prize Value="2020" Index="1763" Frequency="1" ExtendedInfo="1763"/>
+      <Prize Value="2018" Index="1762" Frequency="1" ExtendedInfo="1762"/>
+      <Prize Value="2016" Index="1761" Frequency="1" ExtendedInfo="1761"/>
+      <Prize Value="2008" Index="1760" Frequency="7" ExtendedInfo="1760"/>
+      <Prize Value="758" Index="1759" Frequency="2" ExtendedInfo="1759"/>
+      <Prize Value="2002" Index="1758" Frequency="1" ExtendedInfo="1758"/>
+      <Prize Value="2000" Index="1757" Frequency="3" ExtendedInfo="1757"/>
+      <Prize Value="2000" Index="1756" Frequency="2" ExtendedInfo="1756"/>
+      <Prize Value="1998" Index="1755" Frequency="2" ExtendedInfo="1755"/>
+      <Prize Value="1992" Index="1754" Frequency="1" ExtendedInfo="1754"/>
+      <Prize Value="1990" Index="1753" Frequency="1" ExtendedInfo="1753"/>
+      <Prize Value="1988" Index="1752" Frequency="2" ExtendedInfo="1752"/>
+      <Prize Value="1984" Index="1751" Frequency="2" ExtendedInfo="1751"/>
+      <Prize Value="1978" Index="1750" Frequency="1" ExtendedInfo="1750"/>
+      <Prize Value="1976" Index="1749" Frequency="1" ExtendedInfo="1749"/>
+      <Prize Value="1976" Index="1748" Frequency="1" ExtendedInfo="1748"/>
+      <Prize Value="1974" Index="1747" Frequency="4" ExtendedInfo="1747"/>
+      <Prize Value="1970" Index="1746" Frequency="5" ExtendedInfo="1746"/>
+      <Prize Value="720" Index="1745" Frequency="1" ExtendedInfo="1745"/>
+      <Prize Value="1968" Index="1744" Frequency="1" ExtendedInfo="1744"/>
+      <Prize Value="1964" Index="1743" Frequency="1" ExtendedInfo="1743"/>
+      <Prize Value="1962" Index="1742" Frequency="5" ExtendedInfo="1742"/>
+      <Prize Value="708" Index="1741" Frequency="1" ExtendedInfo="1741"/>
+      <Prize Value="1956" Index="1740" Frequency="1" ExtendedInfo="1740"/>
+      <Prize Value="1954" Index="1739" Frequency="2" ExtendedInfo="1739"/>
+      <Prize Value="1954" Index="1738" Frequency="1" ExtendedInfo="1738"/>
+      <Prize Value="1952" Index="1737" Frequency="1" ExtendedInfo="1737"/>
+      <Prize Value="702" Index="1736" Frequency="1" ExtendedInfo="1736"/>
+      <Prize Value="1950" Index="1735" Frequency="2" ExtendedInfo="1735"/>
+      <Prize Value="1948" Index="1734" Frequency="1" ExtendedInfo="1734"/>
+      <Prize Value="1944" Index="1733" Frequency="1" ExtendedInfo="1733"/>
+      <Prize Value="1942" Index="1732" Frequency="1" ExtendedInfo="1732"/>
+      <Prize Value="1940" Index="1731" Frequency="6" ExtendedInfo="1731"/>
+      <Prize Value="1940" Index="1730" Frequency="1" ExtendedInfo="1730"/>
+      <Prize Value="690" Index="1729" Frequency="3" ExtendedInfo="1729"/>
+      <Prize Value="1938" Index="1728" Frequency="1" ExtendedInfo="1728"/>
+      <Prize Value="1934" Index="1727" Frequency="4" ExtendedInfo="1727"/>
+      <Prize Value="1934" Index="1726" Frequency="1" ExtendedInfo="1726"/>
+      <Prize Value="1932" Index="1725" Frequency="1" ExtendedInfo="1725"/>
+      <Prize Value="682" Index="1724" Frequency="2" ExtendedInfo="1724"/>
+      <Prize Value="1930" Index="1723" Frequency="1" ExtendedInfo="1723"/>
+      <Prize Value="1926" Index="1722" Frequency="1" ExtendedInfo="1722"/>
+      <Prize Value="676" Index="1721" Frequency="2" ExtendedInfo="1721"/>
+      <Prize Value="1924" Index="1720" Frequency="2" ExtendedInfo="1720"/>
+      <Prize Value="1924" Index="1719" Frequency="4" ExtendedInfo="1719"/>
+      <Prize Value="1920" Index="1718" Frequency="3" ExtendedInfo="1718"/>
+      <Prize Value="1920" Index="1717" Frequency="1" ExtendedInfo="1717"/>
+      <Prize Value="1918" Index="1716" Frequency="1" ExtendedInfo="1716"/>
+      <Prize Value="666" Index="1715" Frequency="1" ExtendedInfo="1715"/>
+      <Prize Value="1914" Index="1714" Frequency="1" ExtendedInfo="1714"/>
+      <Prize Value="664" Index="1713" Frequency="1" ExtendedInfo="1713"/>
+      <Prize Value="1912" Index="1712" Frequency="1" ExtendedInfo="1712"/>
+      <Prize Value="662" Index="1711" Frequency="1" ExtendedInfo="1711"/>
+      <Prize Value="1912" Index="1710" Frequency="1" ExtendedInfo="1710"/>
+      <Prize Value="1910" Index="1709" Frequency="2" ExtendedInfo="1709"/>
+      <Prize Value="660" Index="1708" Frequency="1" ExtendedInfo="1708"/>
+      <Prize Value="658" Index="1707" Frequency="1" ExtendedInfo="1707"/>
+      <Prize Value="1908" Index="1706" Frequency="1" ExtendedInfo="1706"/>
+      <Prize Value="656" Index="1705" Frequency="2" ExtendedInfo="1705"/>
+      <Prize Value="1906" Index="1704" Frequency="2" ExtendedInfo="1704"/>
+      <Prize Value="1904" Index="1703" Frequency="3" ExtendedInfo="1703"/>
+      <Prize Value="1902" Index="1702" Frequency="1" ExtendedInfo="1702"/>
+      <Prize Value="652" Index="1701" Frequency="4" ExtendedInfo="1701"/>
+      <Prize Value="1900" Index="1700" Frequency="4" ExtendedInfo="1700"/>
+      <Prize Value="1900" Index="1699" Frequency="1" ExtendedInfo="1699"/>
+      <Prize Value="1898" Index="1698" Frequency="1" ExtendedInfo="1698"/>
+      <Prize Value="648" Index="1697" Frequency="1" ExtendedInfo="1697"/>
+      <Prize Value="1896" Index="1696" Frequency="3" ExtendedInfo="1696"/>
+      <Prize Value="646" Index="1695" Frequency="1" ExtendedInfo="1695"/>
+      <Prize Value="1894" Index="1694" Frequency="1" ExtendedInfo="1694"/>
+      <Prize Value="1892" Index="1693" Frequency="2" ExtendedInfo="1693"/>
+      <Prize Value="642" Index="1692" Frequency="1" ExtendedInfo="1692"/>
+      <Prize Value="1892" Index="1691" Frequency="1" ExtendedInfo="1691"/>
+      <Prize Value="1890" Index="1690" Frequency="2" ExtendedInfo="1690"/>
+      <Prize Value="640" Index="1689" Frequency="2" ExtendedInfo="1689"/>
+      <Prize Value="1888" Index="1688" Frequency="1" ExtendedInfo="1688"/>
+      <Prize Value="1888" Index="1687" Frequency="3" ExtendedInfo="1687"/>
+      <Prize Value="636" Index="1686" Frequency="1" ExtendedInfo="1686"/>
+      <Prize Value="1884" Index="1685" Frequency="1" ExtendedInfo="1685"/>
+      <Prize Value="634" Index="1684" Frequency="1" ExtendedInfo="1684"/>
+      <Prize Value="1882" Index="1683" Frequency="1" ExtendedInfo="1683"/>
+      <Prize Value="632" Index="1682" Frequency="1" ExtendedInfo="1682"/>
+      <Prize Value="1878" Index="1681" Frequency="3" ExtendedInfo="1681"/>
+      <Prize Value="628" Index="1680" Frequency="1" ExtendedInfo="1680"/>
+      <Prize Value="1876" Index="1679" Frequency="7" ExtendedInfo="1679"/>
+      <Prize Value="626" Index="1678" Frequency="2" ExtendedInfo="1678"/>
+      <Prize Value="1874" Index="1677" Frequency="1" ExtendedInfo="1677"/>
+      <Prize Value="1874" Index="1676" Frequency="1" ExtendedInfo="1676"/>
+      <Prize Value="1872" Index="1675" Frequency="3" ExtendedInfo="1675"/>
+      <Prize Value="622" Index="1674" Frequency="1" ExtendedInfo="1674"/>
+      <Prize Value="620" Index="1673" Frequency="1" ExtendedInfo="1673"/>
+      <Prize Value="1868" Index="1672" Frequency="2" ExtendedInfo="1672"/>
+      <Prize Value="1868" Index="1671" Frequency="7" ExtendedInfo="1671"/>
+      <Prize Value="618" Index="1670" Frequency="1" ExtendedInfo="1670"/>
+      <Prize Value="1866" Index="1669" Frequency="1" ExtendedInfo="1669"/>
+      <Prize Value="1866" Index="1668" Frequency="2" ExtendedInfo="1668"/>
+      <Prize Value="616" Index="1667" Frequency="2" ExtendedInfo="1667"/>
+      <Prize Value="1864" Index="1666" Frequency="4" ExtendedInfo="1666"/>
+      <Prize Value="614" Index="1665" Frequency="2" ExtendedInfo="1665"/>
+      <Prize Value="1862" Index="1664" Frequency="3" ExtendedInfo="1664"/>
+      <Prize Value="1860" Index="1663" Frequency="2" ExtendedInfo="1663"/>
+      <Prize Value="1860" Index="1662" Frequency="2" ExtendedInfo="1662"/>
+      <Prize Value="610" Index="1661" Frequency="1" ExtendedInfo="1661"/>
+      <Prize Value="1858" Index="1660" Frequency="3" ExtendedInfo="1660"/>
+      <Prize Value="1858" Index="1659" Frequency="1" ExtendedInfo="1659"/>
+      <Prize Value="604" Index="1658" Frequency="6" ExtendedInfo="1658"/>
+      <Prize Value="1854" Index="1657" Frequency="8" ExtendedInfo="1657"/>
+      <Prize Value="1852" Index="1656" Frequency="1" ExtendedInfo="1656"/>
+      <Prize Value="1852" Index="1655" Frequency="4" ExtendedInfo="1655"/>
+      <Prize Value="602" Index="1654" Frequency="1" ExtendedInfo="1654"/>
+      <Prize Value="1850" Index="1653" Frequency="3" ExtendedInfo="1653"/>
+      <Prize Value="600" Index="1652" Frequency="1" ExtendedInfo="1652"/>
+      <Prize Value="1850" Index="1651" Frequency="1" ExtendedInfo="1651"/>
+      <Prize Value="1848" Index="1650" Frequency="5" ExtendedInfo="1650"/>
+      <Prize Value="598" Index="1649" Frequency="1" ExtendedInfo="1649"/>
+      <Prize Value="1846" Index="1648" Frequency="7" ExtendedInfo="1648"/>
+      <Prize Value="596" Index="1647" Frequency="1" ExtendedInfo="1647"/>
+      <Prize Value="594" Index="1646" Frequency="1" ExtendedInfo="1646"/>
+      <Prize Value="1842" Index="1645" Frequency="3" ExtendedInfo="1645"/>
+      <Prize Value="592" Index="1644" Frequency="4" ExtendedInfo="1644"/>
+      <Prize Value="1840" Index="1643" Frequency="3" ExtendedInfo="1643"/>
+      <Prize Value="1840" Index="1642" Frequency="3" ExtendedInfo="1642"/>
+      <Prize Value="590" Index="1641" Frequency="5" ExtendedInfo="1641"/>
+      <Prize Value="1838" Index="1640" Frequency="2" ExtendedInfo="1640"/>
+      <Prize Value="1838" Index="1639" Frequency="5" ExtendedInfo="1639"/>
+      <Prize Value="1836" Index="1638" Frequency="1" ExtendedInfo="1638"/>
+      <Prize Value="586" Index="1637" Frequency="3" ExtendedInfo="1637"/>
+      <Prize Value="1834" Index="1636" Frequency="1" ExtendedInfo="1636"/>
+      <Prize Value="584" Index="1635" Frequency="6" ExtendedInfo="1635"/>
+      <Prize Value="1834" Index="1634" Frequency="2" ExtendedInfo="1634"/>
+      <Prize Value="1832" Index="1633" Frequency="6" ExtendedInfo="1633"/>
+      <Prize Value="1830" Index="1632" Frequency="7" ExtendedInfo="1632"/>
+      <Prize Value="580" Index="1631" Frequency="3" ExtendedInfo="1631"/>
+      <Prize Value="578" Index="1630" Frequency="4" ExtendedInfo="1630"/>
+      <Prize Value="1828" Index="1629" Frequency="2" ExtendedInfo="1629"/>
+      <Prize Value="1826" Index="1628" Frequency="1" ExtendedInfo="1628"/>
+      <Prize Value="1826" Index="1627" Frequency="4" ExtendedInfo="1627"/>
+      <Prize Value="576" Index="1626" Frequency="2" ExtendedInfo="1626"/>
+      <Prize Value="1824" Index="1625" Frequency="1" ExtendedInfo="1625"/>
+      <Prize Value="1824" Index="1624" Frequency="7" ExtendedInfo="1624"/>
+      <Prize Value="1820" Index="1623" Frequency="5" ExtendedInfo="1623"/>
+      <Prize Value="1820" Index="1622" Frequency="4" ExtendedInfo="1622"/>
+      <Prize Value="1818" Index="1621" Frequency="2" ExtendedInfo="1621"/>
+      <Prize Value="568" Index="1620" Frequency="4" ExtendedInfo="1620"/>
+      <Prize Value="1818" Index="1619" Frequency="2" ExtendedInfo="1619"/>
+      <Prize Value="566" Index="1618" Frequency="1" ExtendedInfo="1618"/>
+      <Prize Value="1816" Index="1617" Frequency="3" ExtendedInfo="1617"/>
+      <Prize Value="1814" Index="1616" Frequency="2" ExtendedInfo="1616"/>
+      <Prize Value="1814" Index="1615" Frequency="3" ExtendedInfo="1615"/>
+      <Prize Value="564" Index="1614" Frequency="1" ExtendedInfo="1614"/>
+      <Prize Value="1812" Index="1613" Frequency="2" ExtendedInfo="1613"/>
+      <Prize Value="562" Index="1612" Frequency="1" ExtendedInfo="1612"/>
+      <Prize Value="1812" Index="1611" Frequency="1" ExtendedInfo="1611"/>
+      <Prize Value="1810" Index="1610" Frequency="3" ExtendedInfo="1610"/>
+      <Prize Value="1810" Index="1609" Frequency="7" ExtendedInfo="1609"/>
+      <Prize Value="560" Index="1608" Frequency="4" ExtendedInfo="1608"/>
+      <Prize Value="1808" Index="1607" Frequency="3" ExtendedInfo="1607"/>
+      <Prize Value="1808" Index="1606" Frequency="3" ExtendedInfo="1606"/>
+      <Prize Value="1806" Index="1605" Frequency="2" ExtendedInfo="1605"/>
+      <Prize Value="1806" Index="1604" Frequency="6" ExtendedInfo="1604"/>
+      <Prize Value="556" Index="1603" Frequency="4" ExtendedInfo="1603"/>
+      <Prize Value="1804" Index="1602" Frequency="4" ExtendedInfo="1602"/>
+      <Prize Value="1802" Index="1601" Frequency="3" ExtendedInfo="1601"/>
+      <Prize Value="1800" Index="1600" Frequency="1" ExtendedInfo="1600"/>
+      <Prize Value="1800" Index="1599" Frequency="3" ExtendedInfo="1599"/>
+      <Prize Value="1798" Index="1598" Frequency="1" ExtendedInfo="1598"/>
+      <Prize Value="1796" Index="1597" Frequency="2" ExtendedInfo="1597"/>
+      <Prize Value="1794" Index="1596" Frequency="3" ExtendedInfo="1596"/>
+      <Prize Value="1794" Index="1595" Frequency="1" ExtendedInfo="1595"/>
+      <Prize Value="1792" Index="1594" Frequency="3" ExtendedInfo="1594"/>
+      <Prize Value="1792" Index="1593" Frequency="1" ExtendedInfo="1593"/>
+      <Prize Value="1790" Index="1592" Frequency="9" ExtendedInfo="1592"/>
+      <Prize Value="1790" Index="1591" Frequency="2" ExtendedInfo="1591"/>
+      <Prize Value="534" Index="1590" Frequency="1" ExtendedInfo="1590"/>
+      <Prize Value="1782" Index="1589" Frequency="3" ExtendedInfo="1589"/>
+      <Prize Value="532" Index="1588" Frequency="1" ExtendedInfo="1588"/>
+      <Prize Value="1780" Index="1587" Frequency="2" ExtendedInfo="1587"/>
+      <Prize Value="1778" Index="1586" Frequency="2" ExtendedInfo="1586"/>
+      <Prize Value="1776" Index="1585" Frequency="1" ExtendedInfo="1585"/>
+      <Prize Value="1774" Index="1584" Frequency="2" ExtendedInfo="1584"/>
+      <Prize Value="1772" Index="1583" Frequency="1" ExtendedInfo="1583"/>
+      <Prize Value="1770" Index="1582" Frequency="3" ExtendedInfo="1582"/>
+      <Prize Value="1768" Index="1581" Frequency="4" ExtendedInfo="1581"/>
+      <Prize Value="1768" Index="1580" Frequency="1" ExtendedInfo="1580"/>
+      <Prize Value="1760" Index="1579" Frequency="1" ExtendedInfo="1579"/>
+      <Prize Value="1758" Index="1578" Frequency="1" ExtendedInfo="1578"/>
+      <Prize Value="1756" Index="1577" Frequency="5" ExtendedInfo="1577"/>
+      <Prize Value="1750" Index="1576" Frequency="5" ExtendedInfo="1576"/>
+      <Prize Value="1748" Index="1575" Frequency="1" ExtendedInfo="1575"/>
+      <Prize Value="1746" Index="1574" Frequency="1" ExtendedInfo="1574"/>
+      <Prize Value="1744" Index="1573" Frequency="10" ExtendedInfo="1573"/>
+      <Prize Value="494" Index="1572" Frequency="3" ExtendedInfo="1572"/>
+      <Prize Value="1740" Index="1571" Frequency="1" ExtendedInfo="1571"/>
+      <Prize Value="490" Index="1570" Frequency="1" ExtendedInfo="1570"/>
+      <Prize Value="1738" Index="1569" Frequency="3" ExtendedInfo="1569"/>
+      <Prize Value="1734" Index="1568" Frequency="1" ExtendedInfo="1568"/>
+      <Prize Value="1732" Index="1567" Frequency="2" ExtendedInfo="1567"/>
+      <Prize Value="1730" Index="1566" Frequency="7" ExtendedInfo="1566"/>
+      <Prize Value="1730" Index="1565" Frequency="1" ExtendedInfo="1565"/>
+      <Prize Value="1728" Index="1564" Frequency="4" ExtendedInfo="1564"/>
+      <Prize Value="1726" Index="1563" Frequency="1" ExtendedInfo="1563"/>
+      <Prize Value="1726" Index="1562" Frequency="1" ExtendedInfo="1562"/>
+      <Prize Value="1724" Index="1561" Frequency="6" ExtendedInfo="1561"/>
+      <Prize Value="1722" Index="1560" Frequency="2" ExtendedInfo="1560"/>
+      <Prize Value="1720" Index="1559" Frequency="10" ExtendedInfo="1559"/>
+      <Prize Value="1714" Index="1558" Frequency="2" ExtendedInfo="1558"/>
+      <Prize Value="1710" Index="1557" Frequency="4" ExtendedInfo="1557"/>
+      <Prize Value="1708" Index="1556" Frequency="5" ExtendedInfo="1556"/>
+      <Prize Value="1706" Index="1555" Frequency="1" ExtendedInfo="1555"/>
+      <Prize Value="1704" Index="1554" Frequency="3" ExtendedInfo="1554"/>
+      <Prize Value="1700" Index="1553" Frequency="3" ExtendedInfo="1553"/>
+      <Prize Value="1698" Index="1552" Frequency="2" ExtendedInfo="1552"/>
+      <Prize Value="446" Index="1551" Frequency="3" ExtendedInfo="1551"/>
+      <Prize Value="1694" Index="1550" Frequency="6" ExtendedInfo="1550"/>
+      <Prize Value="1690" Index="1549" Frequency="5" ExtendedInfo="1549"/>
+      <Prize Value="1688" Index="1548" Frequency="3" ExtendedInfo="1548"/>
+      <Prize Value="1686" Index="1547" Frequency="3" ExtendedInfo="1547"/>
+      <Prize Value="1684" Index="1546" Frequency="4" ExtendedInfo="1546"/>
+      <Prize Value="1680" Index="1545" Frequency="3" ExtendedInfo="1545"/>
+      <Prize Value="1680" Index="1544" Frequency="1" ExtendedInfo="1544"/>
+      <Prize Value="1678" Index="1543" Frequency="2" ExtendedInfo="1543"/>
+      <Prize Value="1676" Index="1542" Frequency="1" ExtendedInfo="1542"/>
+      <Prize Value="426" Index="1541" Frequency="1" ExtendedInfo="1541"/>
+      <Prize Value="1674" Index="1540" Frequency="3" ExtendedInfo="1540"/>
+      <Prize Value="1672" Index="1539" Frequency="1" ExtendedInfo="1539"/>
+      <Prize Value="1670" Index="1538" Frequency="6" ExtendedInfo="1538"/>
+      <Prize Value="1668" Index="1537" Frequency="2" ExtendedInfo="1537"/>
+      <Prize Value="418" Index="1536" Frequency="1" ExtendedInfo="1536"/>
+      <Prize Value="1664" Index="1535" Frequency="2" ExtendedInfo="1535"/>
+      <Prize Value="1664" Index="1534" Frequency="2" ExtendedInfo="1534"/>
+      <Prize Value="1662" Index="1533" Frequency="7" ExtendedInfo="1533"/>
+      <Prize Value="410" Index="1532" Frequency="1" ExtendedInfo="1532"/>
+      <Prize Value="1658" Index="1531" Frequency="2" ExtendedInfo="1531"/>
+      <Prize Value="1656" Index="1530" Frequency="2" ExtendedInfo="1530"/>
+      <Prize Value="1656" Index="1529" Frequency="2" ExtendedInfo="1529"/>
+      <Prize Value="1654" Index="1528" Frequency="1" ExtendedInfo="1528"/>
+      <Prize Value="404" Index="1527" Frequency="1" ExtendedInfo="1527"/>
+      <Prize Value="1652" Index="1526" Frequency="2" ExtendedInfo="1526"/>
+      <Prize Value="402" Index="1525" Frequency="1" ExtendedInfo="1525"/>
+      <Prize Value="1650" Index="1524" Frequency="5" ExtendedInfo="1524"/>
+      <Prize Value="1650" Index="1523" Frequency="1" ExtendedInfo="1523"/>
+      <Prize Value="1648" Index="1522" Frequency="2" ExtendedInfo="1522"/>
+      <Prize Value="398" Index="1521" Frequency="1" ExtendedInfo="1521"/>
+      <Prize Value="1644" Index="1520" Frequency="4" ExtendedInfo="1520"/>
+      <Prize Value="1642" Index="1519" Frequency="1" ExtendedInfo="1519"/>
+      <Prize Value="392" Index="1518" Frequency="2" ExtendedInfo="1518"/>
+      <Prize Value="1642" Index="1517" Frequency="2" ExtendedInfo="1517"/>
+      <Prize Value="1640" Index="1516" Frequency="7" ExtendedInfo="1516"/>
+      <Prize Value="1640" Index="1515" Frequency="1" ExtendedInfo="1515"/>
+      <Prize Value="1638" Index="1514" Frequency="2" ExtendedInfo="1514"/>
+      <Prize Value="1634" Index="1513" Frequency="9" ExtendedInfo="1513"/>
+      <Prize Value="1634" Index="1512" Frequency="1" ExtendedInfo="1512"/>
+      <Prize Value="384" Index="1511" Frequency="1" ExtendedInfo="1511"/>
+      <Prize Value="382" Index="1510" Frequency="1" ExtendedInfo="1510"/>
+      <Prize Value="1632" Index="1509" Frequency="1" ExtendedInfo="1509"/>
+      <Prize Value="1630" Index="1508" Frequency="4" ExtendedInfo="1508"/>
+      <Prize Value="1628" Index="1507" Frequency="2" ExtendedInfo="1507"/>
+      <Prize Value="1628" Index="1506" Frequency="2" ExtendedInfo="1506"/>
+      <Prize Value="1626" Index="1505" Frequency="2" ExtendedInfo="1505"/>
+      <Prize Value="1624" Index="1504" Frequency="3" ExtendedInfo="1504"/>
+      <Prize Value="1622" Index="1503" Frequency="2" ExtendedInfo="1503"/>
+      <Prize Value="1622" Index="1502" Frequency="3" ExtendedInfo="1502"/>
+      <Prize Value="1620" Index="1501" Frequency="5" ExtendedInfo="1501"/>
+      <Prize Value="1620" Index="1500" Frequency="1" ExtendedInfo="1500"/>
+      <Prize Value="370" Index="1499" Frequency="2" ExtendedInfo="1499"/>
+      <Prize Value="1618" Index="1498" Frequency="2" ExtendedInfo="1498"/>
+      <Prize Value="1616" Index="1497" Frequency="2" ExtendedInfo="1497"/>
+      <Prize Value="1614" Index="1496" Frequency="4" ExtendedInfo="1496"/>
+      <Prize Value="1614" Index="1495" Frequency="1" ExtendedInfo="1495"/>
+      <Prize Value="364" Index="1494" Frequency="1" ExtendedInfo="1494"/>
+      <Prize Value="1612" Index="1493" Frequency="1" ExtendedInfo="1493"/>
+      <Prize Value="1612" Index="1492" Frequency="1" ExtendedInfo="1492"/>
+      <Prize Value="1610" Index="1491" Frequency="3" ExtendedInfo="1491"/>
+      <Prize Value="360" Index="1490" Frequency="1" ExtendedInfo="1490"/>
+      <Prize Value="1608" Index="1489" Frequency="2" ExtendedInfo="1489"/>
+      <Prize Value="1606" Index="1488" Frequency="2" ExtendedInfo="1488"/>
+      <Prize Value="1606" Index="1487" Frequency="6" ExtendedInfo="1487"/>
+      <Prize Value="1604" Index="1486" Frequency="2" ExtendedInfo="1486"/>
+      <Prize Value="354" Index="1485" Frequency="1" ExtendedInfo="1485"/>
+      <Prize Value="1602" Index="1484" Frequency="1" ExtendedInfo="1484"/>
+      <Prize Value="1602" Index="1483" Frequency="2" ExtendedInfo="1483"/>
+      <Prize Value="352" Index="1482" Frequency="2" ExtendedInfo="1482"/>
+      <Prize Value="1600" Index="1481" Frequency="4" ExtendedInfo="1481"/>
+      <Prize Value="1600" Index="1480" Frequency="2" ExtendedInfo="1480"/>
+      <Prize Value="1598" Index="1479" Frequency="2" ExtendedInfo="1479"/>
+      <Prize Value="348" Index="1478" Frequency="1" ExtendedInfo="1478"/>
+      <Prize Value="1598" Index="1477" Frequency="2" ExtendedInfo="1477"/>
+      <Prize Value="1596" Index="1476" Frequency="1" ExtendedInfo="1476"/>
+      <Prize Value="346" Index="1475" Frequency="3" ExtendedInfo="1475"/>
+      <Prize Value="1596" Index="1474" Frequency="2" ExtendedInfo="1474"/>
+      <Prize Value="1594" Index="1473" Frequency="4" ExtendedInfo="1473"/>
+      <Prize Value="1594" Index="1472" Frequency="5" ExtendedInfo="1472"/>
+      <Prize Value="1592" Index="1471" Frequency="1" ExtendedInfo="1471"/>
+      <Prize Value="342" Index="1470" Frequency="1" ExtendedInfo="1470"/>
+      <Prize Value="1590" Index="1469" Frequency="14" ExtendedInfo="1469"/>
+      <Prize Value="1590" Index="1468" Frequency="1" ExtendedInfo="1468"/>
+      <Prize Value="340" Index="1467" Frequency="2" ExtendedInfo="1467"/>
+      <Prize Value="1588" Index="1466" Frequency="3" ExtendedInfo="1466"/>
+      <Prize Value="1586" Index="1465" Frequency="1" ExtendedInfo="1465"/>
+      <Prize Value="1586" Index="1464" Frequency="1" ExtendedInfo="1464"/>
+      <Prize Value="336" Index="1463" Frequency="2" ExtendedInfo="1463"/>
+      <Prize Value="1584" Index="1462" Frequency="5" ExtendedInfo="1462"/>
+      <Prize Value="1584" Index="1461" Frequency="1" ExtendedInfo="1461"/>
+      <Prize Value="1582" Index="1460" Frequency="3" ExtendedInfo="1460"/>
+      <Prize Value="1582" Index="1459" Frequency="2" ExtendedInfo="1459"/>
+      <Prize Value="332" Index="1458" Frequency="4" ExtendedInfo="1458"/>
+      <Prize Value="1580" Index="1457" Frequency="1" ExtendedInfo="1457"/>
+      <Prize Value="1578" Index="1456" Frequency="6" ExtendedInfo="1456"/>
+      <Prize Value="1578" Index="1455" Frequency="2" ExtendedInfo="1455"/>
+      <Prize Value="328" Index="1454" Frequency="1" ExtendedInfo="1454"/>
+      <Prize Value="1576" Index="1453" Frequency="5" ExtendedInfo="1453"/>
+      <Prize Value="326" Index="1452" Frequency="3" ExtendedInfo="1452"/>
+      <Prize Value="1574" Index="1451" Frequency="2" ExtendedInfo="1451"/>
+      <Prize Value="324" Index="1450" Frequency="4" ExtendedInfo="1450"/>
+      <Prize Value="1574" Index="1449" Frequency="7" ExtendedInfo="1449"/>
+      <Prize Value="322" Index="1448" Frequency="2" ExtendedInfo="1448"/>
+      <Prize Value="1572" Index="1447" Frequency="1" ExtendedInfo="1447"/>
+      <Prize Value="1570" Index="1446" Frequency="4" ExtendedInfo="1446"/>
+      <Prize Value="320" Index="1445" Frequency="2" ExtendedInfo="1445"/>
+      <Prize Value="1570" Index="1444" Frequency="3" ExtendedInfo="1444"/>
+      <Prize Value="1568" Index="1443" Frequency="8" ExtendedInfo="1443"/>
+      <Prize Value="1568" Index="1442" Frequency="4" ExtendedInfo="1442"/>
+      <Prize Value="316" Index="1441" Frequency="1" ExtendedInfo="1441"/>
+      <Prize Value="1566" Index="1440" Frequency="6" ExtendedInfo="1440"/>
+      <Prize Value="1564" Index="1439" Frequency="10" ExtendedInfo="1439"/>
+      <Prize Value="314" Index="1438" Frequency="3" ExtendedInfo="1438"/>
+      <Prize Value="1562" Index="1437" Frequency="7" ExtendedInfo="1437"/>
+      <Prize Value="312" Index="1436" Frequency="3" ExtendedInfo="1436"/>
+      <Prize Value="1560" Index="1435" Frequency="7" ExtendedInfo="1435"/>
+      <Prize Value="1558" Index="1434" Frequency="3" ExtendedInfo="1434"/>
+      <Prize Value="308" Index="1433" Frequency="10" ExtendedInfo="1433"/>
+      <Prize Value="1558" Index="1432" Frequency="11" ExtendedInfo="1432"/>
+      <Prize Value="1556" Index="1431" Frequency="3" ExtendedInfo="1431"/>
+      <Prize Value="1554" Index="1430" Frequency="5" ExtendedInfo="1430"/>
+      <Prize Value="304" Index="1429" Frequency="2" ExtendedInfo="1429"/>
+      <Prize Value="1552" Index="1428" Frequency="4" ExtendedInfo="1428"/>
+      <Prize Value="1552" Index="1427" Frequency="2" ExtendedInfo="1427"/>
+      <Prize Value="302" Index="1426" Frequency="2" ExtendedInfo="1426"/>
+      <Prize Value="1550" Index="1425" Frequency="5" ExtendedInfo="1425"/>
+      <Prize Value="300" Index="1424" Frequency="6" ExtendedInfo="1424"/>
+      <Prize Value="1550" Index="1423" Frequency="3" ExtendedInfo="1423"/>
+      <Prize Value="298" Index="1422" Frequency="1" ExtendedInfo="1422"/>
+      <Prize Value="1548" Index="1421" Frequency="7" ExtendedInfo="1421"/>
+      <Prize Value="296" Index="1420" Frequency="3" ExtendedInfo="1420"/>
+      <Prize Value="1546" Index="1419" Frequency="3" ExtendedInfo="1419"/>
+      <Prize Value="1544" Index="1418" Frequency="6" ExtendedInfo="1418"/>
+      <Prize Value="1544" Index="1417" Frequency="2" ExtendedInfo="1417"/>
+      <Prize Value="294" Index="1416" Frequency="4" ExtendedInfo="1416"/>
+      <Prize Value="292" Index="1415" Frequency="5" ExtendedInfo="1415"/>
+      <Prize Value="1542" Index="1414" Frequency="3" ExtendedInfo="1414"/>
+      <Prize Value="1540" Index="1413" Frequency="4" ExtendedInfo="1413"/>
+      <Prize Value="290" Index="1412" Frequency="2" ExtendedInfo="1412"/>
+      <Prize Value="1540" Index="1411" Frequency="2" ExtendedInfo="1411"/>
+      <Prize Value="1538" Index="1410" Frequency="2" ExtendedInfo="1410"/>
+      <Prize Value="288" Index="1409" Frequency="2" ExtendedInfo="1409"/>
+      <Prize Value="1538" Index="1408" Frequency="3" ExtendedInfo="1408"/>
+      <Prize Value="1536" Index="1407" Frequency="4" ExtendedInfo="1407"/>
+      <Prize Value="286" Index="1406" Frequency="7" ExtendedInfo="1406"/>
+      <Prize Value="1534" Index="1405" Frequency="4" ExtendedInfo="1405"/>
+      <Prize Value="1534" Index="1404" Frequency="3" ExtendedInfo="1404"/>
+      <Prize Value="1532" Index="1403" Frequency="1" ExtendedInfo="1403"/>
+      <Prize Value="1532" Index="1402" Frequency="6" ExtendedInfo="1402"/>
+      <Prize Value="1530" Index="1401" Frequency="3" ExtendedInfo="1401"/>
+      <Prize Value="1528" Index="1400" Frequency="4" ExtendedInfo="1400"/>
+      <Prize Value="1528" Index="1399" Frequency="10" ExtendedInfo="1399"/>
+      <Prize Value="278" Index="1398" Frequency="2" ExtendedInfo="1398"/>
+      <Prize Value="1526" Index="1397" Frequency="2" ExtendedInfo="1397"/>
+      <Prize Value="276" Index="1396" Frequency="2" ExtendedInfo="1396"/>
+      <Prize Value="1524" Index="1395" Frequency="4" ExtendedInfo="1395"/>
+      <Prize Value="274" Index="1394" Frequency="4" ExtendedInfo="1394"/>
+      <Prize Value="1524" Index="1393" Frequency="1" ExtendedInfo="1393"/>
+      <Prize Value="1522" Index="1392" Frequency="3" ExtendedInfo="1392"/>
+      <Prize Value="1522" Index="1391" Frequency="7" ExtendedInfo="1391"/>
+      <Prize Value="272" Index="1390" Frequency="6" ExtendedInfo="1390"/>
+      <Prize Value="1520" Index="1389" Frequency="6" ExtendedInfo="1389"/>
+      <Prize Value="1520" Index="1388" Frequency="2" ExtendedInfo="1388"/>
+      <Prize Value="1518" Index="1387" Frequency="2" ExtendedInfo="1387"/>
+      <Prize Value="1518" Index="1386" Frequency="3" ExtendedInfo="1386"/>
+      <Prize Value="268" Index="1385" Frequency="2" ExtendedInfo="1385"/>
+      <Prize Value="1516" Index="1384" Frequency="5" ExtendedInfo="1384"/>
+      <Prize Value="1514" Index="1383" Frequency="4" ExtendedInfo="1383"/>
+      <Prize Value="1514" Index="1382" Frequency="6" ExtendedInfo="1382"/>
+      <Prize Value="1512" Index="1381" Frequency="4" ExtendedInfo="1381"/>
+      <Prize Value="262" Index="1380" Frequency="6" ExtendedInfo="1380"/>
+      <Prize Value="1510" Index="1379" Frequency="10" ExtendedInfo="1379"/>
+      <Prize Value="1510" Index="1378" Frequency="3" ExtendedInfo="1378"/>
+      <Prize Value="1508" Index="1377" Frequency="7" ExtendedInfo="1377"/>
+      <Prize Value="1508" Index="1376" Frequency="4" ExtendedInfo="1376"/>
+      <Prize Value="256" Index="1375" Frequency="2" ExtendedInfo="1375"/>
+      <Prize Value="1506" Index="1374" Frequency="4" ExtendedInfo="1374"/>
+      <Prize Value="1504" Index="1373" Frequency="5" ExtendedInfo="1373"/>
+      <Prize Value="254" Index="1372" Frequency="3" ExtendedInfo="1372"/>
+      <Prize Value="1504" Index="1371" Frequency="4" ExtendedInfo="1371"/>
+      <Prize Value="1502" Index="1370" Frequency="3" ExtendedInfo="1370"/>
+      <Prize Value="252" Index="1369" Frequency="3" ExtendedInfo="1369"/>
+      <Prize Value="1502" Index="1368" Frequency="3" ExtendedInfo="1368"/>
+      <Prize Value="1500" Index="1367" Frequency="7" ExtendedInfo="1367"/>
+      <Prize Value="1500" Index="1366" Frequency="3" ExtendedInfo="1366"/>
+      <Prize Value="250" Index="1365" Frequency="7" ExtendedInfo="1365"/>
+      <Prize Value="1498" Index="1364" Frequency="6" ExtendedInfo="1364"/>
+      <Prize Value="1498" Index="1363" Frequency="6" ExtendedInfo="1363"/>
+      <Prize Value="1496" Index="1362" Frequency="2" ExtendedInfo="1362"/>
+      <Prize Value="246" Index="1361" Frequency="1" ExtendedInfo="1361"/>
+      <Prize Value="1494" Index="1360" Frequency="2" ExtendedInfo="1360"/>
+      <Prize Value="1494" Index="1359" Frequency="3" ExtendedInfo="1359"/>
+      <Prize Value="1492" Index="1358" Frequency="2" ExtendedInfo="1358"/>
+      <Prize Value="242" Index="1357" Frequency="3" ExtendedInfo="1357"/>
+      <Prize Value="1492" Index="1356" Frequency="4" ExtendedInfo="1356"/>
+      <Prize Value="1490" Index="1355" Frequency="9" ExtendedInfo="1355"/>
+      <Prize Value="240" Index="1354" Frequency="2" ExtendedInfo="1354"/>
+      <Prize Value="238" Index="1353" Frequency="1" ExtendedInfo="1353"/>
+      <Prize Value="1488" Index="1352" Frequency="6" ExtendedInfo="1352"/>
+      <Prize Value="236" Index="1351" Frequency="2" ExtendedInfo="1351"/>
+      <Prize Value="1486" Index="1350" Frequency="1" ExtendedInfo="1350"/>
+      <Prize Value="1484" Index="1349" Frequency="10" ExtendedInfo="1349"/>
+      <Prize Value="1484" Index="1348" Frequency="5" ExtendedInfo="1348"/>
+      <Prize Value="1482" Index="1347" Frequency="6" ExtendedInfo="1347"/>
+      <Prize Value="232" Index="1346" Frequency="5" ExtendedInfo="1346"/>
+      <Prize Value="1480" Index="1345" Frequency="7" ExtendedInfo="1345"/>
+      <Prize Value="230" Index="1344" Frequency="1" ExtendedInfo="1344"/>
+      <Prize Value="1478" Index="1343" Frequency="7" ExtendedInfo="1343"/>
+      <Prize Value="1476" Index="1342" Frequency="5" ExtendedInfo="1342"/>
+      <Prize Value="226" Index="1341" Frequency="7" ExtendedInfo="1341"/>
+      <Prize Value="1476" Index="1340" Frequency="5" ExtendedInfo="1340"/>
+      <Prize Value="1474" Index="1339" Frequency="8" ExtendedInfo="1339"/>
+      <Prize Value="1474" Index="1338" Frequency="1" ExtendedInfo="1338"/>
+      <Prize Value="224" Index="1337" Frequency="3" ExtendedInfo="1337"/>
+      <Prize Value="1472" Index="1336" Frequency="12" ExtendedInfo="1336"/>
+      <Prize Value="222" Index="1335" Frequency="1" ExtendedInfo="1335"/>
+      <Prize Value="1470" Index="1334" Frequency="11" ExtendedInfo="1334"/>
+      <Prize Value="220" Index="1333" Frequency="4" ExtendedInfo="1333"/>
+      <Prize Value="1468" Index="1332" Frequency="4" ExtendedInfo="1332"/>
+      <Prize Value="1468" Index="1331" Frequency="5" ExtendedInfo="1331"/>
+      <Prize Value="1466" Index="1330" Frequency="2" ExtendedInfo="1330"/>
+      <Prize Value="1466" Index="1329" Frequency="1" ExtendedInfo="1329"/>
+      <Prize Value="1464" Index="1328" Frequency="9" ExtendedInfo="1328"/>
+      <Prize Value="1464" Index="1327" Frequency="4" ExtendedInfo="1327"/>
+      <Prize Value="214" Index="1326" Frequency="14" ExtendedInfo="1326"/>
+      <Prize Value="1462" Index="1325" Frequency="2" ExtendedInfo="1325"/>
+      <Prize Value="212" Index="1324" Frequency="6" ExtendedInfo="1324"/>
+      <Prize Value="210" Index="1323" Frequency="2" ExtendedInfo="1323"/>
+      <Prize Value="1460" Index="1322" Frequency="17" ExtendedInfo="1322"/>
+      <Prize Value="1458" Index="1321" Frequency="8" ExtendedInfo="1321"/>
+      <Prize Value="1458" Index="1320" Frequency="3" ExtendedInfo="1320"/>
+      <Prize Value="208" Index="1319" Frequency="4" ExtendedInfo="1319"/>
+      <Prize Value="1456" Index="1318" Frequency="5" ExtendedInfo="1318"/>
+      <Prize Value="1456" Index="1317" Frequency="2" ExtendedInfo="1317"/>
+      <Prize Value="1454" Index="1316" Frequency="8" ExtendedInfo="1316"/>
+      <Prize Value="204" Index="1315" Frequency="6" ExtendedInfo="1315"/>
+      <Prize Value="1454" Index="1314" Frequency="7" ExtendedInfo="1314"/>
+      <Prize Value="1452" Index="1313" Frequency="4" ExtendedInfo="1313"/>
+      <Prize Value="1452" Index="1312" Frequency="10" ExtendedInfo="1312"/>
+      <Prize Value="202" Index="1311" Frequency="4" ExtendedInfo="1311"/>
+      <Prize Value="1450" Index="1310" Frequency="12" ExtendedInfo="1310"/>
+      <Prize Value="200" Index="1309" Frequency="3" ExtendedInfo="1309"/>
+      <Prize Value="1450" Index="1308" Frequency="6" ExtendedInfo="1308"/>
+      <Prize Value="1448" Index="1307" Frequency="4" ExtendedInfo="1307"/>
+      <Prize Value="198" Index="1306" Frequency="10" ExtendedInfo="1306"/>
+      <Prize Value="1446" Index="1305" Frequency="5" ExtendedInfo="1305"/>
+      <Prize Value="1446" Index="1304" Frequency="12" ExtendedInfo="1304"/>
+      <Prize Value="1444" Index="1303" Frequency="4" ExtendedInfo="1303"/>
+      <Prize Value="1444" Index="1302" Frequency="5" ExtendedInfo="1302"/>
+      <Prize Value="194" Index="1301" Frequency="4" ExtendedInfo="1301"/>
+      <Prize Value="192" Index="1300" Frequency="5" ExtendedInfo="1300"/>
+      <Prize Value="1442" Index="1299" Frequency="19" ExtendedInfo="1299"/>
+      <Prize Value="1440" Index="1298" Frequency="3" ExtendedInfo="1298"/>
+      <Prize Value="190" Index="1297" Frequency="9" ExtendedInfo="1297"/>
+      <Prize Value="1438" Index="1296" Frequency="7" ExtendedInfo="1296"/>
+      <Prize Value="1438" Index="1295" Frequency="8" ExtendedInfo="1295"/>
+      <Prize Value="188" Index="1294" Frequency="7" ExtendedInfo="1294"/>
+      <Prize Value="1436" Index="1293" Frequency="3" ExtendedInfo="1293"/>
+      <Prize Value="186" Index="1292" Frequency="11" ExtendedInfo="1292"/>
+      <Prize Value="1434" Index="1291" Frequency="7" ExtendedInfo="1291"/>
+      <Prize Value="1434" Index="1290" Frequency="27" ExtendedInfo="1290"/>
+      <Prize Value="184" Index="1289" Frequency="8" ExtendedInfo="1289"/>
+      <Prize Value="1432" Index="1288" Frequency="5" ExtendedInfo="1288"/>
+      <Prize Value="1430" Index="1287" Frequency="17" ExtendedInfo="1287"/>
+      <Prize Value="1430" Index="1286" Frequency="11" ExtendedInfo="1286"/>
+      <Prize Value="1428" Index="1285" Frequency="10" ExtendedInfo="1285"/>
+      <Prize Value="1426" Index="1284" Frequency="5" ExtendedInfo="1284"/>
+      <Prize Value="176" Index="1283" Frequency="46" ExtendedInfo="1283"/>
+      <Prize Value="1426" Index="1282" Frequency="13" ExtendedInfo="1282"/>
+      <Prize Value="1424" Index="1281" Frequency="5" ExtendedInfo="1281"/>
+      <Prize Value="1424" Index="1280" Frequency="9" ExtendedInfo="1280"/>
+      <Prize Value="1422" Index="1279" Frequency="2" ExtendedInfo="1279"/>
+      <Prize Value="1422" Index="1278" Frequency="13" ExtendedInfo="1278"/>
+      <Prize Value="1420" Index="1277" Frequency="8" ExtendedInfo="1277"/>
+      <Prize Value="1420" Index="1276" Frequency="15" ExtendedInfo="1276"/>
+      <Prize Value="1418" Index="1275" Frequency="8" ExtendedInfo="1275"/>
+      <Prize Value="1418" Index="1274" Frequency="14" ExtendedInfo="1274"/>
+      <Prize Value="168" Index="1273" Frequency="16" ExtendedInfo="1273"/>
+      <Prize Value="1416" Index="1272" Frequency="30" ExtendedInfo="1272"/>
+      <Prize Value="166" Index="1271" Frequency="10" ExtendedInfo="1271"/>
+      <Prize Value="1414" Index="1270" Frequency="5" ExtendedInfo="1270"/>
+      <Prize Value="164" Index="1269" Frequency="12" ExtendedInfo="1269"/>
+      <Prize Value="1412" Index="1268" Frequency="4" ExtendedInfo="1268"/>
+      <Prize Value="1412" Index="1267" Frequency="21" ExtendedInfo="1267"/>
+      <Prize Value="1410" Index="1266" Frequency="7" ExtendedInfo="1266"/>
+      <Prize Value="160" Index="1265" Frequency="22" ExtendedInfo="1265"/>
+      <Prize Value="1410" Index="1264" Frequency="16" ExtendedInfo="1264"/>
+      <Prize Value="1408" Index="1263" Frequency="1" ExtendedInfo="1263"/>
+      <Prize Value="158" Index="1262" Frequency="16" ExtendedInfo="1262"/>
+      <Prize Value="1408" Index="1261" Frequency="35" ExtendedInfo="1261"/>
+      <Prize Value="1406" Index="1260" Frequency="2" ExtendedInfo="1260"/>
+      <Prize Value="1404" Index="1259" Frequency="10" ExtendedInfo="1259"/>
+      <Prize Value="1404" Index="1258" Frequency="13" ExtendedInfo="1258"/>
+      <Prize Value="154" Index="1257" Frequency="21" ExtendedInfo="1257"/>
+      <Prize Value="1402" Index="1256" Frequency="3" ExtendedInfo="1256"/>
+      <Prize Value="152" Index="1255" Frequency="16" ExtendedInfo="1255"/>
+      <Prize Value="1402" Index="1254" Frequency="18" ExtendedInfo="1254"/>
+      <Prize Value="1400" Index="1253" Frequency="5" ExtendedInfo="1253"/>
+      <Prize Value="1400" Index="1252" Frequency="24" ExtendedInfo="1252"/>
+      <Prize Value="1398" Index="1251" Frequency="1" ExtendedInfo="1251"/>
+      <Prize Value="1398" Index="1250" Frequency="18" ExtendedInfo="1250"/>
+      <Prize Value="148" Index="1249" Frequency="27" ExtendedInfo="1249"/>
+      <Prize Value="1396" Index="1248" Frequency="1" ExtendedInfo="1248"/>
+      <Prize Value="1396" Index="1247" Frequency="79" ExtendedInfo="1247"/>
+      <Prize Value="146" Index="1246" Frequency="18" ExtendedInfo="1246"/>
+      <Prize Value="1394" Index="1245" Frequency="3" ExtendedInfo="1245"/>
+      <Prize Value="144" Index="1244" Frequency="18" ExtendedInfo="1244"/>
+      <Prize Value="142" Index="1243" Frequency="19" ExtendedInfo="1243"/>
+      <Prize Value="1390" Index="1242" Frequency="8" ExtendedInfo="1242"/>
+      <Prize Value="140" Index="1241" Frequency="18" ExtendedInfo="1241"/>
+      <Prize Value="1390" Index="1240" Frequency="29" ExtendedInfo="1240"/>
+      <Prize Value="1388" Index="1239" Frequency="3" ExtendedInfo="1239"/>
+      <Prize Value="138" Index="1238" Frequency="15" ExtendedInfo="1238"/>
+      <Prize Value="1388" Index="1237" Frequency="31" ExtendedInfo="1237"/>
+      <Prize Value="1386" Index="1236" Frequency="3" ExtendedInfo="1236"/>
+      <Prize Value="1386" Index="1235" Frequency="37" ExtendedInfo="1235"/>
+      <Prize Value="136" Index="1234" Frequency="21" ExtendedInfo="1234"/>
+      <Prize Value="1384" Index="1233" Frequency="7" ExtendedInfo="1233"/>
+      <Prize Value="134" Index="1232" Frequency="18" ExtendedInfo="1232"/>
+      <Prize Value="1382" Index="1231" Frequency="2" ExtendedInfo="1231"/>
+      <Prize Value="1382" Index="1230" Frequency="74" ExtendedInfo="1230"/>
+      <Prize Value="132" Index="1229" Frequency="47" ExtendedInfo="1229"/>
+      <Prize Value="1380" Index="1228" Frequency="9" ExtendedInfo="1228"/>
+      <Prize Value="1378" Index="1227" Frequency="4" ExtendedInfo="1227"/>
+      <Prize Value="1378" Index="1226" Frequency="89" ExtendedInfo="1226"/>
+      <Prize Value="128" Index="1225" Frequency="44" ExtendedInfo="1225"/>
+      <Prize Value="1376" Index="1224" Frequency="12" ExtendedInfo="1224"/>
+      <Prize Value="1374" Index="1223" Frequency="40" ExtendedInfo="1223"/>
+      <Prize Value="124" Index="1222" Frequency="27" ExtendedInfo="1222"/>
+      <Prize Value="122" Index="1221" Frequency="22" ExtendedInfo="1221"/>
+      <Prize Value="1372" Index="1220" Frequency="38" ExtendedInfo="1220"/>
+      <Prize Value="1370" Index="1219" Frequency="12" ExtendedInfo="1219"/>
+      <Prize Value="120" Index="1218" Frequency="74" ExtendedInfo="1218"/>
+      <Prize Value="1368" Index="1217" Frequency="5" ExtendedInfo="1217"/>
+      <Prize Value="1368" Index="1216" Frequency="125" ExtendedInfo="1216"/>
+      <Prize Value="1366" Index="1215" Frequency="8" ExtendedInfo="1215"/>
+      <Prize Value="1364" Index="1214" Frequency="6" ExtendedInfo="1214"/>
+      <Prize Value="1364" Index="1213" Frequency="41" ExtendedInfo="1213"/>
+      <Prize Value="114" Index="1212" Frequency="28" ExtendedInfo="1212"/>
+      <Prize Value="1362" Index="1211" Frequency="3" ExtendedInfo="1211"/>
+      <Prize Value="1362" Index="1210" Frequency="40" ExtendedInfo="1210"/>
+      <Prize Value="112" Index="1209" Frequency="25" ExtendedInfo="1209"/>
+      <Prize Value="1360" Index="1208" Frequency="13" ExtendedInfo="1208"/>
+      <Prize Value="110" Index="1207" Frequency="37" ExtendedInfo="1207"/>
+      <Prize Value="1360" Index="1206" Frequency="47" ExtendedInfo="1206"/>
+      <Prize Value="1358" Index="1205" Frequency="6" ExtendedInfo="1205"/>
+      <Prize Value="108" Index="1204" Frequency="39" ExtendedInfo="1204"/>
+      <Prize Value="1358" Index="1203" Frequency="53" ExtendedInfo="1203"/>
+      <Prize Value="1356" Index="1202" Frequency="2" ExtendedInfo="1202"/>
+      <Prize Value="106" Index="1201" Frequency="29" ExtendedInfo="1201"/>
+      <Prize Value="1354" Index="1200" Frequency="7" ExtendedInfo="1200"/>
+      <Prize Value="1354" Index="1199" Frequency="106" ExtendedInfo="1199"/>
+      <Prize Value="104" Index="1198" Frequency="39" ExtendedInfo="1198"/>
+      <Prize Value="1352" Index="1197" Frequency="3" ExtendedInfo="1197"/>
+      <Prize Value="1352" Index="1196" Frequency="46" ExtendedInfo="1196"/>
+      <Prize Value="102" Index="1195" Frequency="32" ExtendedInfo="1195"/>
+      <Prize Value="1350" Index="1194" Frequency="4" ExtendedInfo="1194"/>
+      <Prize Value="1350" Index="1193" Frequency="48" ExtendedInfo="1193"/>
+      <Prize Value="100" Index="1192" Frequency="32" ExtendedInfo="1192"/>
+      <Prize Value="1348" Index="1191" Frequency="7" ExtendedInfo="1191"/>
+      <Prize Value="1348" Index="1190" Frequency="45" ExtendedInfo="1190"/>
+      <Prize Value="98" Index="1189" Frequency="34" ExtendedInfo="1189"/>
+      <Prize Value="1346" Index="1188" Frequency="3" ExtendedInfo="1188"/>
+      <Prize Value="96" Index="1187" Frequency="16" ExtendedInfo="1187"/>
+      <Prize Value="1346" Index="1186" Frequency="52" ExtendedInfo="1186"/>
+      <Prize Value="1344" Index="1185" Frequency="10" ExtendedInfo="1185"/>
+      <Prize Value="1344" Index="1184" Frequency="43" ExtendedInfo="1184"/>
+      <Prize Value="1342" Index="1183" Frequency="8" ExtendedInfo="1183"/>
+      <Prize Value="1342" Index="1182" Frequency="67" ExtendedInfo="1182"/>
+      <Prize Value="92" Index="1181" Frequency="52" ExtendedInfo="1181"/>
+      <Prize Value="1340" Index="1180" Frequency="5" ExtendedInfo="1180"/>
+      <Prize Value="90" Index="1179" Frequency="30" ExtendedInfo="1179"/>
+      <Prize Value="1340" Index="1178" Frequency="47" ExtendedInfo="1178"/>
+      <Prize Value="1338" Index="1177" Frequency="9" ExtendedInfo="1177"/>
+      <Prize Value="88" Index="1176" Frequency="74" ExtendedInfo="1176"/>
+      <Prize Value="1336" Index="1175" Frequency="1" ExtendedInfo="1175"/>
+      <Prize Value="1336" Index="1174" Frequency="103" ExtendedInfo="1174"/>
+      <Prize Value="1334" Index="1173" Frequency="5" ExtendedInfo="1173"/>
+      <Prize Value="1334" Index="1172" Frequency="96" ExtendedInfo="1172"/>
+      <Prize Value="1332" Index="1171" Frequency="5" ExtendedInfo="1171"/>
+      <Prize Value="82" Index="1170" Frequency="28" ExtendedInfo="1170"/>
+      <Prize Value="1330" Index="1169" Frequency="4" ExtendedInfo="1169"/>
+      <Prize Value="80" Index="1168" Frequency="21" ExtendedInfo="1168"/>
+      <Prize Value="1330" Index="1167" Frequency="38" ExtendedInfo="1167"/>
+      <Prize Value="1328" Index="1166" Frequency="7" ExtendedInfo="1166"/>
+      <Prize Value="78" Index="1165" Frequency="27" ExtendedInfo="1165"/>
+      <Prize Value="1326" Index="1164" Frequency="60" ExtendedInfo="1164"/>
+      <Prize Value="76" Index="1163" Frequency="24" ExtendedInfo="1163"/>
+      <Prize Value="1324" Index="1162" Frequency="15" ExtendedInfo="1162"/>
+      <Prize Value="1324" Index="1161" Frequency="33" ExtendedInfo="1161"/>
+      <Prize Value="74" Index="1160" Frequency="28" ExtendedInfo="1160"/>
+      <Prize Value="72" Index="1159" Frequency="25" ExtendedInfo="1159"/>
+      <Prize Value="1322" Index="1158" Frequency="43" ExtendedInfo="1158"/>
+      <Prize Value="1320" Index="1157" Frequency="17" ExtendedInfo="1157"/>
+      <Prize Value="70" Index="1156" Frequency="25" ExtendedInfo="1156"/>
+      <Prize Value="1320" Index="1155" Frequency="31" ExtendedInfo="1155"/>
+      <Prize Value="1318" Index="1154" Frequency="8" ExtendedInfo="1154"/>
+      <Prize Value="68" Index="1153" Frequency="21" ExtendedInfo="1153"/>
+      <Prize Value="1318" Index="1152" Frequency="32" ExtendedInfo="1152"/>
+      <Prize Value="1316" Index="1151" Frequency="4" ExtendedInfo="1151"/>
+      <Prize Value="1316" Index="1150" Frequency="60" ExtendedInfo="1150"/>
+      <Prize Value="66" Index="1149" Frequency="15" ExtendedInfo="1149"/>
+      <Prize Value="1314" Index="1148" Frequency="11" ExtendedInfo="1148"/>
+      <Prize Value="1312" Index="1147" Frequency="20" ExtendedInfo="1147"/>
+      <Prize Value="62" Index="1146" Frequency="39" ExtendedInfo="1146"/>
+      <Prize Value="1310" Index="1145" Frequency="8" ExtendedInfo="1145"/>
+      <Prize Value="60" Index="1144" Frequency="13" ExtendedInfo="1144"/>
+      <Prize Value="1310" Index="1143" Frequency="25" ExtendedInfo="1143"/>
+      <Prize Value="58" Index="1142" Frequency="11" ExtendedInfo="1142"/>
+      <Prize Value="1306" Index="1141" Frequency="22" ExtendedInfo="1141"/>
+      <Prize Value="1306" Index="1140" Frequency="71" ExtendedInfo="1140"/>
+      <Prize Value="56" Index="1139" Frequency="8" ExtendedInfo="1139"/>
+      <Prize Value="54" Index="1138" Frequency="7" ExtendedInfo="1138"/>
+      <Prize Value="52" Index="1137" Frequency="11" ExtendedInfo="1137"/>
+      <Prize Value="1300" Index="1136" Frequency="13" ExtendedInfo="1136"/>
+      <Prize Value="1300" Index="1135" Frequency="16" ExtendedInfo="1135"/>
+      <Prize Value="50" Index="1134" Frequency="3" ExtendedInfo="1134"/>
+      <Prize Value="1298" Index="1133" Frequency="4" ExtendedInfo="1133"/>
+      <Prize Value="48" Index="1132" Frequency="7" ExtendedInfo="1132"/>
+      <Prize Value="1298" Index="1131" Frequency="20" ExtendedInfo="1131"/>
+      <Prize Value="1296" Index="1130" Frequency="4" ExtendedInfo="1130"/>
+      <Prize Value="1296" Index="1129" Frequency="17" ExtendedInfo="1129"/>
+      <Prize Value="1294" Index="1128" Frequency="7" ExtendedInfo="1128"/>
+      <Prize Value="1294" Index="1127" Frequency="7" ExtendedInfo="1127"/>
+      <Prize Value="44" Index="1126" Frequency="16" ExtendedInfo="1126"/>
+      <Prize Value="1292" Index="1125" Frequency="5" ExtendedInfo="1125"/>
+      <Prize Value="1290" Index="1124" Frequency="20" ExtendedInfo="1124"/>
+      <Prize Value="1290" Index="1123" Frequency="17" ExtendedInfo="1123"/>
+      <Prize Value="40" Index="1122" Frequency="4" ExtendedInfo="1122"/>
+      <Prize Value="1288" Index="1121" Frequency="9" ExtendedInfo="1121"/>
+      <Prize Value="38" Index="1120" Frequency="3" ExtendedInfo="1120"/>
+      <Prize Value="1286" Index="1119" Frequency="2" ExtendedInfo="1119"/>
+      <Prize Value="36" Index="1118" Frequency="2" ExtendedInfo="1118"/>
+      <Prize Value="1286" Index="1117" Frequency="13" ExtendedInfo="1117"/>
+      <Prize Value="1284" Index="1116" Frequency="5" ExtendedInfo="1116"/>
+      <Prize Value="1284" Index="1115" Frequency="8" ExtendedInfo="1115"/>
+      <Prize Value="34" Index="1114" Frequency="2" ExtendedInfo="1114"/>
+      <Prize Value="1282" Index="1113" Frequency="5" ExtendedInfo="1113"/>
+      <Prize Value="32" Index="1112" Frequency="5" ExtendedInfo="1112"/>
+      <Prize Value="1280" Index="1111" Frequency="12" ExtendedInfo="1111"/>
+      <Prize Value="30" Index="1110" Frequency="1" ExtendedInfo="1110"/>
+      <Prize Value="1280" Index="1109" Frequency="3" ExtendedInfo="1109"/>
+      <Prize Value="1278" Index="1108" Frequency="9" ExtendedInfo="1108"/>
+      <Prize Value="1278" Index="1107" Frequency="2" ExtendedInfo="1107"/>
+      <Prize Value="1276" Index="1106" Frequency="2" ExtendedInfo="1106"/>
+      <Prize Value="26" Index="1105" Frequency="1" ExtendedInfo="1105"/>
+      <Prize Value="1274" Index="1104" Frequency="25" ExtendedInfo="1104"/>
+      <Prize Value="1272" Index="1103" Frequency="1" ExtendedInfo="1103"/>
+      <Prize Value="1270" Index="1102" Frequency="1" ExtendedInfo="1102"/>
+      <Prize Value="1268" Index="1101" Frequency="9" ExtendedInfo="1101"/>
+      <Prize Value="1266" Index="1100" Frequency="2" ExtendedInfo="1100"/>
+      <Prize Value="1264" Index="1099" Frequency="10" ExtendedInfo="1099"/>
+      <Prize Value="1262" Index="1098" Frequency="4" ExtendedInfo="1098"/>
+      <Prize Value="1260" Index="1097" Frequency="8" ExtendedInfo="1097"/>
+      <Prize Value="1258" Index="1096" Frequency="8" ExtendedInfo="1096"/>
+      <Prize Value="1256" Index="1095" Frequency="2" ExtendedInfo="1095"/>
+      <Prize Value="1254" Index="1094" Frequency="3" ExtendedInfo="1094"/>
+      <Prize Value="1254" Index="1093" Frequency="2" ExtendedInfo="1093"/>
+      <Prize Value="1250" Index="1092" Frequency="21" ExtendedInfo="1092"/>
+      <Prize Value="1248" Index="1091" Frequency="8" ExtendedInfo="1091"/>
+      <Prize Value="1246" Index="1090" Frequency="3" ExtendedInfo="1090"/>
+      <Prize Value="1244" Index="1089" Frequency="8" ExtendedInfo="1089"/>
+      <Prize Value="1244" Index="1088" Frequency="2" ExtendedInfo="1088"/>
+      <Prize Value="1242" Index="1087" Frequency="3" ExtendedInfo="1087"/>
+      <Prize Value="1240" Index="1086" Frequency="11" ExtendedInfo="1086"/>
+      <Prize Value="1238" Index="1085" Frequency="4" ExtendedInfo="1085"/>
+      <Prize Value="1238" Index="1084" Frequency="1" ExtendedInfo="1084"/>
+      <Prize Value="1236" Index="1083" Frequency="4" ExtendedInfo="1083"/>
+      <Prize Value="1234" Index="1082" Frequency="12" ExtendedInfo="1082"/>
+      <Prize Value="1230" Index="1081" Frequency="17" ExtendedInfo="1081"/>
+      <Prize Value="1228" Index="1080" Frequency="6" ExtendedInfo="1080"/>
+      <Prize Value="1226" Index="1079" Frequency="1" ExtendedInfo="1079"/>
+      <Prize Value="1224" Index="1078" Frequency="8" ExtendedInfo="1078"/>
+      <Prize Value="1224" Index="1077" Frequency="1" ExtendedInfo="1077"/>
+      <Prize Value="1222" Index="1076" Frequency="8" ExtendedInfo="1076"/>
+      <Prize Value="1222" Index="1075" Frequency="2" ExtendedInfo="1075"/>
+      <Prize Value="1220" Index="1074" Frequency="12" ExtendedInfo="1074"/>
+      <Prize Value="1218" Index="1073" Frequency="7" ExtendedInfo="1073"/>
+      <Prize Value="1218" Index="1072" Frequency="1" ExtendedInfo="1072"/>
+      <Prize Value="1216" Index="1071" Frequency="3" ExtendedInfo="1071"/>
+      <Prize Value="1216" Index="1070" Frequency="1" ExtendedInfo="1070"/>
+      <Prize Value="1214" Index="1069" Frequency="15" ExtendedInfo="1069"/>
+      <Prize Value="1212" Index="1068" Frequency="1" ExtendedInfo="1068"/>
+      <Prize Value="1210" Index="1067" Frequency="25" ExtendedInfo="1067"/>
+      <Prize Value="1210" Index="1066" Frequency="1" ExtendedInfo="1066"/>
+      <Prize Value="1208" Index="1065" Frequency="2" ExtendedInfo="1065"/>
+      <Prize Value="1204" Index="1064" Frequency="14" ExtendedInfo="1064"/>
+      <Prize Value="1202" Index="1063" Frequency="8" ExtendedInfo="1063"/>
+      <Prize Value="1202" Index="1062" Frequency="3" ExtendedInfo="1062"/>
+      <Prize Value="1200" Index="1061" Frequency="11" ExtendedInfo="1061"/>
+      <Prize Value="1198" Index="1060" Frequency="9" ExtendedInfo="1060"/>
+      <Prize Value="1196" Index="1059" Frequency="3" ExtendedInfo="1059"/>
+      <Prize Value="1196" Index="1058" Frequency="1" ExtendedInfo="1058"/>
+      <Prize Value="1194" Index="1057" Frequency="9" ExtendedInfo="1057"/>
+      <Prize Value="1192" Index="1056" Frequency="9" ExtendedInfo="1056"/>
+      <Prize Value="1190" Index="1055" Frequency="11" ExtendedInfo="1055"/>
+      <Prize Value="1190" Index="1054" Frequency="3" ExtendedInfo="1054"/>
+      <Prize Value="1188" Index="1053" Frequency="6" ExtendedInfo="1053"/>
+      <Prize Value="1186" Index="1052" Frequency="3" ExtendedInfo="1052"/>
+      <Prize Value="1184" Index="1051" Frequency="8" ExtendedInfo="1051"/>
+      <Prize Value="1182" Index="1050" Frequency="1" ExtendedInfo="1050"/>
+      <Prize Value="1180" Index="1049" Frequency="23" ExtendedInfo="1049"/>
+      <Prize Value="1180" Index="1048" Frequency="2" ExtendedInfo="1048"/>
+      <Prize Value="1176" Index="1047" Frequency="7" ExtendedInfo="1047"/>
+      <Prize Value="1174" Index="1046" Frequency="21" ExtendedInfo="1046"/>
+      <Prize Value="1174" Index="1045" Frequency="3" ExtendedInfo="1045"/>
+      <Prize Value="1170" Index="1044" Frequency="10" ExtendedInfo="1044"/>
+      <Prize Value="1168" Index="1043" Frequency="10" ExtendedInfo="1043"/>
+      <Prize Value="1166" Index="1042" Frequency="6" ExtendedInfo="1042"/>
+      <Prize Value="1166" Index="1041" Frequency="3" ExtendedInfo="1041"/>
+      <Prize Value="1164" Index="1040" Frequency="1" ExtendedInfo="1040"/>
+      <Prize Value="1162" Index="1039" Frequency="13" ExtendedInfo="1039"/>
+      <Prize Value="1160" Index="1038" Frequency="10" ExtendedInfo="1038"/>
+      <Prize Value="1158" Index="1037" Frequency="10" ExtendedInfo="1037"/>
+      <Prize Value="1158" Index="1036" Frequency="10" ExtendedInfo="1036"/>
+      <Prize Value="1156" Index="1035" Frequency="3" ExtendedInfo="1035"/>
+      <Prize Value="1154" Index="1034" Frequency="2" ExtendedInfo="1034"/>
+      <Prize Value="1152" Index="1033" Frequency="13" ExtendedInfo="1033"/>
+      <Prize Value="1152" Index="1032" Frequency="2" ExtendedInfo="1032"/>
+      <Prize Value="1150" Index="1031" Frequency="21" ExtendedInfo="1031"/>
+      <Prize Value="1150" Index="1030" Frequency="2" ExtendedInfo="1030"/>
+      <Prize Value="1148" Index="1029" Frequency="1" ExtendedInfo="1029"/>
+      <Prize Value="1146" Index="1028" Frequency="6" ExtendedInfo="1028"/>
+      <Prize Value="1144" Index="1027" Frequency="14" ExtendedInfo="1027"/>
+      <Prize Value="1144" Index="1026" Frequency="6" ExtendedInfo="1026"/>
+      <Prize Value="1142" Index="1025" Frequency="8" ExtendedInfo="1025"/>
+      <Prize Value="1140" Index="1024" Frequency="17" ExtendedInfo="1024"/>
+      <Prize Value="1140" Index="1023" Frequency="5" ExtendedInfo="1023"/>
+      <Prize Value="1138" Index="1022" Frequency="23" ExtendedInfo="1022"/>
+      <Prize Value="1136" Index="1021" Frequency="4" ExtendedInfo="1021"/>
+      <Prize Value="1134" Index="1020" Frequency="2" ExtendedInfo="1020"/>
+      <Prize Value="1132" Index="1019" Frequency="5" ExtendedInfo="1019"/>
+      <Prize Value="1130" Index="1018" Frequency="20" ExtendedInfo="1018"/>
+      <Prize Value="1130" Index="1017" Frequency="6" ExtendedInfo="1017"/>
+      <Prize Value="1128" Index="1016" Frequency="7" ExtendedInfo="1016"/>
+      <Prize Value="1128" Index="1015" Frequency="5" ExtendedInfo="1015"/>
+      <Prize Value="1126" Index="1014" Frequency="6" ExtendedInfo="1014"/>
+      <Prize Value="1124" Index="1013" Frequency="10" ExtendedInfo="1013"/>
+      <Prize Value="1124" Index="1012" Frequency="4" ExtendedInfo="1012"/>
+      <Prize Value="1122" Index="1011" Frequency="9" ExtendedInfo="1011"/>
+      <Prize Value="1122" Index="1010" Frequency="9" ExtendedInfo="1010"/>
+      <Prize Value="1120" Index="1009" Frequency="11" ExtendedInfo="1009"/>
+      <Prize Value="1120" Index="1008" Frequency="4" ExtendedInfo="1008"/>
+      <Prize Value="1118" Index="1007" Frequency="15" ExtendedInfo="1007"/>
+      <Prize Value="1118" Index="1006" Frequency="2" ExtendedInfo="1006"/>
+      <Prize Value="1116" Index="1005" Frequency="8" ExtendedInfo="1005"/>
+      <Prize Value="1116" Index="1004" Frequency="3" ExtendedInfo="1004"/>
+      <Prize Value="1114" Index="1003" Frequency="17" ExtendedInfo="1003"/>
+      <Prize Value="1114" Index="1002" Frequency="5" ExtendedInfo="1002"/>
+      <Prize Value="1112" Index="1001" Frequency="11" ExtendedInfo="1001"/>
+      <Prize Value="1110" Index="1000" Frequency="13" ExtendedInfo="1000"/>
+      <Prize Value="1110" Index="999" Frequency="5" ExtendedInfo="999"/>
+      <Prize Value="1108" Index="998" Frequency="16" ExtendedInfo="998"/>
+      <Prize Value="1108" Index="997" Frequency="5" ExtendedInfo="997"/>
+      <Prize Value="1106" Index="996" Frequency="7" ExtendedInfo="996"/>
+      <Prize Value="1104" Index="995" Frequency="20" ExtendedInfo="995"/>
+      <Prize Value="1104" Index="994" Frequency="2" ExtendedInfo="994"/>
+      <Prize Value="1102" Index="993" Frequency="4" ExtendedInfo="993"/>
+      <Prize Value="1100" Index="992" Frequency="25" ExtendedInfo="992"/>
+      <Prize Value="1100" Index="991" Frequency="8" ExtendedInfo="991"/>
+      <Prize Value="1098" Index="990" Frequency="8" ExtendedInfo="990"/>
+      <Prize Value="1094" Index="989" Frequency="27" ExtendedInfo="989"/>
+      <Prize Value="1094" Index="988" Frequency="10" ExtendedInfo="988"/>
+      <Prize Value="1092" Index="987" Frequency="4" ExtendedInfo="987"/>
+      <Prize Value="1092" Index="986" Frequency="8" ExtendedInfo="986"/>
+      <Prize Value="1090" Index="985" Frequency="17" ExtendedInfo="985"/>
+      <Prize Value="1090" Index="984" Frequency="7" ExtendedInfo="984"/>
+      <Prize Value="1088" Index="983" Frequency="10" ExtendedInfo="983"/>
+      <Prize Value="1088" Index="982" Frequency="3" ExtendedInfo="982"/>
+      <Prize Value="1086" Index="981" Frequency="7" ExtendedInfo="981"/>
+      <Prize Value="1086" Index="980" Frequency="2" ExtendedInfo="980"/>
+      <Prize Value="1084" Index="979" Frequency="17" ExtendedInfo="979"/>
+      <Prize Value="1084" Index="978" Frequency="4" ExtendedInfo="978"/>
+      <Prize Value="1082" Index="977" Frequency="5" ExtendedInfo="977"/>
+      <Prize Value="1082" Index="976" Frequency="8" ExtendedInfo="976"/>
+      <Prize Value="1080" Index="975" Frequency="14" ExtendedInfo="975"/>
+      <Prize Value="1080" Index="974" Frequency="5" ExtendedInfo="974"/>
+      <Prize Value="1078" Index="973" Frequency="12" ExtendedInfo="973"/>
+      <Prize Value="1078" Index="972" Frequency="11" ExtendedInfo="972"/>
+      <Prize Value="1074" Index="971" Frequency="22" ExtendedInfo="971"/>
+      <Prize Value="1074" Index="970" Frequency="3" ExtendedInfo="970"/>
+      <Prize Value="1072" Index="969" Frequency="24" ExtendedInfo="969"/>
+      <Prize Value="1072" Index="968" Frequency="4" ExtendedInfo="968"/>
+      <Prize Value="1070" Index="967" Frequency="3" ExtendedInfo="967"/>
+      <Prize Value="1068" Index="966" Frequency="4" ExtendedInfo="966"/>
+      <Prize Value="1066" Index="965" Frequency="25" ExtendedInfo="965"/>
+      <Prize Value="1066" Index="964" Frequency="7" ExtendedInfo="964"/>
+      <Prize Value="1064" Index="963" Frequency="10" ExtendedInfo="963"/>
+      <Prize Value="1062" Index="962" Frequency="11" ExtendedInfo="962"/>
+      <Prize Value="1062" Index="961" Frequency="7" ExtendedInfo="961"/>
+      <Prize Value="1060" Index="960" Frequency="27" ExtendedInfo="960"/>
+      <Prize Value="1060" Index="959" Frequency="2" ExtendedInfo="959"/>
+      <Prize Value="1058" Index="958" Frequency="5" ExtendedInfo="958"/>
+      <Prize Value="1056" Index="957" Frequency="11" ExtendedInfo="957"/>
+      <Prize Value="1056" Index="956" Frequency="6" ExtendedInfo="956"/>
+      <Prize Value="1054" Index="955" Frequency="11" ExtendedInfo="955"/>
+      <Prize Value="1054" Index="954" Frequency="3" ExtendedInfo="954"/>
+      <Prize Value="1052" Index="953" Frequency="10" ExtendedInfo="953"/>
+      <Prize Value="1050" Index="952" Frequency="28" ExtendedInfo="952"/>
+      <Prize Value="1048" Index="951" Frequency="14" ExtendedInfo="951"/>
+      <Prize Value="1048" Index="950" Frequency="2" ExtendedInfo="950"/>
+      <Prize Value="1046" Index="949" Frequency="15" ExtendedInfo="949"/>
+      <Prize Value="1044" Index="948" Frequency="2" ExtendedInfo="948"/>
+      <Prize Value="1042" Index="947" Frequency="9" ExtendedInfo="947"/>
+      <Prize Value="1042" Index="946" Frequency="4" ExtendedInfo="946"/>
+      <Prize Value="1040" Index="945" Frequency="17" ExtendedInfo="945"/>
+      <Prize Value="1038" Index="944" Frequency="13" ExtendedInfo="944"/>
+      <Prize Value="1038" Index="943" Frequency="3" ExtendedInfo="943"/>
+      <Prize Value="1036" Index="942" Frequency="7" ExtendedInfo="942"/>
+      <Prize Value="1036" Index="941" Frequency="1" ExtendedInfo="941"/>
+      <Prize Value="1034" Index="940" Frequency="15" ExtendedInfo="940"/>
+      <Prize Value="1032" Index="939" Frequency="4" ExtendedInfo="939"/>
+      <Prize Value="1032" Index="938" Frequency="1" ExtendedInfo="938"/>
+      <Prize Value="1030" Index="937" Frequency="21" ExtendedInfo="937"/>
+      <Prize Value="1028" Index="936" Frequency="6" ExtendedInfo="936"/>
+      <Prize Value="1020" Index="935" Frequency="55" ExtendedInfo="935"/>
+      <Prize Value="1020" Index="934" Frequency="1" ExtendedInfo="934"/>
+      <Prize Value="1018" Index="933" Frequency="7" ExtendedInfo="933"/>
+      <Prize Value="1016" Index="932" Frequency="5" ExtendedInfo="932"/>
+      <Prize Value="1014" Index="931" Frequency="2" ExtendedInfo="931"/>
+      <Prize Value="1012" Index="930" Frequency="24" ExtendedInfo="930"/>
+      <Prize Value="1010" Index="929" Frequency="19" ExtendedInfo="929"/>
+      <Prize Value="1008" Index="928" Frequency="10" ExtendedInfo="928"/>
+      <Prize Value="1006" Index="927" Frequency="5" ExtendedInfo="927"/>
+      <Prize Value="1004" Index="926" Frequency="17" ExtendedInfo="926"/>
+      <Prize Value="1002" Index="925" Frequency="17" ExtendedInfo="925"/>
+      <Prize Value="1000" Index="924" Frequency="57" ExtendedInfo="924"/>
+      <Prize Value="998" Index="923" Frequency="11" ExtendedInfo="923"/>
+      <Prize Value="996" Index="922" Frequency="7" ExtendedInfo="922"/>
+      <Prize Value="996" Index="921" Frequency="3" ExtendedInfo="921"/>
+      <Prize Value="994" Index="920" Frequency="21" ExtendedInfo="920"/>
+      <Prize Value="992" Index="919" Frequency="22" ExtendedInfo="919"/>
+      <Prize Value="988" Index="918" Frequency="18" ExtendedInfo="918"/>
+      <Prize Value="988" Index="917" Frequency="3" ExtendedInfo="917"/>
+      <Prize Value="984" Index="916" Frequency="26" ExtendedInfo="916"/>
+      <Prize Value="982" Index="915" Frequency="12" ExtendedInfo="915"/>
+      <Prize Value="980" Index="914" Frequency="25" ExtendedInfo="914"/>
+      <Prize Value="978" Index="913" Frequency="22" ExtendedInfo="913"/>
+      <Prize Value="976" Index="912" Frequency="13" ExtendedInfo="912"/>
+      <Prize Value="974" Index="911" Frequency="18" ExtendedInfo="911"/>
+      <Prize Value="970" Index="910" Frequency="30" ExtendedInfo="910"/>
+      <Prize Value="968" Index="909" Frequency="23" ExtendedInfo="909"/>
+      <Prize Value="966" Index="908" Frequency="1" ExtendedInfo="908"/>
+      <Prize Value="964" Index="907" Frequency="15" ExtendedInfo="907"/>
+      <Prize Value="962" Index="906" Frequency="12" ExtendedInfo="906"/>
+      <Prize Value="962" Index="905" Frequency="2" ExtendedInfo="905"/>
+      <Prize Value="960" Index="904" Frequency="15" ExtendedInfo="904"/>
+      <Prize Value="960" Index="903" Frequency="1" ExtendedInfo="903"/>
+      <Prize Value="956" Index="902" Frequency="1" ExtendedInfo="902"/>
+      <Prize Value="954" Index="901" Frequency="43" ExtendedInfo="901"/>
+      <Prize Value="950" Index="900" Frequency="23" ExtendedInfo="900"/>
+      <Prize Value="950" Index="899" Frequency="4" ExtendedInfo="899"/>
+      <Prize Value="948" Index="898" Frequency="16" ExtendedInfo="898"/>
+      <Prize Value="946" Index="897" Frequency="10" ExtendedInfo="897"/>
+      <Prize Value="944" Index="896" Frequency="12" ExtendedInfo="896"/>
+      <Prize Value="944" Index="895" Frequency="4" ExtendedInfo="895"/>
+      <Prize Value="942" Index="894" Frequency="11" ExtendedInfo="894"/>
+      <Prize Value="942" Index="893" Frequency="1" ExtendedInfo="893"/>
+      <Prize Value="940" Index="892" Frequency="19" ExtendedInfo="892"/>
+      <Prize Value="940" Index="891" Frequency="1" ExtendedInfo="891"/>
+      <Prize Value="938" Index="890" Frequency="11" ExtendedInfo="890"/>
+      <Prize Value="938" Index="889" Frequency="2" ExtendedInfo="889"/>
+      <Prize Value="936" Index="888" Frequency="11" ExtendedInfo="888"/>
+      <Prize Value="934" Index="887" Frequency="15" ExtendedInfo="887"/>
+      <Prize Value="932" Index="886" Frequency="11" ExtendedInfo="886"/>
+      <Prize Value="932" Index="885" Frequency="1" ExtendedInfo="885"/>
+      <Prize Value="930" Index="884" Frequency="16" ExtendedInfo="884"/>
+      <Prize Value="928" Index="883" Frequency="18" ExtendedInfo="883"/>
+      <Prize Value="926" Index="882" Frequency="12" ExtendedInfo="882"/>
+      <Prize Value="924" Index="881" Frequency="31" ExtendedInfo="881"/>
+      <Prize Value="922" Index="880" Frequency="1" ExtendedInfo="880"/>
+      <Prize Value="920" Index="879" Frequency="22" ExtendedInfo="879"/>
+      <Prize Value="920" Index="878" Frequency="1" ExtendedInfo="878"/>
+      <Prize Value="918" Index="877" Frequency="12" ExtendedInfo="877"/>
+      <Prize Value="916" Index="876" Frequency="15" ExtendedInfo="876"/>
+      <Prize Value="914" Index="875" Frequency="20" ExtendedInfo="875"/>
+      <Prize Value="912" Index="874" Frequency="17" ExtendedInfo="874"/>
+      <Prize Value="910" Index="873" Frequency="25" ExtendedInfo="873"/>
+      <Prize Value="910" Index="872" Frequency="1" ExtendedInfo="872"/>
+      <Prize Value="908" Index="871" Frequency="19" ExtendedInfo="871"/>
+      <Prize Value="908" Index="870" Frequency="2" ExtendedInfo="870"/>
+      <Prize Value="906" Index="869" Frequency="13" ExtendedInfo="869"/>
+      <Prize Value="906" Index="868" Frequency="1" ExtendedInfo="868"/>
+      <Prize Value="904" Index="867" Frequency="14" ExtendedInfo="867"/>
+      <Prize Value="902" Index="866" Frequency="21" ExtendedInfo="866"/>
+      <Prize Value="900" Index="865" Frequency="27" ExtendedInfo="865"/>
+      <Prize Value="900" Index="864" Frequency="1" ExtendedInfo="864"/>
+      <Prize Value="900" Index="863" Frequency="2" ExtendedInfo="863"/>
+      <Prize Value="898" Index="862" Frequency="17" ExtendedInfo="862"/>
+      <Prize Value="894" Index="861" Frequency="35" ExtendedInfo="861"/>
+      <Prize Value="894" Index="860" Frequency="3" ExtendedInfo="860"/>
+      <Prize Value="892" Index="859" Frequency="14" ExtendedInfo="859"/>
+      <Prize Value="892" Index="858" Frequency="2" ExtendedInfo="858"/>
+      <Prize Value="890" Index="857" Frequency="21" ExtendedInfo="857"/>
+      <Prize Value="890" Index="856" Frequency="2" ExtendedInfo="856"/>
+      <Prize Value="888" Index="855" Frequency="14" ExtendedInfo="855"/>
+      <Prize Value="886" Index="854" Frequency="7" ExtendedInfo="854"/>
+      <Prize Value="884" Index="853" Frequency="21" ExtendedInfo="853"/>
+      <Prize Value="882" Index="852" Frequency="14" ExtendedInfo="852"/>
+      <Prize Value="882" Index="851" Frequency="5" ExtendedInfo="851"/>
+      <Prize Value="880" Index="850" Frequency="41" ExtendedInfo="850"/>
+      <Prize Value="880" Index="849" Frequency="2" ExtendedInfo="849"/>
+      <Prize Value="878" Index="848" Frequency="2" ExtendedInfo="848"/>
+      <Prize Value="874" Index="847" Frequency="46" ExtendedInfo="847"/>
+      <Prize Value="874" Index="846" Frequency="1" ExtendedInfo="846"/>
+      <Prize Value="872" Index="845" Frequency="4" ExtendedInfo="845"/>
+      <Prize Value="870" Index="844" Frequency="28" ExtendedInfo="844"/>
+      <Prize Value="870" Index="843" Frequency="1" ExtendedInfo="843"/>
+      <Prize Value="868" Index="842" Frequency="20" ExtendedInfo="842"/>
+      <Prize Value="866" Index="841" Frequency="13" ExtendedInfo="841"/>
+      <Prize Value="864" Index="840" Frequency="24" ExtendedInfo="840"/>
+      <Prize Value="864" Index="839" Frequency="4" ExtendedInfo="839"/>
+      <Prize Value="862" Index="838" Frequency="11" ExtendedInfo="838"/>
+      <Prize Value="862" Index="837" Frequency="3" ExtendedInfo="837"/>
+      <Prize Value="860" Index="836" Frequency="17" ExtendedInfo="836"/>
+      <Prize Value="858" Index="835" Frequency="14" ExtendedInfo="835"/>
+      <Prize Value="858" Index="834" Frequency="1" ExtendedInfo="834"/>
+      <Prize Value="856" Index="833" Frequency="2" ExtendedInfo="833"/>
+      <Prize Value="854" Index="832" Frequency="33" ExtendedInfo="832"/>
+      <Prize Value="854" Index="831" Frequency="3" ExtendedInfo="831"/>
+      <Prize Value="852" Index="830" Frequency="14" ExtendedInfo="830"/>
+      <Prize Value="852" Index="829" Frequency="3" ExtendedInfo="829"/>
+      <Prize Value="850" Index="828" Frequency="27" ExtendedInfo="828"/>
+      <Prize Value="850" Index="827" Frequency="4" ExtendedInfo="827"/>
+      <Prize Value="850" Index="826" Frequency="24" ExtendedInfo="826"/>
+      <Prize Value="848" Index="825" Frequency="19" ExtendedInfo="825"/>
+      <Prize Value="848" Index="824" Frequency="2" ExtendedInfo="824"/>
+      <Prize Value="846" Index="823" Frequency="4" ExtendedInfo="823"/>
+      <Prize Value="844" Index="822" Frequency="43" ExtendedInfo="822"/>
+      <Prize Value="844" Index="821" Frequency="6" ExtendedInfo="821"/>
+      <Prize Value="842" Index="820" Frequency="14" ExtendedInfo="820"/>
+      <Prize Value="842" Index="819" Frequency="4" ExtendedInfo="819"/>
+      <Prize Value="840" Index="818" Frequency="11" ExtendedInfo="818"/>
+      <Prize Value="840" Index="817" Frequency="5" ExtendedInfo="817"/>
+      <Prize Value="838" Index="816" Frequency="15" ExtendedInfo="816"/>
+      <Prize Value="838" Index="815" Frequency="5" ExtendedInfo="815"/>
+      <Prize Value="836" Index="814" Frequency="11" ExtendedInfo="814"/>
+      <Prize Value="836" Index="813" Frequency="4" ExtendedInfo="813"/>
+      <Prize Value="834" Index="812" Frequency="19" ExtendedInfo="812"/>
+      <Prize Value="834" Index="811" Frequency="12" ExtendedInfo="811"/>
+      <Prize Value="832" Index="810" Frequency="13" ExtendedInfo="810"/>
+      <Prize Value="830" Index="809" Frequency="17" ExtendedInfo="809"/>
+      <Prize Value="830" Index="808" Frequency="6" ExtendedInfo="808"/>
+      <Prize Value="830" Index="807" Frequency="4" ExtendedInfo="807"/>
+      <Prize Value="828" Index="806" Frequency="33" ExtendedInfo="806"/>
+      <Prize Value="828" Index="805" Frequency="5" ExtendedInfo="805"/>
+      <Prize Value="826" Index="804" Frequency="8" ExtendedInfo="804"/>
+      <Prize Value="824" Index="803" Frequency="16" ExtendedInfo="803"/>
+      <Prize Value="824" Index="802" Frequency="10" ExtendedInfo="802"/>
+      <Prize Value="822" Index="801" Frequency="16" ExtendedInfo="801"/>
+      <Prize Value="822" Index="800" Frequency="8" ExtendedInfo="800"/>
+      <Prize Value="820" Index="799" Frequency="23" ExtendedInfo="799"/>
+      <Prize Value="820" Index="798" Frequency="9" ExtendedInfo="798"/>
+      <Prize Value="820" Index="797" Frequency="1" ExtendedInfo="797"/>
+      <Prize Value="818" Index="796" Frequency="20" ExtendedInfo="796"/>
+      <Prize Value="818" Index="795" Frequency="5" ExtendedInfo="795"/>
+      <Prize Value="816" Index="794" Frequency="13" ExtendedInfo="794"/>
+      <Prize Value="816" Index="793" Frequency="15" ExtendedInfo="793"/>
+      <Prize Value="814" Index="792" Frequency="17" ExtendedInfo="792"/>
+      <Prize Value="814" Index="791" Frequency="8" ExtendedInfo="791"/>
+      <Prize Value="812" Index="790" Frequency="17" ExtendedInfo="790"/>
+      <Prize Value="812" Index="789" Frequency="14" ExtendedInfo="789"/>
+      <Prize Value="810" Index="788" Frequency="34" ExtendedInfo="788"/>
+      <Prize Value="810" Index="787" Frequency="10" ExtendedInfo="787"/>
+      <Prize Value="808" Index="786" Frequency="21" ExtendedInfo="786"/>
+      <Prize Value="806" Index="785" Frequency="13" ExtendedInfo="785"/>
+      <Prize Value="806" Index="784" Frequency="22" ExtendedInfo="784"/>
+      <Prize Value="804" Index="783" Frequency="18" ExtendedInfo="783"/>
+      <Prize Value="804" Index="782" Frequency="1" ExtendedInfo="782"/>
+      <Prize Value="802" Index="781" Frequency="25" ExtendedInfo="781"/>
+      <Prize Value="802" Index="780" Frequency="23" ExtendedInfo="780"/>
+      <Prize Value="800" Index="779" Frequency="22" ExtendedInfo="779"/>
+      <Prize Value="800" Index="778" Frequency="22" ExtendedInfo="778"/>
+      <Prize Value="798" Index="777" Frequency="18" ExtendedInfo="777"/>
+      <Prize Value="798" Index="776" Frequency="8" ExtendedInfo="776"/>
+      <Prize Value="796" Index="775" Frequency="17" ExtendedInfo="775"/>
+      <Prize Value="796" Index="774" Frequency="6" ExtendedInfo="774"/>
+      <Prize Value="794" Index="773" Frequency="29" ExtendedInfo="773"/>
+      <Prize Value="794" Index="772" Frequency="8" ExtendedInfo="772"/>
+      <Prize Value="792" Index="771" Frequency="22" ExtendedInfo="771"/>
+      <Prize Value="792" Index="770" Frequency="15" ExtendedInfo="770"/>
+      <Prize Value="790" Index="769" Frequency="48" ExtendedInfo="769"/>
+      <Prize Value="790" Index="768" Frequency="19" ExtendedInfo="768"/>
+      <Prize Value="786" Index="767" Frequency="17" ExtendedInfo="767"/>
+      <Prize Value="786" Index="766" Frequency="7" ExtendedInfo="766"/>
+      <Prize Value="784" Index="765" Frequency="23" ExtendedInfo="765"/>
+      <Prize Value="782" Index="764" Frequency="5" ExtendedInfo="764"/>
+      <Prize Value="782" Index="763" Frequency="26" ExtendedInfo="763"/>
+      <Prize Value="780" Index="762" Frequency="23" ExtendedInfo="762"/>
+      <Prize Value="780" Index="761" Frequency="7" ExtendedInfo="761"/>
+      <Prize Value="778" Index="760" Frequency="13" ExtendedInfo="760"/>
+      <Prize Value="778" Index="759" Frequency="15" ExtendedInfo="759"/>
+      <Prize Value="776" Index="758" Frequency="23" ExtendedInfo="758"/>
+      <Prize Value="776" Index="757" Frequency="8" ExtendedInfo="757"/>
+      <Prize Value="774" Index="756" Frequency="24" ExtendedInfo="756"/>
+      <Prize Value="772" Index="755" Frequency="28" ExtendedInfo="755"/>
+      <Prize Value="770" Index="754" Frequency="30" ExtendedInfo="754"/>
+      <Prize Value="768" Index="753" Frequency="18" ExtendedInfo="753"/>
+      <Prize Value="768" Index="752" Frequency="11" ExtendedInfo="752"/>
+      <Prize Value="766" Index="751" Frequency="18" ExtendedInfo="751"/>
+      <Prize Value="766" Index="750" Frequency="14" ExtendedInfo="750"/>
+      <Prize Value="764" Index="749" Frequency="24" ExtendedInfo="749"/>
+      <Prize Value="764" Index="748" Frequency="8" ExtendedInfo="748"/>
+      <Prize Value="762" Index="747" Frequency="21" ExtendedInfo="747"/>
+      <Prize Value="762" Index="746" Frequency="7" ExtendedInfo="746"/>
+      <Prize Value="760" Index="745" Frequency="48" ExtendedInfo="745"/>
+      <Prize Value="760" Index="744" Frequency="7" ExtendedInfo="744"/>
+      <Prize Value="758" Index="743" Frequency="6" ExtendedInfo="743"/>
+      <Prize Value="756" Index="742" Frequency="10" ExtendedInfo="742"/>
+      <Prize Value="756" Index="741" Frequency="9" ExtendedInfo="741"/>
+      <Prize Value="754" Index="740" Frequency="32" ExtendedInfo="740"/>
+      <Prize Value="754" Index="739" Frequency="10" ExtendedInfo="739"/>
+      <Prize Value="752" Index="738" Frequency="25" ExtendedInfo="738"/>
+      <Prize Value="752" Index="737" Frequency="7" ExtendedInfo="737"/>
+      <Prize Value="750" Index="736" Frequency="21" ExtendedInfo="736"/>
+      <Prize Value="750" Index="735" Frequency="8" ExtendedInfo="735"/>
+      <Prize Value="750" Index="734" Frequency="11" ExtendedInfo="734"/>
+      <Prize Value="748" Index="733" Frequency="23" ExtendedInfo="733"/>
+      <Prize Value="748" Index="732" Frequency="9" ExtendedInfo="732"/>
+      <Prize Value="746" Index="731" Frequency="19" ExtendedInfo="731"/>
+      <Prize Value="746" Index="730" Frequency="7" ExtendedInfo="730"/>
+      <Prize Value="744" Index="729" Frequency="31" ExtendedInfo="729"/>
+      <Prize Value="744" Index="728" Frequency="9" ExtendedInfo="728"/>
+      <Prize Value="742" Index="727" Frequency="13" ExtendedInfo="727"/>
+      <Prize Value="742" Index="726" Frequency="22" ExtendedInfo="726"/>
+      <Prize Value="740" Index="725" Frequency="24" ExtendedInfo="725"/>
+      <Prize Value="738" Index="724" Frequency="31" ExtendedInfo="724"/>
+      <Prize Value="738" Index="723" Frequency="18" ExtendedInfo="723"/>
+      <Prize Value="736" Index="722" Frequency="20" ExtendedInfo="722"/>
+      <Prize Value="734" Index="721" Frequency="25" ExtendedInfo="721"/>
+      <Prize Value="734" Index="720" Frequency="15" ExtendedInfo="720"/>
+      <Prize Value="732" Index="719" Frequency="23" ExtendedInfo="719"/>
+      <Prize Value="730" Index="718" Frequency="23" ExtendedInfo="718"/>
+      <Prize Value="728" Index="717" Frequency="23" ExtendedInfo="717"/>
+      <Prize Value="728" Index="716" Frequency="15" ExtendedInfo="716"/>
+      <Prize Value="726" Index="715" Frequency="15" ExtendedInfo="715"/>
+      <Prize Value="726" Index="714" Frequency="13" ExtendedInfo="714"/>
+      <Prize Value="724" Index="713" Frequency="19" ExtendedInfo="713"/>
+      <Prize Value="724" Index="712" Frequency="16" ExtendedInfo="712"/>
+      <Prize Value="722" Index="711" Frequency="14" ExtendedInfo="711"/>
+      <Prize Value="722" Index="710" Frequency="12" ExtendedInfo="710"/>
+      <Prize Value="720" Index="709" Frequency="46" ExtendedInfo="709"/>
+      <Prize Value="720" Index="708" Frequency="12" ExtendedInfo="708"/>
+      <Prize Value="720" Index="707" Frequency="1" ExtendedInfo="707"/>
+      <Prize Value="718" Index="706" Frequency="13" ExtendedInfo="706"/>
+      <Prize Value="716" Index="705" Frequency="13" ExtendedInfo="705"/>
+      <Prize Value="716" Index="704" Frequency="11" ExtendedInfo="704"/>
+      <Prize Value="714" Index="703" Frequency="26" ExtendedInfo="703"/>
+      <Prize Value="714" Index="702" Frequency="10" ExtendedInfo="702"/>
+      <Prize Value="712" Index="701" Frequency="25" ExtendedInfo="701"/>
+      <Prize Value="712" Index="700" Frequency="20" ExtendedInfo="700"/>
+      <Prize Value="710" Index="699" Frequency="47" ExtendedInfo="699"/>
+      <Prize Value="710" Index="698" Frequency="19" ExtendedInfo="698"/>
+      <Prize Value="708" Index="697" Frequency="22" ExtendedInfo="697"/>
+      <Prize Value="706" Index="696" Frequency="15" ExtendedInfo="696"/>
+      <Prize Value="706" Index="695" Frequency="13" ExtendedInfo="695"/>
+      <Prize Value="704" Index="694" Frequency="22" ExtendedInfo="694"/>
+      <Prize Value="704" Index="693" Frequency="27" ExtendedInfo="693"/>
+      <Prize Value="704" Index="692" Frequency="1" ExtendedInfo="692"/>
+      <Prize Value="702" Index="691" Frequency="21" ExtendedInfo="691"/>
+      <Prize Value="700" Index="690" Frequency="43" ExtendedInfo="690"/>
+      <Prize Value="700" Index="689" Frequency="29" ExtendedInfo="689"/>
+      <Prize Value="696" Index="688" Frequency="9" ExtendedInfo="688"/>
+      <Prize Value="696" Index="687" Frequency="76" ExtendedInfo="687"/>
+      <Prize Value="694" Index="686" Frequency="23" ExtendedInfo="686"/>
+      <Prize Value="694" Index="685" Frequency="24" ExtendedInfo="685"/>
+      <Prize Value="692" Index="684" Frequency="16" ExtendedInfo="684"/>
+      <Prize Value="692" Index="683" Frequency="28" ExtendedInfo="683"/>
+      <Prize Value="690" Index="682" Frequency="26" ExtendedInfo="682"/>
+      <Prize Value="690" Index="681" Frequency="26" ExtendedInfo="681"/>
+      <Prize Value="688" Index="680" Frequency="14" ExtendedInfo="680"/>
+      <Prize Value="688" Index="679" Frequency="25" ExtendedInfo="679"/>
+      <Prize Value="684" Index="678" Frequency="31" ExtendedInfo="678"/>
+      <Prize Value="684" Index="677" Frequency="79" ExtendedInfo="677"/>
+      <Prize Value="682" Index="676" Frequency="19" ExtendedInfo="676"/>
+      <Prize Value="680" Index="675" Frequency="25" ExtendedInfo="675"/>
+      <Prize Value="680" Index="674" Frequency="26" ExtendedInfo="674"/>
+      <Prize Value="680" Index="673" Frequency="4" ExtendedInfo="673"/>
+      <Prize Value="678" Index="672" Frequency="13" ExtendedInfo="672"/>
+      <Prize Value="678" Index="671" Frequency="28" ExtendedInfo="671"/>
+      <Prize Value="676" Index="670" Frequency="12" ExtendedInfo="670"/>
+      <Prize Value="676" Index="669" Frequency="35" ExtendedInfo="669"/>
+      <Prize Value="674" Index="668" Frequency="24" ExtendedInfo="668"/>
+      <Prize Value="674" Index="667" Frequency="72" ExtendedInfo="667"/>
+      <Prize Value="670" Index="666" Frequency="47" ExtendedInfo="666"/>
+      <Prize Value="670" Index="665" Frequency="28" ExtendedInfo="665"/>
+      <Prize Value="670" Index="664" Frequency="2" ExtendedInfo="664"/>
+      <Prize Value="668" Index="663" Frequency="16" ExtendedInfo="663"/>
+      <Prize Value="668" Index="662" Frequency="39" ExtendedInfo="662"/>
+      <Prize Value="666" Index="661" Frequency="18" ExtendedInfo="661"/>
+      <Prize Value="666" Index="660" Frequency="45" ExtendedInfo="660"/>
+      <Prize Value="664" Index="659" Frequency="22" ExtendedInfo="659"/>
+      <Prize Value="664" Index="658" Frequency="66" ExtendedInfo="658"/>
+      <Prize Value="662" Index="657" Frequency="31" ExtendedInfo="657"/>
+      <Prize Value="660" Index="656" Frequency="47" ExtendedInfo="656"/>
+      <Prize Value="660" Index="655" Frequency="17" ExtendedInfo="655"/>
+      <Prize Value="658" Index="654" Frequency="131" ExtendedInfo="654"/>
+      <Prize Value="656" Index="653" Frequency="23" ExtendedInfo="653"/>
+      <Prize Value="654" Index="652" Frequency="24" ExtendedInfo="652"/>
+      <Prize Value="654" Index="651" Frequency="45" ExtendedInfo="651"/>
+      <Prize Value="654" Index="650" Frequency="2" ExtendedInfo="650"/>
+      <Prize Value="652" Index="649" Frequency="22" ExtendedInfo="649"/>
+      <Prize Value="652" Index="648" Frequency="73" ExtendedInfo="648"/>
+      <Prize Value="650" Index="647" Frequency="52" ExtendedInfo="647"/>
+      <Prize Value="650" Index="646" Frequency="69" ExtendedInfo="646"/>
+      <Prize Value="650" Index="645" Frequency="7" ExtendedInfo="645"/>
+      <Prize Value="648" Index="644" Frequency="68" ExtendedInfo="644"/>
+      <Prize Value="646" Index="643" Frequency="30" ExtendedInfo="643"/>
+      <Prize Value="646" Index="642" Frequency="61" ExtendedInfo="642"/>
+      <Prize Value="644" Index="641" Frequency="23" ExtendedInfo="641"/>
+      <Prize Value="644" Index="640" Frequency="78" ExtendedInfo="640"/>
+      <Prize Value="642" Index="639" Frequency="23" ExtendedInfo="639"/>
+      <Prize Value="642" Index="638" Frequency="73" ExtendedInfo="638"/>
+      <Prize Value="640" Index="637" Frequency="27" ExtendedInfo="637"/>
+      <Prize Value="640" Index="636" Frequency="83" ExtendedInfo="636"/>
+      <Prize Value="638" Index="635" Frequency="20" ExtendedInfo="635"/>
+      <Prize Value="638" Index="634" Frequency="97" ExtendedInfo="634"/>
+      <Prize Value="636" Index="633" Frequency="164" ExtendedInfo="633"/>
+      <Prize Value="634" Index="632" Frequency="42" ExtendedInfo="632"/>
+      <Prize Value="634" Index="631" Frequency="6" ExtendedInfo="631"/>
+      <Prize Value="632" Index="630" Frequency="24" ExtendedInfo="630"/>
+      <Prize Value="632" Index="629" Frequency="96" ExtendedInfo="629"/>
+      <Prize Value="630" Index="628" Frequency="24" ExtendedInfo="628"/>
+      <Prize Value="630" Index="627" Frequency="199" ExtendedInfo="627"/>
+      <Prize Value="630" Index="626" Frequency="18" ExtendedInfo="626"/>
+      <Prize Value="628" Index="625" Frequency="19" ExtendedInfo="625"/>
+      <Prize Value="626" Index="624" Frequency="19" ExtendedInfo="624"/>
+      <Prize Value="626" Index="623" Frequency="111" ExtendedInfo="623"/>
+      <Prize Value="624" Index="622" Frequency="28" ExtendedInfo="622"/>
+      <Prize Value="624" Index="621" Frequency="125" ExtendedInfo="621"/>
+      <Prize Value="622" Index="620" Frequency="19" ExtendedInfo="620"/>
+      <Prize Value="620" Index="619" Frequency="45" ExtendedInfo="619"/>
+      <Prize Value="620" Index="618" Frequency="231" ExtendedInfo="618"/>
+      <Prize Value="620" Index="617" Frequency="1" ExtendedInfo="617"/>
+      <Prize Value="618" Index="616" Frequency="24" ExtendedInfo="616"/>
+      <Prize Value="618" Index="615" Frequency="114" ExtendedInfo="615"/>
+      <Prize Value="616" Index="614" Frequency="16" ExtendedInfo="614"/>
+      <Prize Value="614" Index="613" Frequency="19" ExtendedInfo="613"/>
+      <Prize Value="614" Index="612" Frequency="268" ExtendedInfo="612"/>
+      <Prize Value="612" Index="611" Frequency="20" ExtendedInfo="611"/>
+      <Prize Value="612" Index="610" Frequency="130" ExtendedInfo="610"/>
+      <Prize Value="610" Index="609" Frequency="30" ExtendedInfo="609"/>
+      <Prize Value="610" Index="608" Frequency="118" ExtendedInfo="608"/>
+      <Prize Value="610" Index="607" Frequency="1" ExtendedInfo="607"/>
+      <Prize Value="608" Index="606" Frequency="53" ExtendedInfo="606"/>
+      <Prize Value="608" Index="605" Frequency="117" ExtendedInfo="605"/>
+      <Prize Value="606" Index="604" Frequency="118" ExtendedInfo="604"/>
+      <Prize Value="604" Index="603" Frequency="23" ExtendedInfo="603"/>
+      <Prize Value="604" Index="602" Frequency="128" ExtendedInfo="602"/>
+      <Prize Value="602" Index="601" Frequency="25" ExtendedInfo="601"/>
+      <Prize Value="602" Index="600" Frequency="269" ExtendedInfo="600"/>
+      <Prize Value="600" Index="599" Frequency="33" ExtendedInfo="599"/>
+      <Prize Value="600" Index="598" Frequency="6" ExtendedInfo="598"/>
+      <Prize Value="598" Index="597" Frequency="18" ExtendedInfo="597"/>
+      <Prize Value="598" Index="596" Frequency="254" ExtendedInfo="596"/>
+      <Prize Value="594" Index="595" Frequency="53" ExtendedInfo="595"/>
+      <Prize Value="594" Index="594" Frequency="133" ExtendedInfo="594"/>
+      <Prize Value="592" Index="593" Frequency="26" ExtendedInfo="593"/>
+      <Prize Value="592" Index="592" Frequency="141" ExtendedInfo="592"/>
+      <Prize Value="590" Index="591" Frequency="26" ExtendedInfo="591"/>
+      <Prize Value="590" Index="590" Frequency="245" ExtendedInfo="590"/>
+      <Prize Value="588" Index="589" Frequency="25" ExtendedInfo="589"/>
+      <Prize Value="586" Index="588" Frequency="120" ExtendedInfo="588"/>
+      <Prize Value="584" Index="587" Frequency="61" ExtendedInfo="587"/>
+      <Prize Value="584" Index="586" Frequency="114" ExtendedInfo="586"/>
+      <Prize Value="582" Index="585" Frequency="25" ExtendedInfo="585"/>
+      <Prize Value="582" Index="584" Frequency="121" ExtendedInfo="584"/>
+      <Prize Value="580" Index="583" Frequency="30" ExtendedInfo="583"/>
+      <Prize Value="580" Index="582" Frequency="118" ExtendedInfo="582"/>
+      <Prize Value="580" Index="581" Frequency="2" ExtendedInfo="581"/>
+      <Prize Value="578" Index="580" Frequency="22" ExtendedInfo="580"/>
+      <Prize Value="578" Index="579" Frequency="106" ExtendedInfo="579"/>
+      <Prize Value="576" Index="578" Frequency="17" ExtendedInfo="578"/>
+      <Prize Value="576" Index="577" Frequency="104" ExtendedInfo="577"/>
+      <Prize Value="574" Index="576" Frequency="33" ExtendedInfo="576"/>
+      <Prize Value="574" Index="575" Frequency="93" ExtendedInfo="575"/>
+      <Prize Value="572" Index="574" Frequency="22" ExtendedInfo="574"/>
+      <Prize Value="570" Index="573" Frequency="38" ExtendedInfo="573"/>
+      <Prize Value="570" Index="572" Frequency="1" ExtendedInfo="572"/>
+      <Prize Value="568" Index="571" Frequency="26" ExtendedInfo="571"/>
+      <Prize Value="568" Index="570" Frequency="257" ExtendedInfo="570"/>
+      <Prize Value="566" Index="569" Frequency="15" ExtendedInfo="569"/>
+      <Prize Value="566" Index="568" Frequency="71" ExtendedInfo="568"/>
+      <Prize Value="564" Index="567" Frequency="36" ExtendedInfo="567"/>
+      <Prize Value="564" Index="566" Frequency="77" ExtendedInfo="566"/>
+      <Prize Value="562" Index="565" Frequency="53" ExtendedInfo="565"/>
+      <Prize Value="560" Index="564" Frequency="224" ExtendedInfo="564"/>
+      <Prize Value="560" Index="563" Frequency="8" ExtendedInfo="563"/>
+      <Prize Value="558" Index="562" Frequency="28" ExtendedInfo="562"/>
+      <Prize Value="556" Index="561" Frequency="12" ExtendedInfo="561"/>
+      <Prize Value="554" Index="560" Frequency="42" ExtendedInfo="560"/>
+      <Prize Value="552" Index="559" Frequency="43" ExtendedInfo="559"/>
+      <Prize Value="552" Index="558" Frequency="45" ExtendedInfo="558"/>
+      <Prize Value="550" Index="557" Frequency="31" ExtendedInfo="557"/>
+      <Prize Value="550" Index="556" Frequency="57" ExtendedInfo="556"/>
+      <Prize Value="550" Index="555" Frequency="14" ExtendedInfo="555"/>
+      <Prize Value="548" Index="554" Frequency="24" ExtendedInfo="554"/>
+      <Prize Value="548" Index="553" Frequency="52" ExtendedInfo="553"/>
+      <Prize Value="546" Index="552" Frequency="17" ExtendedInfo="552"/>
+      <Prize Value="544" Index="551" Frequency="21" ExtendedInfo="551"/>
+      <Prize Value="544" Index="550" Frequency="49" ExtendedInfo="550"/>
+      <Prize Value="542" Index="549" Frequency="24" ExtendedInfo="549"/>
+      <Prize Value="540" Index="548" Frequency="37" ExtendedInfo="548"/>
+      <Prize Value="540" Index="547" Frequency="42" ExtendedInfo="547"/>
+      <Prize Value="540" Index="546" Frequency="2" ExtendedInfo="546"/>
+      <Prize Value="538" Index="545" Frequency="22" ExtendedInfo="545"/>
+      <Prize Value="538" Index="544" Frequency="13" ExtendedInfo="544"/>
+      <Prize Value="536" Index="543" Frequency="15" ExtendedInfo="543"/>
+      <Prize Value="536" Index="542" Frequency="24" ExtendedInfo="542"/>
+      <Prize Value="534" Index="541" Frequency="31" ExtendedInfo="541"/>
+      <Prize Value="534" Index="540" Frequency="2" ExtendedInfo="540"/>
+      <Prize Value="532" Index="539" Frequency="25" ExtendedInfo="539"/>
+      <Prize Value="532" Index="538" Frequency="15" ExtendedInfo="538"/>
+      <Prize Value="530" Index="537" Frequency="21" ExtendedInfo="537"/>
+      <Prize Value="530" Index="536" Frequency="8" ExtendedInfo="536"/>
+      <Prize Value="530" Index="535" Frequency="52" ExtendedInfo="535"/>
+      <Prize Value="528" Index="534" Frequency="24" ExtendedInfo="534"/>
+      <Prize Value="526" Index="533" Frequency="17" ExtendedInfo="533"/>
+      <Prize Value="526" Index="532" Frequency="14" ExtendedInfo="532"/>
+      <Prize Value="524" Index="531" Frequency="31" ExtendedInfo="531"/>
+      <Prize Value="524" Index="530" Frequency="1" ExtendedInfo="530"/>
+      <Prize Value="522" Index="529" Frequency="15" ExtendedInfo="529"/>
+      <Prize Value="520" Index="528" Frequency="20" ExtendedInfo="528"/>
+      <Prize Value="520" Index="527" Frequency="12" ExtendedInfo="527"/>
+      <Prize Value="520" Index="526" Frequency="2" ExtendedInfo="526"/>
+      <Prize Value="518" Index="525" Frequency="29" ExtendedInfo="525"/>
+      <Prize Value="516" Index="524" Frequency="18" ExtendedInfo="524"/>
+      <Prize Value="516" Index="523" Frequency="6" ExtendedInfo="523"/>
+      <Prize Value="514" Index="522" Frequency="21" ExtendedInfo="522"/>
+      <Prize Value="514" Index="521" Frequency="2" ExtendedInfo="521"/>
+      <Prize Value="512" Index="520" Frequency="16" ExtendedInfo="520"/>
+      <Prize Value="512" Index="519" Frequency="6" ExtendedInfo="519"/>
+      <Prize Value="510" Index="518" Frequency="36" ExtendedInfo="518"/>
+      <Prize Value="510" Index="517" Frequency="10" ExtendedInfo="517"/>
+      <Prize Value="508" Index="516" Frequency="17" ExtendedInfo="516"/>
+      <Prize Value="508" Index="515" Frequency="11" ExtendedInfo="515"/>
+      <Prize Value="506" Index="514" Frequency="13" ExtendedInfo="514"/>
+      <Prize Value="504" Index="513" Frequency="48" ExtendedInfo="513"/>
+      <Prize Value="504" Index="512" Frequency="8" ExtendedInfo="512"/>
+      <Prize Value="502" Index="511" Frequency="9" ExtendedInfo="511"/>
+      <Prize Value="500" Index="510" Frequency="33" ExtendedInfo="510"/>
+      <Prize Value="500" Index="509" Frequency="7" ExtendedInfo="509"/>
+      <Prize Value="500" Index="508" Frequency="247" ExtendedInfo="508"/>
+      <Prize Value="498" Index="507" Frequency="28" ExtendedInfo="507"/>
+      <Prize Value="498" Index="506" Frequency="5" ExtendedInfo="506"/>
+      <Prize Value="496" Index="505" Frequency="19" ExtendedInfo="505"/>
+      <Prize Value="494" Index="504" Frequency="24" ExtendedInfo="504"/>
+      <Prize Value="494" Index="503" Frequency="22" ExtendedInfo="503"/>
+      <Prize Value="492" Index="502" Frequency="23" ExtendedInfo="502"/>
+      <Prize Value="490" Index="501" Frequency="24" ExtendedInfo="501"/>
+      <Prize Value="490" Index="500" Frequency="2" ExtendedInfo="500"/>
+      <Prize Value="490" Index="499" Frequency="26" ExtendedInfo="499"/>
+      <Prize Value="488" Index="498" Frequency="22" ExtendedInfo="498"/>
+      <Prize Value="488" Index="497" Frequency="8" ExtendedInfo="497"/>
+      <Prize Value="486" Index="496" Frequency="20" ExtendedInfo="496"/>
+      <Prize Value="486" Index="495" Frequency="5" ExtendedInfo="495"/>
+      <Prize Value="484" Index="494" Frequency="22" ExtendedInfo="494"/>
+      <Prize Value="484" Index="493" Frequency="5" ExtendedInfo="493"/>
+      <Prize Value="484" Index="492" Frequency="5" ExtendedInfo="492"/>
+      <Prize Value="482" Index="491" Frequency="8" ExtendedInfo="491"/>
+      <Prize Value="480" Index="490" Frequency="98" ExtendedInfo="490"/>
+      <Prize Value="480" Index="489" Frequency="6" ExtendedInfo="489"/>
+      <Prize Value="480" Index="488" Frequency="18" ExtendedInfo="488"/>
+      <Prize Value="478" Index="487" Frequency="4" ExtendedInfo="487"/>
+      <Prize Value="476" Index="486" Frequency="1" ExtendedInfo="486"/>
+      <Prize Value="474" Index="485" Frequency="21" ExtendedInfo="485"/>
+      <Prize Value="474" Index="484" Frequency="12" ExtendedInfo="484"/>
+      <Prize Value="472" Index="483" Frequency="22" ExtendedInfo="483"/>
+      <Prize Value="472" Index="482" Frequency="4" ExtendedInfo="482"/>
+      <Prize Value="470" Index="481" Frequency="9" ExtendedInfo="481"/>
+      <Prize Value="468" Index="480" Frequency="54" ExtendedInfo="480"/>
+      <Prize Value="468" Index="479" Frequency="14" ExtendedInfo="479"/>
+      <Prize Value="466" Index="478" Frequency="22" ExtendedInfo="478"/>
+      <Prize Value="466" Index="477" Frequency="18" ExtendedInfo="477"/>
+      <Prize Value="464" Index="476" Frequency="29" ExtendedInfo="476"/>
+      <Prize Value="464" Index="475" Frequency="3" ExtendedInfo="475"/>
+      <Prize Value="462" Index="474" Frequency="23" ExtendedInfo="474"/>
+      <Prize Value="462" Index="473" Frequency="3" ExtendedInfo="473"/>
+      <Prize Value="460" Index="472" Frequency="27" ExtendedInfo="472"/>
+      <Prize Value="460" Index="471" Frequency="13" ExtendedInfo="471"/>
+      <Prize Value="458" Index="470" Frequency="17" ExtendedInfo="470"/>
+      <Prize Value="458" Index="469" Frequency="19" ExtendedInfo="469"/>
+      <Prize Value="456" Index="468" Frequency="15" ExtendedInfo="468"/>
+      <Prize Value="456" Index="467" Frequency="3" ExtendedInfo="467"/>
+      <Prize Value="454" Index="466" Frequency="37" ExtendedInfo="466"/>
+      <Prize Value="454" Index="465" Frequency="9" ExtendedInfo="465"/>
+      <Prize Value="452" Index="464" Frequency="7" ExtendedInfo="464"/>
+      <Prize Value="450" Index="463" Frequency="53" ExtendedInfo="463"/>
+      <Prize Value="450" Index="462" Frequency="112" ExtendedInfo="462"/>
+      <Prize Value="448" Index="461" Frequency="21" ExtendedInfo="461"/>
+      <Prize Value="448" Index="460" Frequency="13" ExtendedInfo="460"/>
+      <Prize Value="446" Index="459" Frequency="17" ExtendedInfo="459"/>
+      <Prize Value="446" Index="458" Frequency="12" ExtendedInfo="458"/>
+      <Prize Value="444" Index="457" Frequency="28" ExtendedInfo="457"/>
+      <Prize Value="444" Index="456" Frequency="5" ExtendedInfo="456"/>
+      <Prize Value="444" Index="455" Frequency="1" ExtendedInfo="455"/>
+      <Prize Value="442" Index="454" Frequency="7" ExtendedInfo="454"/>
+      <Prize Value="440" Index="453" Frequency="41" ExtendedInfo="453"/>
+      <Prize Value="440" Index="452" Frequency="11" ExtendedInfo="452"/>
+      <Prize Value="440" Index="451" Frequency="3" ExtendedInfo="451"/>
+      <Prize Value="438" Index="450" Frequency="19" ExtendedInfo="450"/>
+      <Prize Value="438" Index="449" Frequency="15" ExtendedInfo="449"/>
+      <Prize Value="436" Index="448" Frequency="21" ExtendedInfo="448"/>
+      <Prize Value="434" Index="447" Frequency="28" ExtendedInfo="447"/>
+      <Prize Value="432" Index="446" Frequency="18" ExtendedInfo="446"/>
+      <Prize Value="432" Index="445" Frequency="38" ExtendedInfo="445"/>
+      <Prize Value="430" Index="444" Frequency="38" ExtendedInfo="444"/>
+      <Prize Value="430" Index="443" Frequency="81" ExtendedInfo="443"/>
+      <Prize Value="428" Index="442" Frequency="22" ExtendedInfo="442"/>
+      <Prize Value="428" Index="441" Frequency="9" ExtendedInfo="441"/>
+      <Prize Value="426" Index="440" Frequency="5" ExtendedInfo="440"/>
+      <Prize Value="424" Index="439" Frequency="82" ExtendedInfo="439"/>
+      <Prize Value="424" Index="438" Frequency="14" ExtendedInfo="438"/>
+      <Prize Value="424" Index="437" Frequency="1" ExtendedInfo="437"/>
+      <Prize Value="422" Index="436" Frequency="10" ExtendedInfo="436"/>
+      <Prize Value="420" Index="435" Frequency="49" ExtendedInfo="435"/>
+      <Prize Value="420" Index="434" Frequency="22" ExtendedInfo="434"/>
+      <Prize Value="420" Index="433" Frequency="7" ExtendedInfo="433"/>
+      <Prize Value="416" Index="432" Frequency="15" ExtendedInfo="432"/>
+      <Prize Value="416" Index="431" Frequency="13" ExtendedInfo="431"/>
+      <Prize Value="414" Index="430" Frequency="22" ExtendedInfo="430"/>
+      <Prize Value="414" Index="429" Frequency="15" ExtendedInfo="429"/>
+      <Prize Value="412" Index="428" Frequency="23" ExtendedInfo="428"/>
+      <Prize Value="412" Index="427" Frequency="12" ExtendedInfo="427"/>
+      <Prize Value="410" Index="426" Frequency="31" ExtendedInfo="426"/>
+      <Prize Value="410" Index="425" Frequency="8" ExtendedInfo="425"/>
+      <Prize Value="410" Index="424" Frequency="40" ExtendedInfo="424"/>
+      <Prize Value="408" Index="423" Frequency="32" ExtendedInfo="423"/>
+      <Prize Value="408" Index="422" Frequency="18" ExtendedInfo="422"/>
+      <Prize Value="408" Index="421" Frequency="1" ExtendedInfo="421"/>
+      <Prize Value="406" Index="420" Frequency="13" ExtendedInfo="420"/>
+      <Prize Value="406" Index="419" Frequency="13" ExtendedInfo="419"/>
+      <Prize Value="404" Index="418" Frequency="35" ExtendedInfo="418"/>
+      <Prize Value="404" Index="417" Frequency="15" ExtendedInfo="417"/>
+      <Prize Value="404" Index="416" Frequency="2" ExtendedInfo="416"/>
+      <Prize Value="402" Index="415" Frequency="23" ExtendedInfo="415"/>
+      <Prize Value="400" Index="414" Frequency="53" ExtendedInfo="414"/>
+      <Prize Value="400" Index="413" Frequency="39" ExtendedInfo="413"/>
+      <Prize Value="400" Index="412" Frequency="201" ExtendedInfo="412"/>
+      <Prize Value="398" Index="411" Frequency="20" ExtendedInfo="411"/>
+      <Prize Value="396" Index="410" Frequency="18" ExtendedInfo="410"/>
+      <Prize Value="396" Index="409" Frequency="17" ExtendedInfo="409"/>
+      <Prize Value="394" Index="408" Frequency="32" ExtendedInfo="408"/>
+      <Prize Value="392" Index="407" Frequency="46" ExtendedInfo="407"/>
+      <Prize Value="392" Index="406" Frequency="42" ExtendedInfo="406"/>
+      <Prize Value="390" Index="405" Frequency="25" ExtendedInfo="405"/>
+      <Prize Value="390" Index="404" Frequency="15" ExtendedInfo="404"/>
+      <Prize Value="388" Index="403" Frequency="35" ExtendedInfo="403"/>
+      <Prize Value="388" Index="402" Frequency="22" ExtendedInfo="402"/>
+      <Prize Value="386" Index="401" Frequency="16" ExtendedInfo="401"/>
+      <Prize Value="386" Index="400" Frequency="14" ExtendedInfo="400"/>
+      <Prize Value="384" Index="399" Frequency="26" ExtendedInfo="399"/>
+      <Prize Value="384" Index="398" Frequency="30" ExtendedInfo="398"/>
+      <Prize Value="384" Index="397" Frequency="3" ExtendedInfo="397"/>
+      <Prize Value="382" Index="396" Frequency="19" ExtendedInfo="396"/>
+      <Prize Value="382" Index="395" Frequency="27" ExtendedInfo="395"/>
+      <Prize Value="380" Index="394" Frequency="23" ExtendedInfo="394"/>
+      <Prize Value="380" Index="393" Frequency="65" ExtendedInfo="393"/>
+      <Prize Value="378" Index="392" Frequency="67" ExtendedInfo="392"/>
+      <Prize Value="378" Index="391" Frequency="44" ExtendedInfo="391"/>
+      <Prize Value="374" Index="390" Frequency="21" ExtendedInfo="390"/>
+      <Prize Value="374" Index="389" Frequency="69" ExtendedInfo="389"/>
+      <Prize Value="372" Index="388" Frequency="30" ExtendedInfo="388"/>
+      <Prize Value="370" Index="387" Frequency="70" ExtendedInfo="387"/>
+      <Prize Value="370" Index="386" Frequency="27" ExtendedInfo="386"/>
+      <Prize Value="368" Index="385" Frequency="89" ExtendedInfo="385"/>
+      <Prize Value="368" Index="384" Frequency="44" ExtendedInfo="384"/>
+      <Prize Value="366" Index="383" Frequency="38" ExtendedInfo="383"/>
+      <Prize Value="364" Index="382" Frequency="24" ExtendedInfo="382"/>
+      <Prize Value="364" Index="381" Frequency="2" ExtendedInfo="381"/>
+      <Prize Value="362" Index="380" Frequency="20" ExtendedInfo="380"/>
+      <Prize Value="362" Index="379" Frequency="88" ExtendedInfo="379"/>
+      <Prize Value="360" Index="378" Frequency="60" ExtendedInfo="378"/>
+      <Prize Value="360" Index="377" Frequency="47" ExtendedInfo="377"/>
+      <Prize Value="360" Index="376" Frequency="122" ExtendedInfo="376"/>
+      <Prize Value="358" Index="375" Frequency="50" ExtendedInfo="375"/>
+      <Prize Value="356" Index="374" Frequency="103" ExtendedInfo="374"/>
+      <Prize Value="354" Index="373" Frequency="50" ExtendedInfo="373"/>
+      <Prize Value="354" Index="372" Frequency="18" ExtendedInfo="372"/>
+      <Prize Value="350" Index="371" Frequency="46" ExtendedInfo="371"/>
+      <Prize Value="350" Index="370" Frequency="132" ExtendedInfo="370"/>
+      <Prize Value="350" Index="369" Frequency="179" ExtendedInfo="369"/>
+      <Prize Value="348" Index="368" Frequency="27" ExtendedInfo="368"/>
+      <Prize Value="348" Index="367" Frequency="47" ExtendedInfo="367"/>
+      <Prize Value="346" Index="366" Frequency="18" ExtendedInfo="366"/>
+      <Prize Value="346" Index="365" Frequency="67" ExtendedInfo="365"/>
+      <Prize Value="344" Index="364" Frequency="26" ExtendedInfo="364"/>
+      <Prize Value="344" Index="363" Frequency="77" ExtendedInfo="363"/>
+      <Prize Value="342" Index="362" Frequency="72" ExtendedInfo="362"/>
+      <Prize Value="340" Index="361" Frequency="68" ExtendedInfo="361"/>
+      <Prize Value="340" Index="360" Frequency="67" ExtendedInfo="360"/>
+      <Prize Value="340" Index="359" Frequency="93" ExtendedInfo="359"/>
+      <Prize Value="338" Index="358" Frequency="82" ExtendedInfo="358"/>
+      <Prize Value="338" Index="357" Frequency="1" ExtendedInfo="357"/>
+      <Prize Value="336" Index="356" Frequency="12" ExtendedInfo="356"/>
+      <Prize Value="336" Index="355" Frequency="76" ExtendedInfo="355"/>
+      <Prize Value="334" Index="354" Frequency="22" ExtendedInfo="354"/>
+      <Prize Value="334" Index="353" Frequency="30" ExtendedInfo="353"/>
+      <Prize Value="332" Index="352" Frequency="16" ExtendedInfo="352"/>
+      <Prize Value="332" Index="351" Frequency="168" ExtendedInfo="351"/>
+      <Prize Value="330" Index="350" Frequency="20" ExtendedInfo="350"/>
+      <Prize Value="330" Index="349" Frequency="156" ExtendedInfo="349"/>
+      <Prize Value="328" Index="348" Frequency="16" ExtendedInfo="348"/>
+      <Prize Value="328" Index="347" Frequency="197" ExtendedInfo="347"/>
+      <Prize Value="326" Index="346" Frequency="14" ExtendedInfo="346"/>
+      <Prize Value="326" Index="345" Frequency="112" ExtendedInfo="345"/>
+      <Prize Value="324" Index="344" Frequency="36" ExtendedInfo="344"/>
+      <Prize Value="324" Index="343" Frequency="229" ExtendedInfo="343"/>
+      <Prize Value="324" Index="342" Frequency="10" ExtendedInfo="342"/>
+      <Prize Value="322" Index="341" Frequency="17" ExtendedInfo="341"/>
+      <Prize Value="320" Index="340" Frequency="28" ExtendedInfo="340"/>
+      <Prize Value="320" Index="339" Frequency="119" ExtendedInfo="339"/>
+      <Prize Value="320" Index="338" Frequency="184" ExtendedInfo="338"/>
+      <Prize Value="318" Index="337" Frequency="18" ExtendedInfo="337"/>
+      <Prize Value="318" Index="336" Frequency="95" ExtendedInfo="336"/>
+      <Prize Value="316" Index="335" Frequency="11" ExtendedInfo="335"/>
+      <Prize Value="316" Index="334" Frequency="130" ExtendedInfo="334"/>
+      <Prize Value="314" Index="333" Frequency="17" ExtendedInfo="333"/>
+      <Prize Value="314" Index="332" Frequency="128" ExtendedInfo="332"/>
+      <Prize Value="314" Index="331" Frequency="37" ExtendedInfo="331"/>
+      <Prize Value="312" Index="330" Frequency="18" ExtendedInfo="330"/>
+      <Prize Value="310" Index="329" Frequency="30" ExtendedInfo="329"/>
+      <Prize Value="310" Index="328" Frequency="261" ExtendedInfo="328"/>
+      <Prize Value="310" Index="327" Frequency="194" ExtendedInfo="327"/>
+      <Prize Value="308" Index="326" Frequency="31" ExtendedInfo="326"/>
+      <Prize Value="308" Index="325" Frequency="120" ExtendedInfo="325"/>
+      <Prize Value="308" Index="324" Frequency="22" ExtendedInfo="324"/>
+      <Prize Value="306" Index="323" Frequency="33" ExtendedInfo="323"/>
+      <Prize Value="304" Index="322" Frequency="277" ExtendedInfo="322"/>
+      <Prize Value="304" Index="321" Frequency="27" ExtendedInfo="321"/>
+      <Prize Value="300" Index="320" Frequency="53" ExtendedInfo="320"/>
+      <Prize Value="300" Index="319" Frequency="410" ExtendedInfo="319"/>
+      <Prize Value="300" Index="318" Frequency="574" ExtendedInfo="318"/>
+      <Prize Value="296" Index="317" Frequency="288" ExtendedInfo="317"/>
+      <Prize Value="294" Index="316" Frequency="62" ExtendedInfo="316"/>
+      <Prize Value="294" Index="315" Frequency="23" ExtendedInfo="315"/>
+      <Prize Value="290" Index="314" Frequency="263" ExtendedInfo="314"/>
+      <Prize Value="290" Index="313" Frequency="145" ExtendedInfo="313"/>
+      <Prize Value="288" Index="312" Frequency="59" ExtendedInfo="312"/>
+      <Prize Value="286" Index="311" Frequency="423" ExtendedInfo="311"/>
+      <Prize Value="284" Index="310" Frequency="15" ExtendedInfo="310"/>
+      <Prize Value="284" Index="309" Frequency="34" ExtendedInfo="309"/>
+      <Prize Value="280" Index="308" Frequency="76" ExtendedInfo="308"/>
+      <Prize Value="280" Index="307" Frequency="417" ExtendedInfo="307"/>
+      <Prize Value="280" Index="306" Frequency="275" ExtendedInfo="306"/>
+      <Prize Value="276" Index="305" Frequency="120" ExtendedInfo="305"/>
+      <Prize Value="274" Index="304" Frequency="55" ExtendedInfo="304"/>
+      <Prize Value="274" Index="303" Frequency="18" ExtendedInfo="303"/>
+      <Prize Value="272" Index="302" Frequency="248" ExtendedInfo="302"/>
+      <Prize Value="270" Index="301" Frequency="184" ExtendedInfo="301"/>
+      <Prize Value="268" Index="300" Frequency="49" ExtendedInfo="300"/>
+      <Prize Value="268" Index="299" Frequency="236" ExtendedInfo="299"/>
+      <Prize Value="264" Index="298" Frequency="48" ExtendedInfo="298"/>
+      <Prize Value="264" Index="297" Frequency="241" ExtendedInfo="297"/>
+      <Prize Value="264" Index="296" Frequency="54" ExtendedInfo="296"/>
+      <Prize Value="260" Index="295" Frequency="229" ExtendedInfo="295"/>
+      <Prize Value="260" Index="294" Frequency="268" ExtendedInfo="294"/>
+      <Prize Value="258" Index="293" Frequency="51" ExtendedInfo="293"/>
+      <Prize Value="256" Index="292" Frequency="334" ExtendedInfo="292"/>
+      <Prize Value="254" Index="291" Frequency="36" ExtendedInfo="291"/>
+      <Prize Value="252" Index="290" Frequency="41" ExtendedInfo="290"/>
+      <Prize Value="252" Index="289" Frequency="224" ExtendedInfo="289"/>
+      <Prize Value="250" Index="288" Frequency="1794" ExtendedInfo="288"/>
+      <Prize Value="248" Index="287" Frequency="43" ExtendedInfo="287"/>
+      <Prize Value="248" Index="286" Frequency="124" ExtendedInfo="286"/>
+      <Prize Value="248" Index="285" Frequency="2" ExtendedInfo="285"/>
+      <Prize Value="244" Index="284" Frequency="35" ExtendedInfo="284"/>
+      <Prize Value="244" Index="283" Frequency="379" ExtendedInfo="283"/>
+      <Prize Value="244" Index="282" Frequency="30" ExtendedInfo="282"/>
+      <Prize Value="240" Index="281" Frequency="58" ExtendedInfo="281"/>
+      <Prize Value="240" Index="280" Frequency="236" ExtendedInfo="280"/>
+      <Prize Value="238" Index="279" Frequency="383" ExtendedInfo="279"/>
+      <Prize Value="234" Index="278" Frequency="34" ExtendedInfo="278"/>
+      <Prize Value="234" Index="277" Frequency="53" ExtendedInfo="277"/>
+      <Prize Value="232" Index="276" Frequency="16" ExtendedInfo="276"/>
+      <Prize Value="232" Index="275" Frequency="276" ExtendedInfo="275"/>
+      <Prize Value="230" Index="274" Frequency="18" ExtendedInfo="274"/>
+      <Prize Value="230" Index="273" Frequency="809" ExtendedInfo="273"/>
+      <Prize Value="228" Index="272" Frequency="428" ExtendedInfo="272"/>
+      <Prize Value="226" Index="271" Frequency="44" ExtendedInfo="271"/>
+      <Prize Value="224" Index="270" Frequency="37" ExtendedInfo="270"/>
+      <Prize Value="222" Index="269" Frequency="539" ExtendedInfo="269"/>
+      <Prize Value="220" Index="268" Frequency="34" ExtendedInfo="268"/>
+      <Prize Value="220" Index="267" Frequency="831" ExtendedInfo="267"/>
+      <Prize Value="216" Index="266" Frequency="31" ExtendedInfo="266"/>
+      <Prize Value="216" Index="265" Frequency="381" ExtendedInfo="265"/>
+      <Prize Value="214" Index="264" Frequency="66" ExtendedInfo="264"/>
+      <Prize Value="212" Index="263" Frequency="34" ExtendedInfo="263"/>
+      <Prize Value="212" Index="262" Frequency="452" ExtendedInfo="262"/>
+      <Prize Value="210" Index="261" Frequency="895" ExtendedInfo="261"/>
+      <Prize Value="208" Index="260" Frequency="53" ExtendedInfo="260"/>
+      <Prize Value="208" Index="259" Frequency="489" ExtendedInfo="259"/>
+      <Prize Value="204" Index="258" Frequency="25" ExtendedInfo="258"/>
+      <Prize Value="204" Index="257" Frequency="455" ExtendedInfo="257"/>
+      <Prize Value="204" Index="256" Frequency="301" ExtendedInfo="256"/>
+      <Prize Value="200" Index="255" Frequency="26" ExtendedInfo="255"/>
+      <Prize Value="200" Index="254" Frequency="527" ExtendedInfo="254"/>
+      <Prize Value="200" Index="253" Frequency="1655" ExtendedInfo="253"/>
+      <Prize Value="198" Index="252" Frequency="18" ExtendedInfo="252"/>
+      <Prize Value="198" Index="251" Frequency="294" ExtendedInfo="251"/>
+      <Prize Value="196" Index="250" Frequency="14" ExtendedInfo="250"/>
+      <Prize Value="196" Index="249" Frequency="312" ExtendedInfo="249"/>
+      <Prize Value="194" Index="248" Frequency="24" ExtendedInfo="248"/>
+      <Prize Value="194" Index="247" Frequency="319" ExtendedInfo="247"/>
+      <Prize Value="194" Index="246" Frequency="66" ExtendedInfo="246"/>
+      <Prize Value="192" Index="245" Frequency="12" ExtendedInfo="245"/>
+      <Prize Value="192" Index="244" Frequency="318" ExtendedInfo="244"/>
+      <Prize Value="190" Index="243" Frequency="26" ExtendedInfo="243"/>
+      <Prize Value="190" Index="242" Frequency="351" ExtendedInfo="242"/>
+      <Prize Value="190" Index="241" Frequency="1203" ExtendedInfo="241"/>
+      <Prize Value="188" Index="240" Frequency="15" ExtendedInfo="240"/>
+      <Prize Value="188" Index="239" Frequency="398" ExtendedInfo="239"/>
+      <Prize Value="188" Index="238" Frequency="22" ExtendedInfo="238"/>
+      <Prize Value="186" Index="237" Frequency="14" ExtendedInfo="237"/>
+      <Prize Value="186" Index="236" Frequency="373" ExtendedInfo="236"/>
+      <Prize Value="184" Index="235" Frequency="21" ExtendedInfo="235"/>
+      <Prize Value="184" Index="234" Frequency="358" ExtendedInfo="234"/>
+      <Prize Value="184" Index="233" Frequency="241" ExtendedInfo="233"/>
+      <Prize Value="182" Index="232" Frequency="14" ExtendedInfo="232"/>
+      <Prize Value="182" Index="231" Frequency="376" ExtendedInfo="231"/>
+      <Prize Value="180" Index="230" Frequency="19" ExtendedInfo="230"/>
+      <Prize Value="180" Index="229" Frequency="386" ExtendedInfo="229"/>
+      <Prize Value="180" Index="228" Frequency="1475" ExtendedInfo="228"/>
+      <Prize Value="178" Index="227" Frequency="13" ExtendedInfo="227"/>
+      <Prize Value="178" Index="226" Frequency="434" ExtendedInfo="226"/>
+      <Prize Value="178" Index="225" Frequency="31" ExtendedInfo="225"/>
+      <Prize Value="176" Index="224" Frequency="10" ExtendedInfo="224"/>
+      <Prize Value="176" Index="223" Frequency="435" ExtendedInfo="223"/>
+      <Prize Value="174" Index="222" Frequency="15" ExtendedInfo="222"/>
+      <Prize Value="174" Index="221" Frequency="486" ExtendedInfo="221"/>
+      <Prize Value="174" Index="220" Frequency="374" ExtendedInfo="220"/>
+      <Prize Value="172" Index="219" Frequency="14" ExtendedInfo="219"/>
+      <Prize Value="172" Index="218" Frequency="484" ExtendedInfo="218"/>
+      <Prize Value="170" Index="217" Frequency="15" ExtendedInfo="217"/>
+      <Prize Value="170" Index="216" Frequency="558" ExtendedInfo="216"/>
+      <Prize Value="170" Index="215" Frequency="1736" ExtendedInfo="215"/>
+      <Prize Value="168" Index="214" Frequency="21" ExtendedInfo="214"/>
+      <Prize Value="168" Index="213" Frequency="527" ExtendedInfo="213"/>
+      <Prize Value="168" Index="212" Frequency="33" ExtendedInfo="212"/>
+      <Prize Value="166" Index="211" Frequency="11" ExtendedInfo="211"/>
+      <Prize Value="166" Index="210" Frequency="533" ExtendedInfo="210"/>
+      <Prize Value="164" Index="209" Frequency="18" ExtendedInfo="209"/>
+      <Prize Value="164" Index="208" Frequency="574" ExtendedInfo="208"/>
+      <Prize Value="164" Index="207" Frequency="620" ExtendedInfo="207"/>
+      <Prize Value="162" Index="206" Frequency="12" ExtendedInfo="206"/>
+      <Prize Value="162" Index="205" Frequency="625" ExtendedInfo="205"/>
+      <Prize Value="162" Index="204" Frequency="31" ExtendedInfo="204"/>
+      <Prize Value="160" Index="203" Frequency="18" ExtendedInfo="203"/>
+      <Prize Value="160" Index="202" Frequency="624" ExtendedInfo="202"/>
+      <Prize Value="160" Index="201" Frequency="2694" ExtendedInfo="201"/>
+      <Prize Value="158" Index="200" Frequency="14" ExtendedInfo="200"/>
+      <Prize Value="158" Index="199" Frequency="691" ExtendedInfo="199"/>
+      <Prize Value="158" Index="198" Frequency="565" ExtendedInfo="198"/>
+      <Prize Value="156" Index="197" Frequency="10" ExtendedInfo="197"/>
+      <Prize Value="156" Index="196" Frequency="762" ExtendedInfo="196"/>
+      <Prize Value="154" Index="195" Frequency="22" ExtendedInfo="195"/>
+      <Prize Value="154" Index="194" Frequency="780" ExtendedInfo="194"/>
+      <Prize Value="154" Index="193" Frequency="481" ExtendedInfo="193"/>
+      <Prize Value="152" Index="192" Frequency="17" ExtendedInfo="192"/>
+      <Prize Value="152" Index="191" Frequency="801" ExtendedInfo="191"/>
+      <Prize Value="150" Index="190" Frequency="17" ExtendedInfo="190"/>
+      <Prize Value="150" Index="189" Frequency="835" ExtendedInfo="189"/>
+      <Prize Value="150" Index="188" Frequency="5805" ExtendedInfo="188"/>
+      <Prize Value="148" Index="187" Frequency="15" ExtendedInfo="187"/>
+      <Prize Value="148" Index="186" Frequency="932" ExtendedInfo="186"/>
+      <Prize Value="148" Index="185" Frequency="51" ExtendedInfo="185"/>
+      <Prize Value="146" Index="184" Frequency="9" ExtendedInfo="184"/>
+      <Prize Value="146" Index="183" Frequency="869" ExtendedInfo="183"/>
+      <Prize Value="144" Index="182" Frequency="20" ExtendedInfo="182"/>
+      <Prize Value="144" Index="181" Frequency="904" ExtendedInfo="181"/>
+      <Prize Value="144" Index="180" Frequency="703" ExtendedInfo="180"/>
+      <Prize Value="142" Index="179" Frequency="16" ExtendedInfo="179"/>
+      <Prize Value="142" Index="178" Frequency="913" ExtendedInfo="178"/>
+      <Prize Value="142" Index="177" Frequency="47" ExtendedInfo="177"/>
+      <Prize Value="140" Index="176" Frequency="15" ExtendedInfo="176"/>
+      <Prize Value="140" Index="175" Frequency="1024" ExtendedInfo="175"/>
+      <Prize Value="140" Index="174" Frequency="2752" ExtendedInfo="174"/>
+      <Prize Value="138" Index="173" Frequency="13" ExtendedInfo="173"/>
+      <Prize Value="138" Index="172" Frequency="1034" ExtendedInfo="172"/>
+      <Prize Value="138" Index="171" Frequency="226" ExtendedInfo="171"/>
+      <Prize Value="136" Index="170" Frequency="10" ExtendedInfo="170"/>
+      <Prize Value="136" Index="169" Frequency="1131" ExtendedInfo="169"/>
+      <Prize Value="134" Index="168" Frequency="19" ExtendedInfo="168"/>
+      <Prize Value="134" Index="167" Frequency="1157" ExtendedInfo="167"/>
+      <Prize Value="134" Index="166" Frequency="610" ExtendedInfo="166"/>
+      <Prize Value="132" Index="165" Frequency="14" ExtendedInfo="165"/>
+      <Prize Value="132" Index="164" Frequency="1098" ExtendedInfo="164"/>
+      <Prize Value="132" Index="163" Frequency="59" ExtendedInfo="163"/>
+      <Prize Value="130" Index="162" Frequency="11" ExtendedInfo="162"/>
+      <Prize Value="130" Index="161" Frequency="1171" ExtendedInfo="161"/>
+      <Prize Value="130" Index="160" Frequency="5847" ExtendedInfo="160"/>
+      <Prize Value="128" Index="159" Frequency="21" ExtendedInfo="159"/>
+      <Prize Value="128" Index="158" Frequency="1266" ExtendedInfo="158"/>
+      <Prize Value="128" Index="157" Frequency="348" ExtendedInfo="157"/>
+      <Prize Value="126" Index="156" Frequency="8" ExtendedInfo="156"/>
+      <Prize Value="126" Index="155" Frequency="1309" ExtendedInfo="155"/>
+      <Prize Value="124" Index="154" Frequency="15" ExtendedInfo="154"/>
+      <Prize Value="124" Index="153" Frequency="1242" ExtendedInfo="153"/>
+      <Prize Value="124" Index="152" Frequency="1431" ExtendedInfo="152"/>
+      <Prize Value="122" Index="151" Frequency="13" ExtendedInfo="151"/>
+      <Prize Value="122" Index="150" Frequency="1408" ExtendedInfo="150"/>
+      <Prize Value="122" Index="149" Frequency="10" ExtendedInfo="149"/>
+      <Prize Value="120" Index="148" Frequency="16" ExtendedInfo="148"/>
+      <Prize Value="120" Index="147" Frequency="1332" ExtendedInfo="147"/>
+      <Prize Value="120" Index="146" Frequency="5848" ExtendedInfo="146"/>
+      <Prize Value="118" Index="145" Frequency="10" ExtendedInfo="145"/>
+      <Prize Value="118" Index="144" Frequency="1389" ExtendedInfo="144"/>
+      <Prize Value="118" Index="143" Frequency="356" ExtendedInfo="143"/>
+      <Prize Value="116" Index="142" Frequency="8" ExtendedInfo="142"/>
+      <Prize Value="116" Index="141" Frequency="1435" ExtendedInfo="141"/>
+      <Prize Value="116" Index="140" Frequency="53" ExtendedInfo="140"/>
+      <Prize Value="114" Index="139" Frequency="19" ExtendedInfo="139"/>
+      <Prize Value="114" Index="138" Frequency="1437" ExtendedInfo="138"/>
+      <Prize Value="114" Index="137" Frequency="1701" ExtendedInfo="137"/>
+      <Prize Value="112" Index="136" Frequency="13" ExtendedInfo="136"/>
+      <Prize Value="112" Index="135" Frequency="1545" ExtendedInfo="135"/>
+      <Prize Value="112" Index="134" Frequency="1062" ExtendedInfo="134"/>
+      <Prize Value="110" Index="133" Frequency="10" ExtendedInfo="133"/>
+      <Prize Value="110" Index="132" Frequency="1480" ExtendedInfo="132"/>
+      <Prize Value="110" Index="131" Frequency="10060" ExtendedInfo="131"/>
+      <Prize Value="108" Index="130" Frequency="16" ExtendedInfo="130"/>
+      <Prize Value="108" Index="129" Frequency="1402" ExtendedInfo="129"/>
+      <Prize Value="108" Index="128" Frequency="1175" ExtendedInfo="128"/>
+      <Prize Value="106" Index="127" Frequency="3" ExtendedInfo="127"/>
+      <Prize Value="106" Index="126" Frequency="1431" ExtendedInfo="126"/>
+      <Prize Value="104" Index="125" Frequency="18" ExtendedInfo="125"/>
+      <Prize Value="104" Index="124" Frequency="1508" ExtendedInfo="124"/>
+      <Prize Value="104" Index="123" Frequency="4388" ExtendedInfo="123"/>
+      <Prize Value="102" Index="122" Frequency="10" ExtendedInfo="122"/>
+      <Prize Value="102" Index="121" Frequency="1443" ExtendedInfo="121"/>
+      <Prize Value="100" Index="120" Frequency="17" ExtendedInfo="120"/>
+      <Prize Value="100" Index="119" Frequency="1471" ExtendedInfo="119"/>
+      <Prize Value="100" Index="118" Frequency="22369" ExtendedInfo="118"/>
+      <Prize Value="98" Index="117" Frequency="13" ExtendedInfo="117"/>
+      <Prize Value="98" Index="116" Frequency="1450" ExtendedInfo="116"/>
+      <Prize Value="98" Index="115" Frequency="1435" ExtendedInfo="115"/>
+      <Prize Value="96" Index="114" Frequency="5" ExtendedInfo="114"/>
+      <Prize Value="96" Index="113" Frequency="1450" ExtendedInfo="113"/>
+      <Prize Value="94" Index="112" Frequency="14" ExtendedInfo="112"/>
+      <Prize Value="94" Index="111" Frequency="1365" ExtendedInfo="111"/>
+      <Prize Value="94" Index="110" Frequency="3305" ExtendedInfo="110"/>
+      <Prize Value="92" Index="109" Frequency="10" ExtendedInfo="109"/>
+      <Prize Value="92" Index="108" Frequency="1417" ExtendedInfo="108"/>
+      <Prize Value="92" Index="107" Frequency="1441" ExtendedInfo="107"/>
+      <Prize Value="90" Index="106" Frequency="6" ExtendedInfo="106"/>
+      <Prize Value="90" Index="105" Frequency="1342" ExtendedInfo="105"/>
+      <Prize Value="90" Index="104" Frequency="15153" ExtendedInfo="104"/>
+      <Prize Value="88" Index="103" Frequency="7" ExtendedInfo="103"/>
+      <Prize Value="88" Index="102" Frequency="1392" ExtendedInfo="102"/>
+      <Prize Value="88" Index="101" Frequency="1424" ExtendedInfo="101"/>
+      <Prize Value="86" Index="100" Frequency="8" ExtendedInfo="100"/>
+      <Prize Value="86" Index="99" Frequency="1251" ExtendedInfo="99"/>
+      <Prize Value="84" Index="98" Frequency="12" ExtendedInfo="98"/>
+      <Prize Value="84" Index="97" Frequency="1288" ExtendedInfo="97"/>
+      <Prize Value="84" Index="96" Frequency="5012" ExtendedInfo="96"/>
+      <Prize Value="82" Index="95" Frequency="4" ExtendedInfo="95"/>
+      <Prize Value="82" Index="94" Frequency="1195" ExtendedInfo="94"/>
+      <Prize Value="82" Index="93" Frequency="2044" ExtendedInfo="93"/>
+      <Prize Value="80" Index="92" Frequency="11" ExtendedInfo="92"/>
+      <Prize Value="80" Index="91" Frequency="1184" ExtendedInfo="91"/>
+      <Prize Value="80" Index="90" Frequency="11066" ExtendedInfo="90"/>
+      <Prize Value="78" Index="89" Frequency="9" ExtendedInfo="89"/>
+      <Prize Value="78" Index="88" Frequency="1076" ExtendedInfo="88"/>
+      <Prize Value="78" Index="87" Frequency="2764" ExtendedInfo="87"/>
+      <Prize Value="76" Index="86" Frequency="5" ExtendedInfo="86"/>
+      <Prize Value="76" Index="85" Frequency="1163" ExtendedInfo="85"/>
+      <Prize Value="74" Index="84" Frequency="12" ExtendedInfo="84"/>
+      <Prize Value="74" Index="83" Frequency="968" ExtendedInfo="83"/>
+      <Prize Value="74" Index="82" Frequency="4915" ExtendedInfo="82"/>
+      <Prize Value="72" Index="81" Frequency="6" ExtendedInfo="81"/>
+      <Prize Value="72" Index="80" Frequency="992" ExtendedInfo="80"/>
+      <Prize Value="72" Index="79" Frequency="2656" ExtendedInfo="79"/>
+      <Prize Value="70" Index="78" Frequency="10" ExtendedInfo="78"/>
+      <Prize Value="70" Index="77" Frequency="895" ExtendedInfo="77"/>
+      <Prize Value="70" Index="76" Frequency="17577" ExtendedInfo="76"/>
+      <Prize Value="68" Index="75" Frequency="9" ExtendedInfo="75"/>
+      <Prize Value="68" Index="74" Frequency="868" ExtendedInfo="74"/>
+      <Prize Value="68" Index="73" Frequency="4933" ExtendedInfo="73"/>
+      <Prize Value="66" Index="72" Frequency="2" ExtendedInfo="72"/>
+      <Prize Value="66" Index="71" Frequency="769" ExtendedInfo="71"/>
+      <Prize Value="66" Index="70" Frequency="1800" ExtendedInfo="70"/>
+      <Prize Value="64" Index="69" Frequency="3" ExtendedInfo="69"/>
+      <Prize Value="64" Index="68" Frequency="811" ExtendedInfo="68"/>
+      <Prize Value="64" Index="67" Frequency="10423" ExtendedInfo="67"/>
+      <Prize Value="62" Index="66" Frequency="8" ExtendedInfo="66"/>
+      <Prize Value="62" Index="65" Frequency="641" ExtendedInfo="65"/>
+      <Prize Value="62" Index="64" Frequency="5698" ExtendedInfo="64"/>
+      <Prize Value="60" Index="63" Frequency="6" ExtendedInfo="63"/>
+      <Prize Value="60" Index="62" Frequency="681" ExtendedInfo="62"/>
+      <Prize Value="60" Index="61" Frequency="42563" ExtendedInfo="61"/>
+      <Prize Value="58" Index="60" Frequency="11" ExtendedInfo="60"/>
+      <Prize Value="58" Index="59" Frequency="556" ExtendedInfo="59"/>
+      <Prize Value="58" Index="58" Frequency="12765" ExtendedInfo="58"/>
+      <Prize Value="56" Index="57" Frequency="2" ExtendedInfo="57"/>
+      <Prize Value="56" Index="56" Frequency="588" ExtendedInfo="56"/>
+      <Prize Value="54" Index="55" Frequency="7" ExtendedInfo="55"/>
+      <Prize Value="54" Index="54" Frequency="447" ExtendedInfo="54"/>
+      <Prize Value="54" Index="53" Frequency="34176" ExtendedInfo="53"/>
+      <Prize Value="52" Index="52" Frequency="3" ExtendedInfo="52"/>
+      <Prize Value="52" Index="51" Frequency="446" ExtendedInfo="51"/>
+      <Prize Value="52" Index="50" Frequency="13649" ExtendedInfo="50"/>
+      <Prize Value="50" Index="49" Frequency="10" ExtendedInfo="49"/>
+      <Prize Value="50" Index="48" Frequency="310" ExtendedInfo="48"/>
+      <Prize Value="50" Index="47" Frequency="100741" ExtendedInfo="47"/>
+      <Prize Value="48" Index="46" Frequency="11" ExtendedInfo="46"/>
+      <Prize Value="48" Index="45" Frequency="305" ExtendedInfo="45"/>
+      <Prize Value="48" Index="44" Frequency="10288" ExtendedInfo="44"/>
+      <Prize Value="46" Index="43" Frequency="216" ExtendedInfo="43"/>
+      <Prize Value="46" Index="42" Frequency="4598" ExtendedInfo="42"/>
+      <Prize Value="44" Index="41" Frequency="9" ExtendedInfo="41"/>
+      <Prize Value="44" Index="40" Frequency="230" ExtendedInfo="40"/>
+      <Prize Value="44" Index="39" Frequency="25978" ExtendedInfo="39"/>
+      <Prize Value="42" Index="38" Frequency="4" ExtendedInfo="38"/>
+      <Prize Value="42" Index="37" Frequency="137" ExtendedInfo="37"/>
+      <Prize Value="42" Index="36" Frequency="5197" ExtendedInfo="36"/>
+      <Prize Value="40" Index="35" Frequency="9" ExtendedInfo="35"/>
+      <Prize Value="40" Index="34" Frequency="140" ExtendedInfo="34"/>
+      <Prize Value="40" Index="33" Frequency="79288" ExtendedInfo="33"/>
+      <Prize Value="38" Index="32" Frequency="5" ExtendedInfo="32"/>
+      <Prize Value="38" Index="31" Frequency="67" ExtendedInfo="31"/>
+      <Prize Value="38" Index="30" Frequency="27585" ExtendedInfo="30"/>
+      <Prize Value="36" Index="29" Frequency="4" ExtendedInfo="29"/>
+      <Prize Value="36" Index="28" Frequency="63" ExtendedInfo="28"/>
+      <Prize Value="36" Index="27" Frequency="10003" ExtendedInfo="27"/>
+      <Prize Value="34" Index="26" Frequency="3" ExtendedInfo="26"/>
+      <Prize Value="34" Index="25" Frequency="33" ExtendedInfo="25"/>
+      <Prize Value="34" Index="24" Frequency="101437" ExtendedInfo="24"/>
+      <Prize Value="32" Index="23" Frequency="6" ExtendedInfo="23"/>
+      <Prize Value="32" Index="22" Frequency="31" ExtendedInfo="22"/>
+      <Prize Value="32" Index="21" Frequency="15091" ExtendedInfo="21"/>
+      <Prize Value="30" Index="20" Frequency="3" ExtendedInfo="20"/>
+      <Prize Value="30" Index="19" Frequency="2" ExtendedInfo="19"/>
+      <Prize Value="30" Index="18" Frequency="298390" ExtendedInfo="18"/>
+      <Prize Value="28" Index="17" Frequency="7" ExtendedInfo="17"/>
+      <Prize Value="28" Index="16" Frequency="8" ExtendedInfo="16"/>
+      <Prize Value="28" Index="15" Frequency="76865" ExtendedInfo="15"/>
+      <Prize Value="26" Index="14" Frequency="3070" ExtendedInfo="14"/>
+      <Prize Value="24" Index="13" Frequency="5" ExtendedInfo="13"/>
+      <Prize Value="24" Index="12" Frequency="1" ExtendedInfo="12"/>
+      <Prize Value="24" Index="11" Frequency="229057" ExtendedInfo="11"/>
+      <Prize Value="22" Index="10" Frequency="3840" ExtendedInfo="10"/>
+      <Prize Value="20" Index="9" Frequency="2" ExtendedInfo="9"/>
+      <Prize Value="20" Index="8" Frequency="529820" ExtendedInfo="8"/>
+      <Prize Value="18" Index="7" Frequency="34523" ExtendedInfo="7"/>
+      <Prize Value="16" Index="6" Frequency="28378" ExtendedInfo="6"/>
+      <Prize Value="14" Index="5" Frequency="196781" ExtendedInfo="5"/>
+      <Prize Value="12" Index="4" Frequency="119506" ExtendedInfo="4"/>
+      <Prize Value="10" Index="3" Frequency="698597" ExtendedInfo="3"/>
+      <Prize Value="8" Index="2" Frequency="533555" ExtendedInfo="2"/>
+      <Prize Value="4" Index="1" Frequency="2279984" ExtendedInfo="1"/>
+      <Prize Value="0" Index="0" Frequency="8267491" ExtendedInfo="0"/>
+   </Prizes>
+</GameDefinition>
