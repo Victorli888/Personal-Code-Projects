@@ -26,7 +26,6 @@ def submit_data():
     per91 = entry3.get()
     per92 = entry4.get()
     cT.start(per89,per90,per91,per92)
-    exit()
 
 
 def exit():
