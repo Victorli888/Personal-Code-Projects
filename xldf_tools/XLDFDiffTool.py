@@ -6,8 +6,10 @@ import compareTool as cT
 window = tk.Tk()
 window.title("XLDF Diff Tool")
 
+
 # Frame for xldf
 frame_xldf = tk.Frame(relief=tk.SUNKEN, borderwidth=3)
+
 
 #Pack frame into the window
 frame_xldf.pack(fill=tk.BOTH)
@@ -42,22 +44,22 @@ def exit():
 
 # 89 Percent Entry
 label1 = tk.Label(master=frame_xldf, text=prog_fields[0])
-entry1 = tk.Entry(master=frame_xldf, width=80)
+entry1 = tk.Entry(master=frame_xldf, width=100)
 label1.grid(row=0, column=0, sticky="e")
 entry1.grid(row=0, column=1)
 # 90 Percent Entry
 label2 = tk.Label(master=frame_xldf, text=prog_fields[1])
-entry2 = tk.Entry(master=frame_xldf, width=80)
+entry2 = tk.Entry(master=frame_xldf, width=100)
 label2.grid(row=1, column=0, sticky="e")
 entry2.grid(row=1, column=1)
 # 91 Percent Entry
 label3 = tk.Label(master=frame_xldf, text=prog_fields[2])
-entry3 = tk.Entry(master=frame_xldf, width=80)
+entry3 = tk.Entry(master=frame_xldf, width=100)
 label3.grid(row=2, column=0, sticky="e")
 entry3.grid(row=2, column=1)
 # 92 Percent Entry
 label4 = tk.Label(master=frame_xldf, text=prog_fields[3])
-entry4 = tk.Entry(master=frame_xldf, width=80)
+entry4 = tk.Entry(master=frame_xldf, width=100)
 label4.grid(row=3, column=0, sticky="e")
 entry4.grid(row=3, column=1)
 
