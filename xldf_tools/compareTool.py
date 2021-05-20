@@ -189,7 +189,6 @@ def compareXLDFS(filePathArray89, filePathArray90, filePathArray91, filePathArra
         compare(Prize_EI, B, C, D, "Prize_ExtendedInfo")
         print("19/19 Checks Completed...")
 
-
         print("Done.")
 
 
@@ -204,4 +203,4 @@ def start(xldf89,xldf90,xldf91,xldf92):
     files91 = file_path_array(xldf91)
     files92 = file_path_array(xldf92)
     compareXLDFS(files89,files90,files91,files92)
-    print("Please Check comparisonResult.txt")
+    print("Please Close the tool and Check comparisonResult.txt")
