@@ -4,6 +4,10 @@ class Cards():
 
     # Generates desired number of decks of cards
     def generate(self, num_of_decks):
+        """:cvar Input Number of decks of 52 Cards needed
+        Each card is represented as a tuple defined by ( int card value, str card suit)
+        generate() Returns array Deck; Array contains tuples where tuples are (card value, card suit)
+        """
         deck = []
 
         for i in range(num_of_decks):
