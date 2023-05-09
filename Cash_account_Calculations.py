@@ -5,11 +5,10 @@ def format_rounded(num):
 def findBalance(starting_amount, interest_percent, deposit, num_years):
     # Interest rate is compounded every day, and paid out monthly
     daily_interest = (interest_percent / (100*365))
-
+    last_compounded = starting_amount
     compounded_amount = starting_amount
     months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul",
               "Aug","Sep","Oct","Nov","Dec"]
-    last_compounded = compounded_amount
     curr_year = 2023
 
     for year in range(num_years):
@@ -27,7 +26,7 @@ def findBalance(starting_amount, interest_percent, deposit, num_years):
                 monthly_payout = compounded_amount - last_compounded - 2*deposit
                 rounded_formated_payout = format_rounded(monthly_payout)
 
-                print(f"As of {months[month]} {curr_year}, Current balance: ${format_rounded(compounded_amount)}, Payout this month was:"
+                print(f"As of the end of {months[month]} {curr_year}, Current balance: ${format_rounded(compounded_amount)}, Payout this month was:"
                        f"${rounded_formated_payout}")
 
                 last_compounded = compounded_amount
